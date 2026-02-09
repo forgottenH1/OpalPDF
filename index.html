@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/icon-192.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OrbitPDF | Free Online PDF Tools</title>
+    <meta name="description"
+        content="Merge, split, compress, and convert PDFs for free with OrbitPDF. No uploads, total privacy.">
+    <meta name="keyword" content="PDF, Merge PDF, Split PDF, Compress PDF, OrbitPDF, client-side PDF tools">
+
+    <!-- Content Security Policy (CSP) -->
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com;
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+        font-src 'self' https://fonts.gstatic.com data:;
+        img-src 'self' data: blob: https://www.google-analytics.com;
+        connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com;
+        worker-src 'self' blob:;
+        object-src 'none';
+        base-uri 'self';
+    ">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://orbitpdf.com/" />
+    <meta property="og:title" content="OrbitPDF | Free Online PDF Tools" />
+    <meta property="og:description"
+        content="Merge, split, compress, and convert PDFs for free with OrbitPDF. No uploads, total privacy." />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://orbitpdf.com/" />
+    <meta name="twitter:title" content="OrbitPDF | Free Online PDF Tools" />
+    <meta name="twitter:description"
+        content="Merge, split, compress, and convert PDFs for free with OrbitPDF. No uploads, total privacy." />
+    <meta name="twitter:image" content="/og-image.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Google Analytics (Placeholder) -->
+    <!-- Replace G-XXXXXXXXXX with your actual Measurement ID -->
+    <!-- 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script> 
+    -->
+</head>
+
+<body class="bg-slate-900 text-white font-['Outfit']">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

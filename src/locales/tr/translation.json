@@ -1,0 +1,773 @@
+{
+    "common": {
+        "welcome": "Hoş Geldiniz",
+        "settings": "Ayarlar",
+        "save": "Kaydet",
+        "cancel": "İptal",
+        "close": "Kapat",
+        "back": "Geri",
+        "next": "İleri",
+        "home": "Ana Sayfa",
+        "search": "Ara",
+        "loading": "Yükleniyor...",
+        "error": "Hata",
+        "success": "Başarılı",
+        "download": "{{ext}} İndir",
+        "processing": "İşleniyor...",
+        "done": "Bitti!",
+        "startOver": "Baştan Başla",
+        "convert": "Dönüştür",
+        "compress": "Sıkıştır",
+        "noToolsFound": "\"{{query}}\" için araç bulunamadı",
+        "tryAgain": "Tekrar Dene",
+        "clear": "Temizle",
+        "launchTool": "Aracı Başlat",
+        "notSelected": "Seçilmedi",
+        "closeModal": "Pencereyi Kapat"
+    },
+    "categories": {
+        "Organize": "Düzenle",
+        "Optimize": "Optimize Et",
+        "Convert": "Dönüştür",
+        "Edit": "Düzenle",
+        "Security": "Güvenlik"
+    },
+    "legal": {
+        "privacyContent": "<p><strong>Son Güncelleme: Ekim 2023</strong></p><p>OrbitPDF'te gizliliğiniz önceliğimizdir. Araçlarımız tamamen tarayıcınızda (istemci tarafı) çalıştığı için, dosyalarınız <strong>asla cihazınızdan çıkmaz</strong>. Belgelerinizi sunuculara yüklemiyor, saklamıyor veya işlemiyoruz.</p><h3 class='text-xl font-bold text-white mt-4'>1. Veri Toplama</h3><p>Kişisel verileri veya dosya içeriğini toplamıyoruz. Site performansını iyileştirmek için anonim analizler (örneğin Google Analytics) kullanabiliriz.</p><h3 class='text-xl font-bold text-white mt-4'>2. Çerezler</h3><p>Tercihlerinizi (örneğin Karanlık Mod) kaydetmek için yerel depolama kullanıyoruz. Üçüncü taraflar, ziyaretlere dayalı reklamlar göstermek için çerezleri kullanabilir.</p>",
+        "termsContent": "<p><strong>Son Güncelleme: Ekim 2023</strong></p><p>OrbitPDF'i kullanarak bu şartları kabul etmiş olursunuz. Araçlarımız herhangi bir garanti olmaksızın \"olduğu gibi\" sağlanmaktadır.</p><h3 class='text-xl font-bold text-white mt-4'>1. Kullanım</h3><p>Araçlarımızı kişisel veya ticari amaçlarla kullanabilirsiniz. İşlediğiniz içerikten siz sorumlusunuz.</p><h3 class='text-xl font-bold text-white mt-4'>2. Sorumluluk Sınırlaması</h3><p>Araçlarımızın kullanımından kaynaklanan veri kaybı veya hasarlardan sorumlu değiliz. Orijinal dosyalarınızın yedeklerini daima saklayın.</p>"
+    },
+    "nav": {
+        "guides": "Rehberler",
+        "contact": "İletişim",
+        "privacy": "Gizlilik",
+        "terms": "Şartlar",
+        "searchPlaceholder": "Araç veya rehber ara...",
+        "menu": "Menü",
+        "quickTools": "Hızlı Araçlar",
+        "ariaOpen": "Menüyü aç",
+        "ariaClose": "Menüyü kapat"
+    },
+    "contact": {
+        "getInTouch": "Bize Ulaşın",
+        "intro": "Yardımcı olmak için buradayız. Özellik isteği, hata raporu veya sadece bir merhaba için.",
+        "subtitle": "Sorularınız veya geri bildiriminiz mi var? Aşağıdan bize mesaj gönderin.",
+        "name": "İsim",
+        "email": "E-posta",
+        "subject": "Konu",
+        "message": "Mesaj",
+        "messagePlaceholder": "Nasıl yardımcı olabiliriz?",
+        "send": "Mesaj Gönder",
+        "sending": "Gönderiliyor...",
+        "successTitle": "Mesaj Gönderildi!",
+        "successMessage": "En kısa sürede sizinle iletişime geçeceğiz.",
+        "errorTitle": "Gönderim Hatası",
+        "errorGeneric": "Mesaj gönderilemedi. Lütfen daha sonra tekrar deneyin.",
+        "errorConfig": "E-posta yapılandırması eksik. .env dosyanızı kontrol edin.",
+        "tryAgain": "Tekrar Dene",
+        "subjects": {
+            "general": "Genel Soru",
+            "support": "Destek / Hata",
+            "feature": "Özellik İsteği",
+            "business": "İş Birliği"
+        }
+    },
+    "advertise": {
+        "startCampaign": "Kampanya Başlat",
+        "backToPricing": "Fiyatlandırmaya Dön",
+        "subtitle": "Yerinizi ayırtmak için aşağıdaki formu doldurun.",
+        "name": "İsim / Şirket",
+        "namePlaceholder": "Adınız veya şirket adınız",
+        "tierSelection": "Plan Seçimi",
+        "message": "Kampanya Detayları / Mesaj",
+        "messagePlaceholder": "Ürününüz ve hedeflerinizden bahsedin...",
+        "submit": "İstek Gönder",
+        "sending": "Gönderiliyor...",
+        "successTitle": "İstek Gönderildi!",
+        "successMessage": "İsteğinizi inceleyip yakında sizinle iletişime geçeceğiz.",
+        "errorInquiry": "İstek gönderilemedi. Lütfen daha sonra tekrar deneyin."
+    },
+    "advertisePage": {
+        "title": "OrbitPDF'te Reklam Verin",
+        "heroTitle": "Her Gün Binlerce Kullanıcıya Ulaşın.",
+        "heroDesc": "Üretkenlik ve belge çözümleri arayan yüksek etkileşimli bir kitleyle bağlantı kurun. Şeffaf fiyatlandırma, premium yerleşim ve doğrudan destek."
+    },
+    "adSpace": {
+        "label": "Reklam",
+        "placeholderTitle": "Markanız Burada",
+        "placeholderDescSidebar": "Kenar Çubuğunda Premium Alan",
+        "placeholderDescBanner": "Binlerce kullanıcıya ulaşın. Bu premium alanı hemen ayırtın.",
+        "ctaSidebar": "Şimdi Reklam Ver",
+        "ctaBanner": "Kampanya Başlat"
+    },
+    "pricing": {
+        "title": "Reklam Fiyatları",
+        "subtitle": "İhtiyaçlarınıza uygun planı seçin.",
+        "mostPopular": "Popüler",
+        "perCampaign": "/kampanya",
+        "getButton": "{{tier}} Seç",
+        "bronze": {
+            "title": "Bronz",
+            "desc": "Hızlı tanıtımlar için giriş seviyesi.",
+            "features": [
+                "Duyarlı Alt Bilgi Reklamı",
+                "Süre: 7 Gün",
+                "Temel İstatistikler",
+                "Standart Destek"
+            ]
+        },
+        "silver": {
+            "title": "Gümüş",
+            "desc": "Masaüstü kullanıcıları için özel kenar çubuğu görünürlüğü.",
+            "features": [
+                "Kenar Çubuğu Alanı (Sol veya Sağ)",
+                "Süre: 14 Gün",
+                "Yüksek Masaüstü Görünürlüğü",
+                "Haftalık Performans E-postası"
+            ]
+        },
+        "gold": {
+            "title": "Altın",
+            "desc": "Maksimum tıklama için en üstte yerleşim.",
+            "features": [
+                "Başlık Bannerı (En Üst Pozisyon)",
+                "Süre: 14 Gün",
+                "Öncelikli Yerleşim",
+                "Haftalık Performans E-postası"
+            ]
+        },
+        "platinum": {
+            "title": "Platin",
+            "desc": "Tam kapsam (Başlık + Alt Bilgi).",
+            "features": [
+                "Başlık + Alt Bilgi Kombosu",
+                "Süre: 30 Gün",
+                "İki Haftalık Detaylı Rapor",
+                "Öncelikli Destek"
+            ]
+        }
+    },
+    "guides": {
+        "title": "OrbitPDF Rehberleri",
+        "subtitle": "Bu hızlı ve profesyonel eğitimlerle araç setimizdeki her aracı ustaca kullanın.",
+        "backToTools": "Araçlara Dön",
+        "searchPlaceholder": "Rehber ara...",
+        "readGuide": "Rehberi Oku",
+        "noGuidesFound": "\"{{query}}\" için rehber bulunamadı",
+        "stepByStep": "Adım Adım",
+        "readyToTry": "Denemeye hazır mısınız?",
+        "openTool": "Aracı Aç",
+        "available": "{{count}} rehber mevcut"
+    },
+    "guidesData": {
+        "merge": {
+            "title": "Birden Fazla PDF Tek Dosyada Nasıl Birleştirilir",
+            "category": "Organize",
+            "intro": "Ayrı raporları, sözleşmeleri veya proje dosyalarını tek bir düzenli PDF belgesinde birleştirin.",
+            "steps": [
+                "Ana menüden **PDF Birleştir** aracına tıklayın.",
+                "Birleştirmek istediğiniz **iki veya daha fazla PDF dosyasını** sürükleyin veya seçin.",
+                "Gerekirse **okları** kullanarak dosyaları yeniden sıralayın.",
+                "Tek belgenizi anında oluşturmak için **PDF Birleştir**'e tıklayın."
+            ]
+        },
+        "split": {
+            "title": "PDF Sayfaları Nasıl Bölünür veya Ayrıştırılır",
+            "category": "Organize",
+            "intro": "Büyük bir belgeden belirli sayfaları (örneğin bir fatura veya bölüm) çıkarın veya tüm PDF'i ayrı dosyalara bölün.",
+            "steps": [
+                "**PDF Böl** aracını seçin.",
+                "PDF dosyanızı yükleyin.",
+                "Belirli sayfaları kaydetmek için **Sayfaları Çıkar** (ör. \"1-5, 8\") veya her sayfayı ayırmak için **Tümünü Böl** seçeneğini kullanın.",
+                "Yeni dosyaları indirmek için **İşle**'ye tıklayın."
+            ]
+        },
+        "compress": {
+            "title": "E-posta ve Web İçin PDF Nasıl Sıkıştırılır",
+            "category": "Optimize",
+            "intro": "Okunabilirlikten ödün vermeden PDF dosya boyutunu önemli ölçüde azaltın. E-posta ekleri için mükemmeldir.",
+            "steps": [
+                "**PDF Sıkıştır** aracını açın.",
+                "Büyük PDF dosyasını yükleyin.",
+                "Bir ön ayar seçin: **Önerilen** (Dengeli), **Ekstrem** (En Küçük Boyut) veya **Yüksek Kalite**.",
+                "**Sıkıştır**'a tıklayın ve optimize edilmiş PDF'i indirin."
+            ]
+        },
+        "word-to-pdf": {
+            "title": "Word (Docx) Profesyonel PDF'e Nasıl Dönüştürülür",
+            "category": "Convert",
+            "intro": "Düzenlenebilir Word belgelerini, her cihazda aynı görünen güvenli ve profesyonel PDF'lere dönüştürün.",
+            "steps": [
+                "**Docx'ten PDF'e** seçeneğini seçin.",
+                "Microsoft Word dosyanızı (.docx veya .doc) yükleyin.",
+                "Araç, biçimlendirmeyi koruyarak belgeyi otomatik olarak dönüştürür.",
+                "Yeni dosyanızı kaydetmek için **PDF İndir**'e tıklayın."
+            ]
+        },
+        "pdf-to-word": {
+            "title": "PDF Düzenlenebilir Word Belgesine Nasıl Dönüştürülür",
+            "category": "Convert",
+            "intro": "Hızlı metin değişiklikleri için statik PDF'leri tekrar düzenlenebilir Word belgelerine dönüştürün.",
+            "steps": [
+                "Listeden **PDF'ten Word'e** aracını seçin.",
+                "Düzenlemek istediğiniz PDF'i yükleyin.",
+                "Dönüşümün metin ve düzeni çıkarmasını bekleyin.",
+                "**.docx** dosyasını indirin ve Microsoft Word'de açın."
+            ]
+        },
+        "pdf-to-excel": {
+            "title": "PDF'ten Excel'e Tablo Nasıl Aktarılır",
+            "category": "Convert",
+            "intro": "Manuel veri girişine son! PDF tablolarını anında düzenlenebilir Excel elektronik tablolarına dönüştürün.",
+            "steps": [
+                "**PDF'ten Excel'e** aracını açın.",
+                "Finansal raporlar veya veri tabloları içeren PDF'i yükleyin.",
+                "Araç, tablo verilerini akıllıca tanımlar ve dışa aktarır.",
+                "**.xlsx** dosyasını indirin ve Excel'de analize başlayın."
+            ]
+        },
+        "pdf-to-img": {
+            "title": "PDF Sayfaları HD Resim Olarak Nasıl Kaydedilir",
+            "category": "Convert",
+            "intro": "Kolay paylaşım için belirli PDF sayfalarını yüksek kaliteli JPG resimlerine dönüştürün.",
+            "steps": [
+                "**PDF'ten Resme (HD)** aracını seçin.",
+                "PDF belgenizi yükleyin.",
+                "Araç her sayfayı yüksek çözünürlüklü bir JPG resmine dönüştürür.",
+                "Resimleri tek tek veya bir ZIP dosyası olarak indirin."
+            ]
+        },
+        "pdf-to-png": {
+            "title": "Kayıpsız PDF'ten PNG'ye Dönüştürme",
+            "category": "Convert",
+            "intro": "Sayfaları şeffaf arka planlı net PNG dosyaları olarak çıkarın. Grafik tasarımcılar için idealdir.",
+            "steps": [
+                "**PDF'ten PNG'ye (Kayıpsız)** seçeneğine gidin.",
+                "PDF dosyanızı yükleme alanına sürükleyin.",
+                "Dönüştürme işlemi ayrıntıları ve mümkünse şeffaflığı korur.",
+                "**.png** dosyalarınızı indirin."
+            ]
+        },
+        "img-to-pdf": {
+            "title": "Resimler PDF Portföyünde Nasıl Birleştirilir",
+            "category": "Convert",
+            "intro": "Fotoğrafları, taramaları veya grafikleri tek bir temiz PDF belgesinde toplayın.",
+            "steps": [
+                "**Resimden PDF'e** aracını açın.",
+                "Birden fazla resim dosyası (JPG, PNG) seçin.",
+                "İstediğiniz gibi yeniden düzenleyin. Her resim bir sayfa olacaktır.",
+                "Birleştirmek için **PDF Oluştur**'a tıklayın."
+            ]
+        },
+        "ocr": {
+            "title": "Taranmış PDF Nasıl Aranabilir Yapılır (OCR)",
+            "category": "Convert",
+            "intro": "Taranmış belgelerdeki metni kullanılabilir hale getirin. Metni seçilebilir ve aranabilir yapmak için OCR kullanın.",
+            "steps": [
+                "**Metin Tanıma (OCR)** seçeneğini seçin.",
+                "Taramanızı veya resim tabanlı PDF'inizi yükleyin.",
+                "En iyi doğruluk için belgenin **Dilini** (ör. Türkçe) seçin.",
+                "Metin tabanlı PDF oluşturmak için **OCR Başlat**'a tıklayın."
+            ]
+        },
+        "rotate": {
+            "title": "PDF Sayfa Yönü Nasıl Düzeltilir",
+            "category": "Organize",
+            "intro": "Ters dönmüş PDF sayfalarını doğru okuma için kalıcı olarak döndürün.",
+            "steps": [
+                "**PDF Döndür** aracını seçin.",
+                "Yanlış yönlendirilmiş dosyayı yükleyin.",
+                "**90°**, **180°** veya **270°** döndürmeyi seçin.",
+                "Düzeltilmiş dosyayı kaydetmek için **Döndür**'e tıklayın."
+            ]
+        },
+        "page-number": {
+            "title": "PDF'e Sayfa Numarası Nasıl Eklenir",
+            "category": "Edit",
+            "intro": "Uzun belgeleri organize etmek için profesyonel sayfa numaraları (üst bilgi veya alt bilgi) ekleyin.",
+            "steps": [
+                "**PDF Sayfa Numaraları** aracını açın.",
+                "Belgenizi yükleyin.",
+                "Konumu seçin: **Üst (Başlık)** veya **Alt (Dipnot)**.",
+                "Her sayfaya numara basmak için **Uygula**'ya tıklayın."
+            ]
+        },
+        "sign": {
+            "title": "PDF Belgesi Elektronik Olarak Nasıl İmzalanır",
+            "category": "Edit",
+            "intro": "Yazdırmaya gerek kalmadan sözleşmelere veya formlara dijital imzanızı çizin ve yerleştirin.",
+            "steps": [
+                "**PDF İmzala** aracına gidin.",
+                "İmzanızı ped üzerine çizin veya bir resim yükleyin.",
+                "Sayfayı ve konumu seçin (ör. son sayfa, sağ alt köşe).",
+                "Belgeyi tamamlamak için **PDF İmzala**'ya tıklayın."
+            ]
+        },
+        "organize": {
+            "title": "PDF Sayfaları Nasıl Düzenlenir ve Silinir",
+            "category": "Organize",
+            "intro": "PDF yapısının kontrolünü elinize alın. Sayfaları görsel olarak saniyeler içinde yeniden sıralayın, silin veya ayıklayın.",
+            "steps": [
+                "**PDF Düzenle** aracını seçin.",
+                "Tüm sayfaların ızgarasını görmek için PDF'inizi yükleyin.",
+                "Yeniden sıralamak için **Sürükle ve Bırak** kullanın veya gereksizleri kaldırmak için **Çöp Kutusu**na tıklayın.",
+                "Yeni sırayı uygulamak için **Kaydet**'e tıklayın."
+            ]
+        },
+        "watermark": {
+            "title": "Güvenlik İçin Filigran Nasıl Eklenir",
+            "category": "Edit",
+            "intro": "Sayfalara logo veya \"Gizli\" metni basarak fikri mülkiyetinizi koruyun.",
+            "steps": [
+                "**PDF Filigran** aracını seçin.",
+                "Dosyayı yükleyin ve **Metin** veya **Resim** seçin.",
+                "Konumu, opaklığı ve dönüşü ayarlayın.",
+                "Belgeyi korumak için **Filigran Uygula**'ya tıklayın."
+            ]
+        },
+        "edit-metadata": {
+            "title": "PDF Üst Verileri (Yazar, Başlık) Nasıl Düzenlenir",
+            "category": "Edit",
+            "intro": "Daha iyi organizasyon ve SEO için Yazar ve Başlık gibi gizli PDF özelliklerini güncelleyin.",
+            "steps": [
+                "**PDF Üst Verileri** aracını açın.",
+                "PDF'inizi yükleyin.",
+                "**Başlık**, **Yazar**, **Konu** ve **Anahtar Kelimeler** alanlarını düzenleyin.",
+                "Özellikleri güncellemek için **Üst Verileri Kaydet**'e tıklayın."
+            ]
+        },
+        "flatten": {
+            "title": "PDF Formları ve Yorumları Nasıl Düzleştirilir",
+            "category": "Organize",
+            "intro": "İçeriğin başkaları tarafından düzenlenememesi için doldurulabilir formları ve ek açıklamaları kilitleyin.",
+            "steps": [
+                "**PDF Düzleştir** aracını seçin.",
+                "Etkileşimli PDF'inizi veya formunuzu yükleyin.",
+                "**PDF Düzleştir**'e tıklayın.",
+                "Çıktı dosyasındaki tüm içerik tek bir temel katmanda birleştirilecektir."
+            ]
+        },
+        "trim": {
+            "title": "PDF Kenar Boşlukları Nasıl Kırpılır",
+            "category": "Organize",
+            "intro": "Baskı için düzeni ayarlamak amacıyla aşırı boşlukları kaldırın veya görünür alanı kırpın.",
+            "steps": [
+                "**PDF Kırp** aracına gidin.",
+                "Dosyanızı yükleyin.",
+                "Üst, Alt, Sol ve Sağ için değerler girin.",
+                "Sayfaları yeniden boyutlandırmak için **Kırp**'a tıklayın."
+            ]
+        },
+        "compare": {
+            "title": "İki PDF Görsel Olarak Nasıl Karşılaştırılır",
+            "category": "Organize",
+            "intro": "Bir belgenin iki versiyonu arasındaki farkları yan yana bularak görün.",
+            "steps": [
+                "**PDF Karşılaştır** aracını seçin.",
+                "**Versiyon A** (Orijinal) ve **Versiyon B** (Değiştirilmiş) dosyalarını yükleyin.",
+                "Araç, değişiklikleri vurgulayan bir karşılaştırma dosyası oluşturur.",
+                "Karşılaştırma raporunu indirin."
+            ]
+        },
+        "protect": {
+            "title": "PDF Parola İle Nasıl Korunur",
+            "category": "Security",
+            "intro": "Hassas belgeleri askeri düzeyde AES şifreleme ve özel bir parola ile koruyun.",
+            "steps": [
+                "**PDF Koru** aracını açın.",
+                "Kilitlemek istediğiniz belgeyi yükleyin.",
+                "Güçlü bir **Parola** girin.",
+                "Dosyayı korumak için **Şifrele**'ye tıklayın."
+            ]
+        },
+        "unlock": {
+            "title": "Korumalı PDF'in Kilidi Nasıl Açılır",
+            "category": "Security",
+            "intro": "Daha kolay erişim ve paylaşım için bilinen parolaları PDF'ten kaldırın.",
+            "steps": [
+                "**PDF Kilidini Aç** aracını seçin.",
+                "Kilitli PDF'i yükleyin.",
+                "Mevcut parolayı son kez girin.",
+                "Kısıtlamasız kalıcı bir kopya kaydetmek için **Kilidi Aç**'a tıklayın."
+            ]
+        },
+        "repair": {
+            "title": "Bozuk PDF Dosyaları Nasıl Onarılır",
+            "category": "Organize",
+            "intro": "Hasarlı veya açılmayan PDF dosyalarından veri kurtarmayı deneyin.",
+            "steps": [
+                "**PDF Onar** aracını seçin.",
+                "Bozuk dosyayı yükleyin.",
+                "Hasar ciddiyse **Zorla Yeniden Oluşturma**yı etkinleştirin.",
+                "**Onar**'a tıklayın ve sonucu açmayı deneyin."
+            ]
+        },
+        "grayscale": {
+            "title": "PDF Gri Tonlamaya Nasıl Dönüştürülür",
+            "category": "Optimize",
+            "intro": "Ekonomik siyah-beyaz baskı için PDF'teki tüm renkleri kaldırın.",
+            "steps": [
+                "**PDF'ten Gri Tonlamaya** aracını seçin.",
+                "Renkli PDF'inizi yükleyin.",
+                "**Dönüştür**'e tıklayın.",
+                "Yüksek kontrastlı siyah-beyaz versiyonu indirin."
+            ]
+        },
+        "invert-colors": {
+            "title": "PDF Renkleri Nasıl Ters Çevrilir (Karanlık Mod)",
+            "category": "Optimize",
+            "intro": "Karanlık ortamlarda rahat okuma için beyaz arka planı siyahla değiştirin.",
+            "steps": [
+                "**PDF Gece Modu** aracını açın.",
+                "Belgenizi yükleyin.",
+                "Tüm renkleri değiştirmek için **Ters Çevir**'e tıklayın.",
+                "Karanlık versiyonu indirin."
+            ]
+        },
+        "extract-text": {
+            "title": "PDF'ten Metin Nasıl Çıkarılır",
+            "category": "Convert",
+            "intro": "PDF'ten ham metin içeriğini basit bir metin dosyasına çıkarın.",
+            "steps": [
+                "**PDF Metin Çıkarıcı** aracına gidin.",
+                "PDF'inizi yükleyin.",
+                "Araç okunabilir tüm metin akışını çıkaracaktır.",
+                "Sonucu **.txt** dosyası olarak indirin."
+            ]
+        },
+        "remove-annotations": {
+            "title": "PDF Ek Açıklamaları Nasıl Kaldırılır",
+            "category": "Edit",
+            "intro": "Tüm yorumları, vurgulamaları ve kullanıcı işaretlerini kaldırarak belgeyi temizleyin.",
+            "steps": [
+                "**PDF İşaretlerini Kaldır** aracını seçin.",
+                "İşaretli PDF'i yükleyin.",
+                "**Kaldır**'a tıklayın.",
+                "Düzenleme izleri olmayan temiz bir versiyon alın."
+            ]
+        },
+        "redact": {
+            "title": "PDF'teki Metin Kalıcı Olarak Nasıl Gizlenir",
+            "category": "Security",
+            "intro": "Hassas bilgileri (isimler veya numaralar gibi) geri getirilemeyecek şekilde güvenli bir şekilde kapatın.",
+            "steps": [
+                "**PDF Veri Gizleme** aracını açın.",
+                "Dosyanızı yükleyin.",
+                "Gizlemek istediğiniz **Terimleri** girin (virgülle ayırarak).",
+                "Bu kelimeleri kalıcı olarak kapatmak için **Gizle**'ye tıklayın."
+            ]
+        },
+        "pdf-to-ppt": {
+            "title": "PDF PowerPoint Slaytlarına Nasıl Dönüştürülür",
+            "category": "Convert",
+            "intro": "PDF sunumunuzu tekrar düzenlenebilir PowerPoint slaytlarına dönüştürün.",
+            "steps": [
+                "**PDF'ten PowerPoint'e** seçeneğini seçin.",
+                "PDF'inizi yükleyin.",
+                "Araç sayfaları slaytlara dönüştürür.",
+                "Microsoft PowerPoint için **.pptx** dosyasını indirin."
+            ]
+        },
+        "excel-to-pdf": {
+            "title": "Excel Tabloları PDF'e Nasıl Dönüştürülür",
+            "category": "Convert",
+            "intro": "Elektronik tabloları düzenlenemez standart PDF'lere dönüştürerek güvenle paylaşın.",
+            "steps": [
+                "**Excel'den PDF'e** aracını seçin.",
+                "**.xlsx** veya **.xls** dosyanızı yükleyin.",
+                "Araç tablolarınızı PDF sayfalarına sığdırır.",
+                "Profesyonel raporu indirin."
+            ]
+        },
+        "ppt-to-pdf": {
+            "title": "PowerPoint PDF Olarak Nasıl Kaydedilir",
+            "category": "Convert",
+            "intro": "Sunumunuzu PDF olarak kaydederek her ekranda mükemmel görünmesini sağlayın.",
+            "steps": [
+                "**PowerPoint'ten PDF'e** aracını açın.",
+                "**.pptx** sunumunuzu yükleyin.",
+                "Dönüşümü bekleyin.",
+                "PDF'i broşür olarak indirin."
+            ]
+        },
+        "html-to-pdf": {
+            "title": "Web Sayfaları PDF Olarak Nasıl Kaydedilir",
+            "category": "Convert",
+            "intro": "Makaleleri, makbuzları veya web sitelerini çevrimdışı okuma için temiz PDF belgeleri olarak yakalayın.",
+            "steps": [
+                "**Web'den PDF'e** aracını seçin.",
+                "HTML dosyasını yükleyin (önce web sayfasını .html olarak kaydedin).",
+                "Araç sayfayı PDF olarak oluşturur.",
+                "Belgenizi indirin."
+            ]
+        }
+    },
+    "hero": {
+        "title": "İhtiyacınız Olan Tüm PDF Araçları",
+        "subtitle": "%100 Ücretsiz. %100 Özel.",
+        "description": "OrbitPDF ücretsiz, sunucusuz bir araç setidir. Dosyalarınız cihazınızdan asla çıkmaz – garantili gizlilik ve ışık hızında işlem için.",
+        "start": "Başla",
+        "cta": "Araçları Gör"
+    },
+    "tools": {
+        "merge": {
+            "title": "PDF Birleştir",
+            "desc": "Raporları, sözleşmeleri ve dosyaları tek bir ana PDF'te birleştirin."
+        },
+        "split": {
+            "title": "PDF Böl",
+            "desc": "Belirli sayfaları ayırın veya büyük belgeleri anında bölün."
+        },
+        "compress": {
+            "title": "PDF Sıkıştır",
+            "desc": "Dosya boyutunu kalite kaybı olmadan E-posta ve Web için optimize edin."
+        },
+        "word-to-pdf": {
+            "title": "Docx'ten PDF'e",
+            "desc": "Word belgelerini profesyonel ve paylaşılabilir PDF'lere dönüştürün."
+        },
+        "pdf-to-word": {
+            "title": "PDF'ten Word'e",
+            "desc": "Statik PDF'leri tekrar düzenlenebilir Word belgelerine dönüştürün."
+        },
+        "pdf-to-img": {
+            "title": "PDF'ten Resme (HD)",
+            "desc": "PDF sayfalarını yüksek çözünürlüklü JPG'lere dönüştürün."
+        },
+        "img-to-pdf": {
+            "title": "Resimden PDF'e",
+            "desc": "Fotoğrafları ve taramaları tek bir temiz PDF belgesinde toplayın."
+        },
+        "sign": {
+            "title": "PDF İmzala",
+            "desc": "Dijital imzanızı çizin ve herhangi bir PDF'e yerleştirin."
+        },
+        "protect": {
+            "title": "PDF Koru",
+            "desc": "PDF'lerinizi askeri düzeyde koruma (AES) ile şifreleyin."
+        },
+        "unlock": {
+            "title": "PDF Kilidini Aç",
+            "desc": "PDF dosyalarınızdan parolaları ve kısıtlamaları kaldırın."
+        },
+        "rotate": {
+            "title": "PDF Döndür",
+            "desc": "PDF sayfalarının yönünü kalıcı olarak düzeltin."
+        },
+        "page-number": {
+            "title": "PDF Sayfa Numaraları",
+            "desc": "PDF belgelerinize profesyonel sayfa numaraları ekleyin."
+        },
+        "extract-text": {
+            "title": "PDF Metin Çıkarıcı",
+            "desc": "PDF'inizden ham metin içeriğini bir .txt dosyasına çıkarın."
+        },
+        "remove-annotations": {
+            "title": "İşaretleri Kaldır",
+            "desc": "PDF'lerden yorumları, vurgulamaları ve işaretleri kaldırın."
+        },
+        "html-to-pdf": {
+            "title": "Web'den PDF'e",
+            "desc": "Web sitelerini temiz, okunabilir PDF belgeleri olarak yakalayın."
+        },
+        "compare": {
+            "title": "PDF Karşılaştır",
+            "desc": "Değişiklikleri bulmak için iki PDF belgesini yan yana karşılaştırın."
+        },
+        "organize": {
+            "title": "PDF Düzenle",
+            "desc": "PDF sayfalarını görsel olarak yeniden sıralayın, silin veya ayıklayın."
+        },
+        "watermark": {
+            "title": "PDF Filigran",
+            "desc": "Profesyonel logolar veya metin filigranları uygulayın."
+        },
+        "edit-metadata": {
+            "title": "PDF Üst Verileri",
+            "desc": "Yazar, Başlık ve Anahtar Kelimeler gibi PDF özelliklerini güncelleyin."
+        },
+        "flatten": {
+            "title": "PDF Düzleştir",
+            "desc": "PDF'lerdeki form alanlarını ve ek açıklamaları kalıcı olarak kilitleyin."
+        },
+        "trim": {
+            "title": "PDF Kırp",
+            "desc": "Aşırı beyaz boşlukları kaldırın veya sayfa boyutunu değiştirin."
+        },
+        "repair": {
+            "title": "PDF Onar",
+            "desc": "Bozuk veya kırık PDF dosyalarından veri kurtarın."
+        },
+        "grayscale": {
+            "title": "PDF'ten Gri Tonlamaya",
+            "desc": "Renkli PDF'leri profesyonel siyah-beyaz belgelere dönüştürün."
+        },
+        "invert-colors": {
+            "title": "PDF Gece Modu",
+            "desc": "Düşük ışıkta rahat okuma için PDF renklerini ters çevirin."
+        },
+        "redact": {
+            "title": "PDF Veri Gizleme",
+            "desc": "PDF'lerden hassas kişisel bilgileri kalıcı olarak kaldırın."
+        },
+        "pdf-to-ppt": {
+            "title": "PDF'ten PowerPoint'e",
+            "desc": "PDF belgelerini düzenlenebilir PowerPoint slaytlarına dönüştürün."
+        },
+        "excel-to-pdf": {
+            "title": "Excel'den PDF'e",
+            "desc": "Excel tablolarını temiz PDF raporlarına dönüştürün."
+        },
+        "ppt-to-pdf": {
+            "title": "PowerPoint'ten PDF'e",
+            "desc": "PowerPoint sunumlarını profesyonel PDF broşürleri olarak kaydedin."
+        },
+        "pdf-to-png": {
+            "title": "PDF'ten PNG'ye",
+            "desc": "PDF'inizden net, kayıpsız PNG resimleri olarak sayfalar çıkarın."
+        },
+        "pdf-to-excel": {
+            "title": "PDF'ten Excel'e",
+            "desc": "PDF tablolarını tamamen düzenlenebilir Excel sayfalarına dönüştürün."
+        },
+        "ocr": {
+            "title": "PDF OCR",
+            "desc": "Taranmış PDF belgelerini anında aranabilir ve seçilebilir hale getirin."
+        }
+    },
+    "footer": {
+        "tagline": "Dünyanın en hızlı, %100 özel, istemci taraflı PDF araç seti.",
+        "toolsTitle": "Araçlar",
+        "legalTitle": "Yasal",
+        "rights": "OrbitPDF. Tüm hakları saklıdır.",
+        "logoAlt": "OrbitPDF Logosu"
+    },
+    "pwa": {
+        "install": "Uygulamayı Yükle"
+    },
+    "processor": {
+        "dragDrop": "Dosya seçmek için tıklayın",
+        "filesSelected": "{{count}} dosya seçildi",
+        "processedLocally": "Yerel Olarak İşlendi. %100 Özel.",
+        "reorderFiles": "Dosyaları Sırala",
+        "reorderHint": "Sıralamak için sürükleyin",
+        "clientSideConversion": "Tarayıcıda Dönüştürme",
+        "clientSideDesc": "Gizliliğiniz için bu dönüşüm tamamen tarayıcınızda gerçekleşir. Karmaşık düzenler biraz kayabilir.",
+        "textExtraction": "Metin Çıkarma Modu",
+        "textExtractionDesc": "Basit metin çıkarmaya dayalıdır. Resimler ve karmaşık düzenler mükemmel şekilde korunmayabilir.",
+        "ocrLanguage": "OCR Dili",
+        "ocrDesc": "En iyi doğruluk için belgenin ana dilini seçin.",
+        "signaturePosition": "İmza Konumu",
+        "watermarkPlaceholder": "Ör: Gizli, Taslak",
+        "watermarkText": "Filigran Metni",
+        "uploadLogo": "Logo Yükle (PNG veya JPG)",
+        "uploadedLogo": "Logo Resmi",
+        "clickToSelectLogo": "Logo seçmek için tıklayın",
+        "position": "Konum",
+        "tiled": "Döşeli (Çapraz)",
+        "opacity": "Opaklık",
+        "rotation": "Döndürme",
+        "extractPages": "Sayfaları Çıkar",
+        "burstAll": "Tümünü Böl",
+        "pageRange": "Sayfa Aralığı",
+        "pageRangePlaceholder": "Ör: 1-5, 8, 10-12",
+        "singlePdf": "Tek bir PDF dosyası oluştur.",
+        "separatePdf": "Her sayfayı ayrı bir PDF olarak kaydet (ZIP).",
+        "password": "Parola",
+        "enterPassword": "Parola girin",
+        "unlockPdf": "PDF Kilidini Aç",
+        "protectPdf": "PDF Koru",
+        "processingDesc": "Veriler cihazınızda yerel olarak işleniyor.",
+        "readyDesc": "Dosyanız indirilmeye hazır.",
+        "oops": "Hay aksi!",
+        "compressionMode": "Sıkıştırma Modu",
+        "compressionDesc": "Maksimum sıkıştırma için bu araç PDF sayfalarını optimize edilmiş resimlere dönüştürür. Metin artık seçilebilir olmayacaktır.",
+        "extreme": "Ekstrem",
+        "recommended": "Önerilen",
+        "highQuality": "Yüksek Kalite",
+        "smallestSize": "En Küçük Boyut",
+        "goodBalance": "İyi Denge",
+        "bestFidelity": "En İyi Kalite",
+        "encryptPdf": "PDF Şifrele",
+        "encryptDesc": "Parolanız belgeyi şifrelemek için kullanılacak. Unutursanız kurtarılamaz.",
+        "importantNote": "Önemli Not",
+        "encryptWarning": "Şifrelemeyi etkinleştirmek için bu araç sayfaları resimlere dönüştürür. Metin artık seçilebilir olmayacaktır.",
+        "setPassword": "Parola Belirle",
+        "enterStrongPassword": "Güçlü bir parola girin",
+        "unlockDesc": "Şifrelemeyi kaldırmak için parolayı girin.",
+        "textConversionWarning": "Metin Dönüştürme Uyarısı",
+        "unlockWarning": "Korumayı kaldırmak için dosyayı resim olarak yeniden oluşturmamız gerekiyor. Metin artık seçilebilir olmayacaktır.",
+        "enterFilePassword": "Dosya parolasını girin",
+        "repairPdf": "PDF Onar",
+        "repairDesc": "PDF'inizin iç yapısını yeniden kurmayı deneyeceğiz. Bu, açılmayan dosyaları düzeltebilir.",
+        "deepRepair": "Derin Onarım (Yeniden Oluşturma)",
+        "deepRepairDesc": "Ciddi hasarları düzeltmek için sayfaları resimlere dönüştürür. Metin seçilebilir olmayacaktır.",
+        "convertToGrayscale": "Gri Tonlamaya Dönüştür",
+        "grayscaleDesc": "Tüm sayfaları siyah-beyaz resimlere dönüştüreceğiz. Bu dosya boyutunu küçültür ve renkli mürekkep tasarrufu sağlar.",
+        "grayscaleWarning": "Filtreyi uygulamak için sayfalar resimlere dönüştürülür. Metin artık seçilebilir olmayacaktır.",
+        "invertColors": "Renkleri Ters Çevir (Gece Modu)",
+        "invertDesc": "Tüm renkleri ters çevireceğiz (beyaz siyah olur). Gece rahat okuma için harikadır.",
+        "invertWarning": "Filtreyi uygulamak için sayfalar resimlere dönüştürülür. Metin artık seçilebilir olmayacaktır.",
+        "makePdfSearchable": "PDF'i Aranabilir Yap (OCR)",
+        "ocrDesc2": "Metni tanımak için belgenizi tarayacağız. Sonuç, metni seçebileceğiniz, kopyalayabileceğiniz ve arayabileceğiniz bir PDF'tir.",
+        "documentLanguage": "Belge Dili",
+        "extractPlainText": "Sadece Metni Çıkar",
+        "extractTextDesc": "PDF'teki tüm metni çıkarıp basit bir .txt dosyası olarak kaydedeceğiz. Resimler ve biçimlendirme yoksayılır.",
+        "removeAllAnnotations": "Tüm Ek Açıklamaları Kaldır",
+        "removeAnnotationsDesc": "Tüm yorumları, vurgulamaları, yapışkan notları ve form alanlarını kaldıracağız. Ana içerik (metin ve resimler) dokunulmadan kalır.",
+        "permanentRedaction": "Kalıcı Gizleme",
+        "redactionDesc": "Metni bulup siyahla kapatacağız ve sayfayı rasterleştireceğiz. Altındaki metin kalıcı olarak yok edilir.",
+        "textToRedact": "Gizlenecek Metin (virgülle ayrılmış)",
+        "redactAllNumbers": "Tüm Sayıları Gizle",
+        "redactNumbersDesc": "Tüm rakamları (0-9) otomatik olarak gizle.",
+        "title": "Başlık",
+        "author": "Yazar",
+        "subject": "Konu",
+        "keywords": "Anahtar Kelimeler",
+        "creator": "Oluşturan",
+        "producer": "Üretici",
+        "trimMargins": "Kenar Boşluklarını Kırp",
+        "trimDesc": "72 puan = 1 inç",
+        "reset": "Sıfırla",
+        "safeArea": "Güvenli Alan",
+        "preparePages": "Sayfalar Hazırlanıyor",
+        "positionOptions": {
+            "bottomFooter": "Alt (Dipnot)",
+            "topHeader": "Üst (Başlık)",
+            "lastPage": "Sadece Son Sayfa",
+            "firstPage": "Sadece İlk Sayfa",
+            "everyPage": "Her Sayfa"
+        },
+        "errors": {
+            "pageRange": "Lütfen bir sayfa aralığı girin (ör: 1-5).",
+            "mergeMinFiles": "Birleştirmek için lütfen en az 2 PDF dosyası seçin.",
+            "compareCount": "Karşılaştırmak için lütfen tam olarak 2 PDF dosyası (Versiyon A ve B) seçin.",
+            "signatureMissing": "Lütfen önce imzanızı çizin.",
+            "imageMissing": "Lütfen en az 1 resim seçin.",
+            "passwordMissing": "Lütfen bir parola girin.",
+            "passwordUnlockMissing": "Dosyanın kilidini açmak için lütfen parolayı girin.",
+            "notImplemented": "'{{toolName}}' aracı henüz tam olarak uygulanmadı.",
+            "unexpected": "Beklenmeyen bir hata oluştu.",
+            "organizeFailed": "Düzenleme başarısız: {{error}}",
+            "loadPagesFailed": "PDF sayfaları yüklenemedi: {{error}}"
+        }
+    },
+    "notFound": {
+        "title": "Sayfa Bulunamadı",
+        "desc": "Aradığınız sayfa kaldırılmış veya geçici olarak kullanılamıyor olabilir.",
+        "back": "Ana Sayfaya Dön"
+    },
+    "errorBoundary": {
+        "title": "Bir şeyler yanlış gitti",
+        "desc": "Verdiğimiz rahatsızlıktan dolayı özür dileriz. Beklenmeyen bir hata oluştu.",
+        "reload": "Sayfayı Yenile",
+        "home": "Ana Sayfaya Git",
+        "details": "Hata detayları (Sadece Geliştiriciler İçin):"
+    },
+    "pdfEngine": {
+        "page": "Syf",
+        "noPageInFile1": "(Dosya 1'de syf yok)",
+        "noPageInFile2": "(Dosya 2'de syf yok)",
+        "pageOverview": "Syf {{current}} / {{total}}",
+        "convertedBy": "OrbitPDF ile dönüştürüldü"
+    }
+}

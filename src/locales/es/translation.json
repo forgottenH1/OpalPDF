@@ -1,0 +1,729 @@
+{
+    "common": {
+        "welcome": "Bienvenido",
+        "settings": "Configuración",
+        "save": "Guardar",
+        "cancel": "Cancelar",
+        "close": "Cerrar",
+        "back": "Atrás",
+        "next": "Siguiente",
+        "home": "Inicio",
+        "search": "Buscar",
+        "loading": "Cargando...",
+        "error": "Error",
+        "success": "Éxito",
+        "download": "Descargar {{ext}}",
+        "processing": "Procesando...",
+        "done": "¡Listo!",
+        "startOver": "Empezar de nuevo",
+        "convert": "Convertir",
+        "compress": "Comprimir",
+        "noToolsFound": "No se encontraron herramientas para \"{{query}}\"",
+        "tryAgain": "Intentar de nuevo",
+        "clear": "Borrar",
+        "launchTool": "Iniciar Herramienta"
+    },
+    "legal": {
+        "privacyContent": "<p><strong>Última actualización: Octubre 2023</strong></p><p>En OrbitPDF, priorizamos tu privacidad. Dado que nuestras herramientas se ejecutan completamente en tu navegador (lado del cliente), tus archivos <strong>nunca salen de tu dispositivo</strong>. No subimos, almacenamos ni procesamos tus documentos en ningún servidor.</p><h3 class='text-xl font-bold text-white mt-4'>1. Recopilación de Datos</h3><p>No recopilamos datos personales ni contenido de archivos. Podemos utilizar análisis anónimos (como Google Analytics) para mejorar el rendimiento del sitio.</p><h3 class='text-xl font-bold text-white mt-4'>2. Cookies</h3><p>Utilizamos almacenamiento local para guardar tus preferencias (por ejemplo, modo oscuro). Los proveedores externos pueden usar cookies para mostrar anuncios basados en las visitas.</p>",
+        "termsContent": "<p><strong>Última actualización: Octubre 2023</strong></p><p>Al usar OrbitPDF, aceptas estos términos. Nuestras herramientas se proporcionan \"tal cual\" sin garantía de ningún tipo.</p><h3 class='text-xl font-bold text-white mt-4'>1. Uso</h3><p>Puedes usar nuestras herramientas para fines personales o comerciales. Eres responsable del contenido que procesas.</p><h3 class='text-xl font-bold text-white mt-4'>2. Limitaciones</h3><p>No somos responsables de ninguna pérdida de datos o daños resultantes del uso de nuestras herramientas. Siempre mantén copias de seguridad de tus archivos originales.</p>"
+    },
+    "nav": {
+        "guides": "Guías de Usuario",
+        "contact": "Contacto",
+        "privacy": "Política de Privacidad",
+        "terms": "Términos de Servicio",
+        "searchPlaceholder": "Buscar herramientas o guías...",
+        "menu": "Menú",
+        "quickTools": "Herramientas Rápidas"
+    },
+    "contact": {
+        "getInTouch": "Ponte en Contacto",
+        "intro": "Estamos aquí para ayudar. Ya sea que tengas una solicitud de función, hayas encontrado un error o simplemente quieras saludar.",
+        "subtitle": "¿Tienes alguna pregunta o comentario? Envíanos un mensaje a continuación.",
+        "name": "Nombre",
+        "email": "Correo Electrónico",
+        "subject": "Asunto",
+        "message": "Mensaje",
+        "messagePlaceholder": "¿Cómo podemos ayudarte hoy?",
+        "send": "Enviar Mensaje",
+        "sending": "Enviando...",
+        "successTitle": "¡Mensaje Enviado!",
+        "successMessage": "Nos pondremos en contacto contigo lo antes posible.",
+        "errorTitle": "Error al Enviar Mensaje",
+        "errorGeneric": "Error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.",
+        "errorConfig": "Faltan configuraciones de correo electrónico. Por favor revisa tu archivo .env.",
+        "tryAgain": "Intentar de nuevo",
+        "subjects": {
+            "general": "Consulta General",
+            "support": "Soporte / Reporte de Error",
+            "feature": "Solicitud de Función",
+            "business": "Propuesta Comercial"
+        }
+    },
+    "advertise": {
+        "startCampaign": "Inicia tu Campaña",
+        "backToPricing": "Volver a Precios",
+        "subtitle": "Rellena el formulario a continuación para asegurar tu lugar.",
+        "name": "Nombre / Empresa",
+        "namePlaceholder": "Tu Nombre o Empresa",
+        "tierSelection": "Selección de Nivel (Interno)",
+        "message": "Detalles de la Campaña / Mensaje",
+        "messagePlaceholder": "Cuéntanos sobre tu producto y objetivos de campaña...",
+        "submit": "Enviar Consulta",
+        "sending": "Enviando Consulta...",
+        "successTitle": "¡Consulta Enviada!",
+        "successMessage": "Revisaremos tu solicitud y te contactaremos en breve.",
+        "errorInquiry": "Error al enviar la consulta. Por favor, inténtalo de nuevo más tarde."
+    },
+    "advertisePage": {
+        "title": "Anúnciate con OrbitPDF",
+        "heroTitle": "Llega a Miles de Usuarios Diariamente.",
+        "heroDesc": "Conecta con una audiencia altamente comprometida que busca soluciones de productividad y documentos. Precios transparentes, ubicación premium y soporte directo."
+    },
+    "adSpace": {
+        "label": "Publicidad",
+        "placeholderTitle": "Tu Marca Aquí",
+        "placeholderDescSidebar": "Ubicación Premium en Barra Lateral",
+        "placeholderDescBanner": "Llega a miles de usuarios. Asegura este lugar premium hoy.",
+        "ctaSidebar": "Anúnciate Ahora",
+        "ctaBanner": "Iniciar Campaña"
+    },
+    "pricing": {
+        "title": "Precios de Publicidad",
+        "subtitle": "Selecciona un plan que se adapte a tus necesidades.",
+        "mostPopular": "Más Popular",
+        "perCampaign": "/campaña",
+        "getButton": "Obtener {{tier}}",
+        "bronze": {
+            "title": "Bronce",
+            "desc": "Nivel de entrada para promociones rápidas.",
+            "features": [
+                "Anuncio Pie de Página",
+                "Duración de 7 Días",
+                "Estadísticas Básicas de Rendimiento",
+                "Soporte Estándar"
+            ]
+        },
+        "silver": {
+            "title": "Plata",
+            "desc": "Visibilidad dedicada en barra lateral para usuarios de escritorio.",
+            "features": [
+                "Barra Lateral (Izq/Der)",
+                "Duración de 14 Días",
+                "Alta Visibilidad PC",
+                "Correo Semanal de Rendimiento"
+            ]
+        },
+        "gold": {
+            "title": "Oro",
+            "desc": "Visibilidad principal en la parte superior para máximos clics.",
+            "features": [
+                "Cabecera (Superior)",
+                "Duración de 14 Días",
+                "Colocación Prioritaria",
+                "Correo Semanal de Rendimiento"
+            ]
+        },
+        "platinum": {
+            "title": "Platino",
+            "desc": "Cobertura completa (Cabecera + Pie de Página).",
+            "features": [
+                "Combo Cabecera + Pie de Página",
+                "Duración de 30 Días",
+                "Informe detallado quincenal",
+                "Soporte Prioritario"
+            ]
+        }
+    },
+    "guides": {
+        "title": "Guías de Usuario de OrbitPDF",
+        "subtitle": "Domina cada herramienta de nuestra suite con estos tutoriales rápidos y profesionales.",
+        "backToTools": "Volver a Herramientas",
+        "searchPlaceholder": "Buscar una guía...",
+        "readGuide": "Leer Guía",
+        "noGuidesFound": "No se encontraron guías para \"{{query}}\"",
+        "stepByStep": "Guía Paso a Paso",
+        "readyToTry": "¿Listo para probarlo?",
+        "openTool": "Abrir Herramienta",
+        "available": "{{count}} guías disponibles"
+    },
+    "guidesData": {
+        "merge": {
+            "title": "Cómo Fusionar Múltiples PDF en un Archivo Maestro",
+            "category": "Organizar",
+            "intro": "Combina informes, contratos o archivos de proyecto separados en un solo documento PDF organizado. Perfecto para optimizar tu flujo de trabajo y compartir documentos unificados.",
+            "steps": [
+                "Haz clic en **Mazo de Fusión PDF** en el menú principal.",
+                "Arrastra y suelta o selecciona **dos o más archivos PDF** que desees combinar.",
+                "Usa las **flechas Arriba/Abajo** para reorganizar el orden de los archivos según sea necesario.",
+                "Haz clic en **Fusionar PDF** para crear instantáneamente tu documento unificado."
+            ]
+        },
+        "split": {
+            "title": "Cómo Dividir Páginas PDF o Extraer Rangos",
+            "category": "Organizar",
+            "intro": "Extrae páginas específicas como facturas o capítulos de un documento grande, o divide todo el PDF en archivos separados.",
+            "steps": [
+                "Selecciona la herramienta **Divisor de Páginas PDF**.",
+                "Sube tu archivo PDF.",
+                "Elige **Extraer Páginas** para guardar páginas específicas (por ejemplo, \"1-5, 8\"), o **Explotar Todo** para separar cada página.",
+                "Haz clic en **Procesar** para descargar tus nuevos archivos."
+            ]
+        },
+        "compress": {
+            "title": "Cómo Comprimir PDF para Correo y Web",
+            "category": "Optimizar",
+            "intro": "Reduce significativamente el tamaño del archivo PDF sin comprometer la legibilidad. Ideal para adjuntos de correo electrónico y carga web más rápida.",
+            "steps": [
+                "Abre la herramienta **Híper-Compresión PDF**.",
+                "Sube el archivo PDF grande que necesitas reducir.",
+                "Selecciona un preajuste: **Recomendado** (equilibrado), **Extremo** (tamaño más pequeño), o **Alta Calidad**.",
+                "Haz clic en **Comprimir** y descarga tu PDF optimizado."
+            ]
+        },
+        "word-to-pdf": {
+            "title": "Cómo Convertir Word (Docx) a PDF Profesional",
+            "category": "Convertir",
+            "intro": "Transforma documentos editables de Word en PDF seguros y profesionales que se ven igual en todos los dispositivos.",
+            "steps": [
+                "Selecciona **Docx a PDF Pro**.",
+                "Sube tu archivo de Microsoft Word (.docx o .doc).",
+                "La herramienta convertirá automáticamente tu documento preservando el formato.",
+                "Haz clic en **Descargar PDF** para guardar tu nuevo archivo."
+            ]
+        },
+        "pdf-to-word": {
+            "title": "Cómo Convertir PDF a Documento Word Editable",
+            "category": "Convertir",
+            "intro": "Convierte PDF estáticos de nuevo en documentos Word editables para hacer actualizaciones rápidas de texto o reutilizar contenido.",
+            "steps": [
+                "Elige **PDF a Word Doc** de la lista de herramientas.",
+                "Sube el PDF que deseas editar.",
+                "Espera a que la conversión extraiga el texto y el diseño.",
+                "Descarga el archivo **.docx** y ábrelo en Microsoft Word."
+            ]
+        },
+        "pdf-to-excel": {
+            "title": "Cómo Extraer Tablas de PDF a Excel",
+            "category": "Convertir",
+            "intro": "¡Deja de volver a escribir datos! Convierte instantáneamente tablas PDF en hojas de cálculo de Excel editables para análisis.",
+            "steps": [
+                "Abre **Extractor de Tablas PDF**.",
+                "Sube tu PDF que contiene informes financieros o tablas de datos.",
+                "La herramienta identificará y exportará inteligentemente los datos tabulares.",
+                "Descarga tu archivo **.xlsx** para comenzar a analizar en Excel."
+            ]
+        },
+        "pdf-to-img": {
+            "title": "Cómo Guardar Páginas PDF como Imágenes de Alta Resolución",
+            "category": "Convertir",
+            "intro": "Convierte páginas PDF específicas en imágenes JPG de alta calidad para compartir fácilmente en redes sociales o presentaciones.",
+            "steps": [
+                "Selecciona la herramienta **PDF a Imagen HD**.",
+                "Sube tu documento PDF.",
+                "La herramienta convierte cada página en una imagen JPG de alta resolución.",
+                "Descarga las imágenes individualmente o como un archivo ZIP."
+            ]
+        },
+        "pdf-to-png": {
+            "title": "Cómo Convertir PDF a PNG sin Pérdida",
+            "category": "Convertir",
+            "intro": "Extrae páginas como archivos PNG nítidos y sin fondo. Ideal para diseñadores gráficos que necesitan calidad sin pérdida.",
+            "steps": [
+                "Ve a **PDF a PNG Sin Pérdida**.",
+                "Suelta tu archivo PDF en el área de carga.",
+                "El proceso de conversión preserva el máximo detalle/transparencia donde es posible.",
+                "Descarga tus archivos **.png**."
+            ]
+        },
+        "img-to-pdf": {
+            "title": "Cómo Combinar Imágenes en un Portafolio PDF",
+            "category": "Convertir",
+            "intro": "Fusiona fotos, escaneos o diagramas en un solo documento PDF limpio para presentación profesional.",
+            "steps": [
+                "Abre **Imagen a PDF Binder**.",
+                "Selecciona múltiples archivos de imagen (JPG, PNG).",
+                "Ordénalos como quieras: cada uno se convertirá en una página.",
+                "Haz clic en **Crear PDF** para agruparlos en un solo archivo."
+            ]
+        },
+        "ocr": {
+            "title": "Cómo Hacer Buscables los PDF Escaneados (OCR)",
+            "category": "Convertir",
+            "intro": "Desbloquea texto en documentos escaneados. Usa OCR para hacer que el texto sea seleccionable, accesible y copiable.",
+            "steps": [
+                "Selecciona **Reconocedor de Texto PDF**.",
+                "Sube tu PDF escaneado o basado en imágenes.",
+                "Selecciona el **Idioma** del documento (por ejemplo, Inglés, Español) para una mejor precisión.",
+                "Haz clic en **Iniciar OCR** para generar un PDF con texto seleccionable."
+            ]
+        },
+        "rotate": {
+            "title": "Cómo Corregir la Orientación de Página PDF",
+            "category": "Organizar",
+            "intro": "Rota permanentemente las páginas PDF que están al revés o de lado para asegurar una legibilidad adecuada.",
+            "steps": [
+                "Elige **Rotador de Páginas PDF**.',\n            'Sube el archivo con orientación incorrecta.',\n            'Selecciona rotación de **90°**, **180°**, o **270°**.',\n            'Haz clic en **Rotar** para guardar el archivo corregido."
+            ]
+        },
+        "page-number": {
+            "title": "Cómo Agregar Números de Página a PDF",
+            "category": "Editar",
+            "intro": "Agrega numeración de página profesional (Cabecera o Pie de Página) para organizar contratos largos o tesis.",
+            "steps": [
+                "Abre **Numeración de Páginas PDF**.",
+                "Sube tu documento.",
+                "Elige la posición: **Arriba (Cabecera)** o **Abajo (Pie de Página)**.",
+                "Haz clic en **Aplicar** para estampar números de página en cada página."
+            ]
+        },
+        "sign": {
+            "title": "Cómo Firmar Electrónicamente Documentos PDF",
+            "category": "Editar",
+            "intro": "Dibuja tu firma digital y colócala en contratos o formularios sin imprimir.",
+            "steps": [
+                "Ve a **Firma Electrónica PDF**.",
+                "Dibuja tu firma en el panel o sube una imagen de firma.",
+                "Selecciona la página y posición (por ejemplo, Última Página, Abajo a la Derecha).",
+                "Haz clic en **Firmar PDF** para finalizar el documento."
+            ]
+        },
+        "organize": {
+            "title": "Cómo Reordenar y Eliminar Páginas PDF",
+            "category": "Organizar",
+            "intro": "Toma el control de la estructura de tu PDF. Reorganiza, elimina o clasifica páginas visualmente en segundos.",
+            "steps": [
+                "Selecciona **Organizador de Páginas PDF**.",
+                "Sube tu PDF para ver una vista de cuadrícula de todas las páginas.",
+                "**Arrastra y suelta** páginas para reordenar, o haz clic en **Basura** para eliminar páginas no deseadas.",
+                "Haz clic en **Guardar** para habilitar tu nuevo orden de páginas."
+            ]
+        },
+        "watermark": {
+            "title": "Cómo Añadir Marca de Agua a PDF para Marca y Seguridad",
+            "category": "Editar",
+            "intro": "Protege tu propiedad intelectual estampando logotipos o texto \"Confidencial\" en tus páginas.",
+            "steps": [
+                "Elige **Estampador de Marca PDF**.",
+                "Sube tu archivo y elige marca de agua de **Texto** o **Imagen**.",
+                "Personaliza la posición (por ejemplo, Centro, Mosaico), opacidad y rotación.",
+                "Haz clic en **Aplicar Marca de Agua** para proteger tu documento."
+            ]
+        },
+        "edit-metadata": {
+            "title": "Cómo Editar Título, Autor y Contenido de PDF",
+            "category": "Editar",
+            "intro": "Actualiza propiedades ocultas de PDF (Metadatos) como Autor y Título para mejorar la organización de archivos y SEO.",
+            "steps": [
+                "Abre **Editor de Meta PDF**.",
+                "Sube tu PDF.",
+                "Edita campos como **Título**, **Autor**, **Asunto** y **Palabras Clave**.",
+                "Haz clic en **Guardar Metadatos** para actualizar las propiedades del archivo."
+            ]
+        },
+        "flatten": {
+            "title": "Cómo Aplanar Formularios y Comentarios PDF",
+            "category": "Organizar",
+            "intro": "Bloquea formularios rellenables y anotaciones para que el contenido ya no pueda ser editado por otros.",
+            "steps": [
+                "Selecciona **Herramienta Aplanadora PDF**.',\n            'Sube tu PDF interactivo o formulario.',\n            'Haz clic en **Aplanar PDF**.',\n            'El resultado tendrá todo el contenido fusionado en la capa base."
+            ]
+        },
+        "trim": {
+            "title": "Cómo Recortar Márgenes PDF",
+            "category": "Organizar",
+            "intro": "Elimina el espacio en blanco excesivo o recorta áreas visibles para refinar el diseño para impresión.",
+            "steps": [
+                "Ve a **Recorte Inteligente PDF**.",
+                "Sube tu archivo.",
+                "Ingresa los valores de recorte (márgenes) para Arriba, Abajo, Izquierda y Derecha.",
+                "Haz clic en **Recortar** para cambiar el tamaño de las páginas."
+            ]
+        },
+        "compare": {
+            "title": "Cómo Comparar Visualmente Dos PDF",
+            "category": "Organizar",
+            "intro": "Detecta las diferencias entre dos versiones de un documento lado a lado.",
+            "steps": [
+                "Selecciona **Diferencia Visual PDF**.",
+                "Sube **Versión A** (Original) y **Versión B** (Modificada).",
+                "La herramienta generará un archivo de comparación resaltando los cambios.",
+                "Descarga el informe de comparación."
+            ]
+        },
+        "protect": {
+            "title": "Cómo Proteger un PDF con Contraseña",
+            "category": "Seguridad",
+            "intro": "Asegura documentos confidenciales con encriptación AES de grado militar y una contraseña única.",
+            "steps": [
+                "Abre **Bóveda Segura PDF**.",
+                "Sube el documento que deseas bloquear.",
+                "Ingresa una **Contraseña** fuerte.",
+                "Haz clic en **Encriptar** para asegurar el archivo."
+            ]
+        },
+        "unlock": {
+            "title": "Cómo Desbloquear un PDF Protegido con Contraseña",
+            "category": "Seguridad",
+            "intro": "Elimina contraseñas conocidas de PDF para hacerlos más fáciles de acceder y compartir.",
+            "steps": [
+                "Selecciona **Eliminador de Contraseña PDF**.",
+                "Sube el PDF bloqueado.",
+                "Ingresa la contraseña actual una última vez.",
+                "Haz clic en **Desbloquear** para guardar una copia permanente no asegurada."
+            ]
+        },
+        "repair": {
+            "title": "Cómo Reparar Archivos PDF Corruptos",
+            "category": "Organizar",
+            "intro": "Intenta recuperar datos de archivos PDF dañados o que no se pueden abrir.",
+            "steps": [
+                "Elige **Reparación de Archivo PDF**.",
+                "Sube el archivo corrupto.",
+                "Activa **Forzar Reconstrucción** si está severamente dañado.",
+                "Haz clic en **Reparar** e intenta abrir el resultado."
+            ]
+        },
+        "grayscale": {
+            "title": "Cómo Convertir PDF a Escala de Grises",
+            "category": "Optimizar",
+            "intro": "Elimina todo el color de un PDF para impresión en blanco y negro más barata o archivo.",
+            "steps": [
+                "Selecciona **Convertidor a Escala de Grises PDF**.',\n            'Sube tu PDF a color.',\n            'Haz clic en **Convertir**.',\n            'Descarga la versión en blanco y negro de alto contraste."
+            ]
+        },
+        "invert-colors": {
+            "title": "Cómo Invertir Colores PDF (Modo Noche)",
+            "category": "Optimizar",
+            "intro": "Cambia fondos blancos a negro para una lectura cómoda en entornos con poca luz.",
+            "steps": [
+                "Abre **Modo Noche PDF**.",
+                "Sube tu documento.",
+                "Haz clic en **Invertir** para voltear todos los colores.",
+                "Descarga la versión amigable con el modo oscuro."
+            ]
+        },
+        "extract-text": {
+            "title": "Cómo Extraer Texto de PDF",
+            "category": "Convertir",
+            "intro": "Extrae contenido de texto sin formato de un PDF a un archivo de texto simple para copiar o codificar.",
+            "steps": [
+                "Ve a **Raspador de Texto PDF**.',\n            'Sube tu PDF.',\n            'La herramienta extrae todos los flujos de texto legibles.',\n            'Descarga el resultado como un archivo **.txt**."
+            ]
+        },
+        "remove-annotations": {
+            "title": "Cómo Eliminar Comentarios de PDF",
+            "category": "Editar",
+            "intro": "Limpia un documento eliminando todos los comentarios de usuario, resaltados y marcas.",
+            "steps": [
+                "Selecciona **Limpiar Marcas PDF**.",
+                "Sube el PDF anotado.",
+                "Haz clic en **Limpiar**.",
+                "Obtén una versión prístina libre de todas las marcas de editor."
+            ]
+        },
+        "redact": {
+            "title": "Cómo Redactar Permanentemente Texto PDF",
+            "category": "Seguridad",
+            "intro": "Oculta de forma segura información confidencial como números de seguridad social o nombres para que no se puedan recuperar.",
+            "steps": [
+                "Abre **Redacción Segura PDF**.",
+                "Sube tu archivo.",
+                "Ingresa los **términos de texto** que deseas redactar (separados por comas).",
+                "Haz clic en **Redactar** para ocultar permanentemente esas palabras."
+            ]
+        },
+        "pdf-to-ppt": {
+            "title": "Cómo Convertir PDF a Diapositivas de PowerPoint",
+            "category": "Convertir",
+            "intro": "Convierte tu presentación PDF de nuevo en una presentación de diapositivas de PowerPoint editable.",
+            "steps": [
+                "Selecciona **PDF a PowerPoint**.",
+                "Sube tu PDF.",
+                "La herramienta convierte páginas en diapositivas.",
+                "Descarga el archivo **.pptx** para Microsoft PowerPoint."
+            ]
+        },
+        "excel-to-pdf": {
+            "title": "Cómo Convertir Hojas de Excel a PDF",
+            "category": "Convertir",
+            "intro": "Comparte hojas de cálculo de forma segura convirtiéndolas en PDF estandarizados no editables.",
+            "steps": [
+                "Determina **Convertidor Excel a PDF**.',\n            'Sube tu archivo .xlsx o .xls.',\n            'La herramienta ajusta tus hojas a páginas PDF.',\n            'Descarga el informe profesional."
+            ]
+        },
+        "ppt-to-pdf": {
+            "title": "Cómo Guardar PowerPoint como PDF",
+            "category": "Convertir",
+            "intro": "Asegura que tu presentación se vea perfecta en cualquier pantalla guardándola como PDF.",
+            "steps": [
+                "Abre **PowerPoint a PDF**.",
+                "Sube tu presentación .pptx.",
+                "Espera la conversión.",
+                "Descarga el PDF listo para entregar."
+            ]
+        },
+        "html-to-pdf": {
+            "title": "Cómo Guardar Páginas Web como PDF",
+            "category": "Convertir",
+            "intro": "Captura artículos, recibos o sitios web como documentos PDF limpios fuera de línea.",
+            "steps": [
+                "Elige **Captura Web a PDF**.",
+                "Sube el archivo HTML (guarda la página web como .html primero).",
+                "La herramienta renderiza la página en un PDF.",
+                "Descarga tu documento."
+            ]
+        }
+    },
+    "hero": {
+        "title": "Cada Herramienta PDF Que Necesitas",
+        "subtitle": "100% Gratis. 100% Privado.",
+        "description": "OrbitPDF es un kit de herramientas gratuito y sin servidor. Tus archivos nunca salen de tu dispositivo, asegurando 100% de privacidad y velocidades ultrarrápidas.",
+        "start": "Empezar",
+        "cta": "Explorar Herramientas"
+    },
+    "tools": {
+        "merge": {
+            "title": "Mazo de Fusión PDF",
+            "desc": "Combina informes, contratos y archivos en un solo PDF maestro."
+        },
+        "split": {
+            "title": "Divisor de Páginas PDF",
+            "desc": "Separa instantáneamente páginas específicas o divide documentos PDF grandes."
+        },
+        "compress": {
+            "title": "Compresión Híper PDF",
+            "desc": "Optimiza el tamaño del archivo PDF para correo y web sin perder calidad."
+        },
+        "word-to-pdf": {
+            "title": "Docx a PDF Pro",
+            "desc": "Transforma documentos Word en PDF profesionales listos para compartir."
+        },
+        "pdf-to-word": {
+            "title": "PDF a Word Doc",
+            "desc": "Convierte PDF estáticos de nuevo en documentos Word editables."
+        },
+        "pdf-to-img": {
+            "title": "PDF a Imagen HD",
+            "desc": "Convierte páginas PDF en JPG de alta resolución para compartir fácilmente."
+        },
+        "img-to-pdf": {
+            "title": "Carpeta de Imagen a PDF",
+            "desc": "Convierte fotos y escaneos en un documento PDF limpio."
+        },
+        "sign": {
+            "title": "Firma Electrónica PDF",
+            "desc": "Dibuja y coloca tu firma digital en cualquier PDF."
+        },
+        "protect": {
+            "title": "Bóveda Segura PDF",
+            "desc": "Encripta tu PDF con protección AES de grado militar."
+        },
+        "unlock": {
+            "title": "Eliminador de Contraseña PDF",
+            "desc": "Elimina contraseñas y restricciones de tus archivos PDF."
+        },
+        "rotate": {
+            "title": "Rotador de Páginas PDF",
+            "desc": "Arregla la orientación de la página PDF permanentemente."
+        },
+        "page-number": {
+            "title": "Numeración de Páginas PDF",
+            "desc": "Añade numeración de página profesional a tus documentos PDF."
+        },
+        "extract-text": {
+            "title": "Raspador de Texto PDF",
+            "desc": "Extrae contenido de texto sin formato de tu PDF a un archivo .txt."
+        },
+        "remove-annotations": {
+            "title": "Limpiar Marcas PDF",
+            "desc": "Elimina comentarios, resaltados y marcas de los PDF."
+        },
+        "html-to-pdf": {
+            "title": "Captura Web a PDF",
+            "desc": "Captura sitios web como documentos PDF limpios y legibles."
+        },
+        "compare": {
+            "title": "Diferencia Visual PDF",
+            "desc": "Compara dos documentos PDF lado a lado para detectar cambios."
+        },
+        "organize": {
+            "title": "Organizador de Páginas PDF",
+            "desc": "Reordena, elimina o reorganiza páginas PDF visualmente."
+        },
+        "watermark": {
+            "title": "Estampador de Marca PDF",
+            "desc": "Aplica logotipos profesionales o marcas de agua de texto a tu PDF."
+        },
+        "edit-metadata": {
+            "title": "Editor de Meta PDF",
+            "desc": "Actualiza propiedades de PDF como Autor, Título y Palabras Clave."
+        },
+        "flatten": {
+            "title": "Herramienta Aplanadora PDF",
+            "desc": "Bloquea campos de formulario PDF y anotaciones permanentemente."
+        },
+        "trim": {
+            "title": "Recorte Inteligente PDF",
+            "desc": "Elimina espacios en blanco o cambia el tamaño de las páginas PDF para imprimir."
+        },
+        "repair": {
+            "title": "Reparación de Archivo PDF",
+            "desc": "Recupera datos de archivos PDF corruptos o rotos."
+        },
+        "grayscale": {
+            "title": "Convertidor a Escala de Grises PDF",
+            "desc": "Convierte PDF a color en documentos profesionales en escala de grises."
+        },
+        "invert-colors": {
+            "title": "Modo Noche PDF",
+            "desc": "Invierte los colores PDF para una lectura cómoda con poca luz."
+        },
+        "redact": {
+            "title": "Redacción Segura PDF",
+            "desc": "Elimina permanentemente información privada sensible de los PDF."
+        },
+        "pdf-to-ppt": {
+            "title": "PDF a PowerPoint",
+            "desc": "Convierte documentos PDF en diapositivas de PowerPoint editables."
+        },
+        "excel-to-pdf": {
+            "title": "Convertidor Excel a PDF",
+            "desc": "Convierte hojas de cálculo de Excel en informes PDF limpios."
+        },
+        "ppt-to-pdf": {
+            "title": "PowerPoint a PDF",
+            "desc": "Guarda presentaciones de PowerPoint como folletos PDF profesionales."
+        },
+        "pdf-to-png": {
+            "title": "PDF a PNG Sin Pérdida",
+            "desc": "Extrae páginas como imágenes PNG nítidas y sin pérdida de tu PDF."
+        },
+        "pdf-to-excel": {
+            "title": "Extractor de Tablas PDF",
+            "desc": "Convierte tablas PDF en hojas de cálculo de Excel totalmente editables."
+        },
+        "ocr": {
+            "title": "Reconocedor de Texto PDF",
+            "desc": "Haz que los documentos PDF escaneados sean buscables y seleccionables al instante."
+        }
+    },
+    "footer": {
+        "tagline": "El kit de herramientas PDF más rápido del mundo, 100% privado, lado del cliente.",
+        "toolsTitle": "Herramientas",
+        "legalTitle": "Legal",
+        "rights": "OrbitPDF. Todos los derechos reservados."
+    },
+    "pwa": {
+        "install": "Instalar App"
+    },
+    "processor": {
+        "dragDrop": "Haz clic para seleccionar archivos",
+        "filesSelected": "{{count}} archivo(s) seleccionado(s)",
+        "processedLocally": "Procesado localmente. 100% Privado.",
+        "reorderFiles": "Reordenar Archivos",
+        "clientSideConversion": "Conversión del Lado del Cliente",
+        "clientSideDesc": "Para asegurar la privacidad, esta conversión ocurre completamente en tu navegador. Los diseños complejos pueden cambiar ligeramente.",
+        "textExtraction": "Modo de Extracción de Texto",
+        "textExtractionDesc": "Basado en extracción de texto simple. Las imágenes y diseños complejos pueden no conservarse perfectamente.",
+        "ocrLanguage": "Idioma OCR",
+        "ocrDesc": "Selecciona el idioma principal de tu documento para una mejor precisión.",
+        "signaturePosition": "Posición de Firma",
+        "watermarkText": "Texto de Marca de Agua",
+        "uploadLogo": "Subir Logo (PNG o JPG)",
+        "uploadedLogo": "Imagen de Logo",
+        "clickToSelectLogo": "Haz clic para seleccionar logo",
+        "position": "Posición",
+        "tiled": "Mosaico (Diagonal)",
+        "opacity": "Opacidad",
+        "rotation": "Rotación",
+        "extractPages": "Extraer Páginas",
+        "burstAll": "Explotar Todo",
+        "pageRange": "Rango de Páginas",
+        "singlePdf": "Crea un solo PDF.",
+        "separatePdf": "Guardar cada página como un archivo PDF separado (ZIP).",
+        "password": "Contraseña",
+        "enterPassword": "Ingresar Contraseña",
+        "unlockPdf": "Desbloquear PDF",
+        "protectPdf": "Proteger PDF",
+        "processingDesc": "Procesando datos localmente en tu dispositivo.",
+        "readyDesc": "Tu archivo está listo para descargar.",
+        "oops": "¡Vaya!",
+        "compressionMode": "Modo de Compresión",
+        "compressionDesc": "Para maximizar la compresión, esta herramienta convierte páginas PDF en imágenes optimizadas. El texto ya no será seleccionable.",
+        "extreme": "Extremo",
+        "recommended": "Recomendado",
+        "highQuality": "Alta Calidad",
+        "smallestSize": "Tamaño Más Pequeño",
+        "goodBalance": "Buen Equilibrio",
+        "bestFidelity": "Mejor Fidelidad",
+        "encryptPdf": "Encriptar PDF",
+        "encryptDesc": "Tu contraseña se usará para encriptar el documento. No hay forma de recuperar la contraseña si la olvidas.",
+        "importantNote": "Nota Importante",
+        "encryptWarning": "Para habilitar la encriptación, esta herramienta convierte tus páginas PDF en imágenes. El texto ya no será seleccionable.",
+        "setPassword": "Establecer Contraseña",
+        "enterStrongPassword": "Ingresar contraseña fuerte",
+        "unlockDesc": "Ingresa la contraseña para eliminar la encriptación.",
+        "textConversionWarning": "Advertencia de Conversión de Texto",
+        "unlockWarning": "Para eliminar la seguridad, debemos reconstruir el archivo como imágenes. El texto ya no será seleccionable.",
+        "enterFilePassword": "Ingresar contraseña del archivo",
+        "repairPdf": "Reparar PDF",
+        "repairDesc": "Intentaremos reconstruir la estructura interna de tu PDF. Esto puede arreglar archivos que no se abren o tienen metadatos corruptos.",
+        "deepRepair": "Reparación Profunda (Reconstruir)",
+        "deepRepairDesc": "Convierte páginas en imágenes para arreglar corrupción severa. El texto no será seleccionable.",
+        "convertToGrayscale": "Convertir a Escala de Grises",
+        "grayscaleDesc": "Convertiremos todas las páginas a imágenes en Blanco y Negro. Esto reduce el tamaño del archivo y ahorra tinta de color.",
+        "grayscaleWarning": "Para aplicar el filtro, las páginas se convierten en imágenes. El texto ya no será seleccionable.",
+        "invertColors": "Invertir Colores (Modo Oscuro)",
+        "invertDesc": "Invertiremos todos los colores (el blanco se vuelve negro). Genial para lectura nocturna cómoda.",
+        "invertWarning": "Para aplicar el filtro, las páginas se convierten en imágenes. El texto ya no será seleccionable.",
+        "makePdfSearchable": "Hacer PDF Buscable (OCR)",
+        "ocrDesc2": "Escanearemos tu documento para reconocer texto. El resultado será un PDF donde puedes seleccionar, copiar y buscar texto.",
+        "documentLanguage": "Idioma del Documento",
+        "extractPlainText": "Extraer Texto Plano",
+        "extractTextDesc": "Extraeremos todo el texto del PDF y lo guardaremos como un archivo .txt simple. Las imágenes y el formato serán ignorados.",
+        "removeAllAnnotations": "Eliminar Todas las Anotaciones",
+        "removeAnnotationsDesc": "Eliminaremos todos los comentarios, resaltados, notas adhesivas y campos de formulario del documento. El contenido principal (texto e imágenes) permanecerá intacto.",
+        "permanentRedaction": "Redacción Permanente",
+        "redactionDesc": "Encontraremos el texto, lo tacharemos y luego rasterizaremos la página. El texto subyacente será destruido permanentemente.",
+        "textToRedact": "Texto para Redactar (Separado por Comas)",
+        "redactAllNumbers": "Redactar Todos los Números",
+        "redactNumbersDesc": "Tachar automáticamente todos los dígitos numéricos (0-9).",
+        "title": "Título",
+        "author": "Autor",
+        "subject": "Asunto",
+        "keywords": "Palabras Clave",
+        "creator": "Creador",
+        "producer": "Productor",
+        "trimMargins": "Recortar Márgenes",
+        "trimDesc": "72 puntos = 1 pulgada",
+        "reset": "Reiniciar",
+        "safeArea": "Área Segura",
+        "preparePages": "Preparar Páginas",
+        "positionOptions": {
+            "bottomFooter": "Abajo (Pie de Página)",
+            "topHeader": "Arriba (Cabecera)",
+            "lastPage": "Última Página Solo",
+            "firstPage": "Primera Página Solo",
+            "everyPage": "Todas las Páginas"
+        },
+        "errors": {
+            "pageRange": "Por favor, ingresa un rango de páginas (ej. 1-5).",
+            "mergeMinFiles": "Por favor, selecciona al menos 2 archivos PDF para fusionar.",
+            "compareCount": "Por favor, selecciona exactamente 2 archivos PDF (Versiones A y B) para comparar.",
+            "signatureMissing": "Por favor, dibuja una firma primero.",
+            "imageMissing": "Por favor, selecciona al menos 1 imagen.",
+            "passwordMissing": "Por favor, ingresa una contraseña.",
+            "passwordUnlockMissing": "Por favor, ingresa la contraseña para abrir el archivo.",
+            "notImplemented": "La herramienta '{{toolName}}' aún no está completamente implementada.",
+            "unexpected": "Ocurrió un error inesperado.",
+            "organizeFailed": "La organización falló: {{error}}",
+            "loadPagesFailed": "Error al cargar las páginas del PDF: {{error}}"
+        }
+    },
+    "404": {
+        "title": "Página No Encontrada",
+        "desc": "La página que buscas puede haber sido eliminada o está temporalmente no disponible.",
+        "back": "Volver al Inicio"
+    }
+}

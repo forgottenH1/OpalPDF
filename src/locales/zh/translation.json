@@ -1,0 +1,773 @@
+{
+    "common": {
+        "welcome": "欢迎",
+        "settings": "设置",
+        "save": "保存",
+        "cancel": "取消",
+        "close": "关闭",
+        "back": "返回",
+        "next": "下一步",
+        "home": "首页",
+        "search": "搜索",
+        "loading": "加载中...",
+        "error": "错误",
+        "success": "成功",
+        "download": "下载 {{ext}}",
+        "processing": "处理中...",
+        "done": "完成！",
+        "startOver": "重新开始",
+        "convert": "转换",
+        "compress": "压缩",
+        "noToolsFound": "未找到与 \"{{query}}\" 匹配的工具",
+        "tryAgain": "重试",
+        "clear": "清除",
+        "launchTool": "启动工具",
+        "notSelected": "未选择",
+        "closeModal": "关闭模态框"
+    },
+    "categories": {
+        "Organize": "整理",
+        "Optimize": "优化",
+        "Convert": "转换",
+        "Edit": "编辑",
+        "Security": "安全"
+    },
+    "legal": {
+        "privacyContent": "<p><strong>最后更新：2023年10月</strong></p><p>在 OrbitPDF，我们优先考虑您的隐私。由于我们的工具完全在浏览器内（客户端）运行，您的文件<strong>从未离开您的设备</strong>。我们不会在任何服务器上传、存储或处理您的文档。</p><h3 class='text-xl font-bold text-white mt-4'>1. 数据收集</h3><p>我们不收集个人数据或文件内容。我们可能会使用匿名分析（如 Google Analytics）来改善网站性能。</p><h3 class='text-xl font-bold text-white mt-4'>2. Cookie</h3><p>我们使用本地存储来保存您的偏好（例如，深色模式）。第三方供应商可能会使用 Cookie 根据访问情况投放广告。</p>",
+        "termsContent": "<p><strong>最后更新：2023年10月</strong></p><p>使用 OrbitPDF 即表示您同意这些条款。我们的工具按“原样”提供，没有任何形式的保证。</p><h3 class='text-xl font-bold text-white mt-4'>1. 使用</h3><p>您可以将我们的工具用于个人或商业用途。您对处理的内容负责。</p><h3 class='text-xl font-bold text-white mt-4'>2. 限制</h3><p>对于因使用我们的工具而导致的任何数据丢失或损害，我们不承担任何责任。请始终保留原始文件的备份。</p>"
+    },
+    "nav": {
+        "guides": "用户指南",
+        "contact": "联系我们",
+        "privacy": "隐私政策",
+        "terms": "服务条款",
+        "searchPlaceholder": "搜索工具或指南...",
+        "menu": "菜单",
+        "quickTools": "快捷工具",
+        "ariaOpen": "打开菜单",
+        "ariaClose": "关闭菜单"
+    },
+    "contact": {
+        "getInTouch": "取得联系",
+        "intro": "我们随时为您提供帮助。无论您有功能请求、发现错误，还是只是想打个招呼。",
+        "subtitle": "有问题或反馈？请在下方留言。",
+        "name": "姓名",
+        "email": "电子邮件",
+        "subject": "主题",
+        "message": "消息",
+        "messagePlaceholder": "我们要如何帮助您？",
+        "send": "发送消息",
+        "sending": "发送中...",
+        "successTitle": "消息已发送！",
+        "successMessage": "我们会尽快回复您。",
+        "errorTitle": "发送错误",
+        "errorGeneric": "发送消息失败。请稍后重試。",
+        "errorConfig": "缺少电子邮件配置。请检查您的 .env 文件。",
+        "tryAgain": "重试",
+        "subjects": {
+            "general": "一般咨询",
+            "support": "支持 / 错误报告",
+            "feature": "功能请求",
+            "business": "商务合作"
+        }
+    },
+    "advertise": {
+        "startCampaign": "开始您的广告系列",
+        "backToPricing": "返回价格表",
+        "subtitle": "填写下方表格以确保存您的席位。",
+        "name": "姓名 / 公司",
+        "namePlaceholder": "您的姓名或公司",
+        "tierSelection": "方案选择",
+        "message": "广告系列详情 / 消息",
+        "messagePlaceholder": "告诉我们关于您的产品和广告目标...",
+        "submit": "提交咨询",
+        "sending": "发送中...",
+        "successTitle": "咨询已发送！",
+        "successMessage": "我们将审核您的请求并尽快联系您。",
+        "errorInquiry": "发送咨询失败。请稍后重試。"
+    },
+    "advertisePage": {
+        "title": "在 OrbitPDF 上做广告",
+        "heroTitle": "每日覆盖成千上万的用户。",
+        "heroDesc": "与寻找生产力和文档解决方案的高度活跃受众建立联系。透明的定价，优质的版位，以及直接的支持。"
+    },
+    "adSpace": {
+        "label": "广告",
+        "placeholderTitle": "在此展示您的品牌",
+        "placeholderDescSidebar": "优质侧边栏位置",
+        "placeholderDescBanner": "覆盖成千上万的用户。立即确保存此高级版位。",
+        "ctaSidebar": "立即广告",
+        "ctaBanner": "开始广告系列"
+    },
+    "pricing": {
+        "title": "广告定价",
+        "subtitle": "选择适合您需求的计划。",
+        "mostPopular": "最受欢迎",
+        "perCampaign": "/广告系列",
+        "getButton": "获取 {{tier}}",
+        "bronze": {
+            "title": "铜牌",
+            "desc": "适合快速推广的入门级位置。",
+            "features": [
+                "响应式页脚广告",
+                "时长：7天",
+                "基本性能统计",
+                "标准支持"
+            ]
+        },
+        "silver": {
+            "title": "银牌",
+            "desc": "桌面用户的专用侧边栏可见性。",
+            "features": [
+                "侧边栏位置（左或右）",
+                "时长：14天",
+                "高桌面可见性",
+                "每周性能邮件"
+            ]
+        },
+        "gold": {
+            "title": "金牌",
+            "desc": "页面顶部的黄金位置，以获得最大点击量。",
+            "features": [
+                "页眉广告牌（顶部位置）",
+                "时长：14天",
+                "优先展示",
+                "每周性能邮件"
+            ]
+        },
+        "platinum": {
+            "title": "白金",
+            "desc": "全面覆盖（页眉 + 页脚）。",
+            "features": [
+                "页眉 + 页脚组合",
+                "时长：30天",
+                "每两周详细报告",
+                "优先支持"
+            ]
+        }
+    },
+    "guides": {
+        "title": "OrbitPDF 用户指南",
+        "subtitle": "通过这些快速、专业的教程，掌握我们套件中的每一个工具。",
+        "backToTools": "返回工具",
+        "searchPlaceholder": "搜索指南...",
+        "readGuide": "阅读指南",
+        "noGuidesFound": "未找到 \"{{query}}\" 的指南",
+        "stepByStep": "分步指南",
+        "readyToTry": "准备好尝试了吗？",
+        "openTool": "打开工具",
+        "available": "{{count}} 个指南可用"
+    },
+    "guidesData": {
+        "merge": {
+            "title": "如何将多个 PDF 合并为一个主文件",
+            "category": "Organize",
+            "intro": "将单独的报告、合同或项目文件合并为一个整理好的 PDF 文档。非常适合简化工作流程和共享统一文档。",
+            "steps": [
+                "点击主菜单中的 **PDF 合并工具**。",
+                "拖放或选择您希望合并的 **两个或更多 PDF 文件**。",
+                "根据需要使用 **上/下箭头** 重新排列文件顺序。",
+                "点击 **合并 PDF** 立即创建您的统一文档。"
+            ]
+        },
+        "split": {
+            "title": "如何分割 PDF 页面或提取范围",
+            "category": "Organize",
+            "intro": "从大型文档中提取特定页面（如发票或章节），或将整个 PDF 分割成单独的文件。",
+            "steps": [
+                "选择 **PDF 页面分割器** 工具。",
+                "上传您的 PDF 文件。",
+                "选择 **提取页面** 以保存特定页面（例如 \"1-5, 8\"），或者 **全部分割** 以分离每一页。",
+                "点击 **处理** 下载您的新文件。"
+            ]
+        },
+        "compress": {
+            "title": "如何压缩 PDF 用于电子邮件和网络",
+            "category": "Optimize",
+            "intro": "大幅减小 PDF 文件大小而不影响可读性。非常适合电子邮件附件和更快的网页加载。",
+            "steps": [
+                "打开 **PDF 超级压缩** 工具。",
+                "上传您需要压缩的大型 PDF 文件。",
+                "选择一个预设：**推荐**（平衡）、**极限**（最小尺寸）或 **高质量**。",
+                "点击 **压缩** 并下载优化后的 PDF。"
+            ]
+        },
+        "word-to-pdf": {
+            "title": "如何将 Word (Docx) 转换为专业 PDF",
+            "category": "Convert",
+            "intro": "将可编辑的 Word 文档转换为安全、专业的 PDF，在任何设备上看起来都一样。",
+            "steps": [
+                "选择 **Docx 转 PDF 专业版**。",
+                "上传您的 Microsoft Word (.docx 或 .doc) 文件。",
+                "工具将自动转换文档并保留格式。",
+                "点击 **下载 PDF** 保存您的新文件。"
+            ]
+        },
+        "pdf-to-word": {
+            "title": "如何将 PDF 转换为可编辑的 Word 文档",
+            "category": "Convert",
+            "intro": "将静态 PDF 转回可编辑的 Word 文档，以快速进行文本更新或重新利用内容。",
+            "steps": [
+                "从工具列表中选择 **PDF 转 Word 文档**。",
+                "上传您想要编辑的 PDF。",
+                "等待转换提取文本和布局。",
+                "下载 **.docx** 文件并在 Microsoft Word 中打开。"
+            ]
+        },
+        "pdf-to-excel": {
+            "title": "如何从 PDF 提取表格到 Excel",
+            "category": "Convert",
+            "intro": "无需重新输入数据！立即将 PDF 表格转换为可编辑的 Excel 电子表格进行分析。",
+            "steps": [
+                "打开 **PDF 表格提取器**。",
+                "上传包含财务报告或数据表的 PDF。",
+                "工具将智能识别并导出表格数据。",
+                "下载您的 **.xlsx** 文件并在 Excel 中开始分析。"
+            ]
+        },
+        "pdf-to-img": {
+            "title": "如何将 PDF 页面保存为高清图片",
+            "category": "Convert",
+            "intro": "将特定 PDF 页面转换为高质量的 JPG 图片，以便于在社交媒体或演示文稿中分享。",
+            "steps": [
+                "选择 **PDF 转图片 (HD)** 工具。",
+                "上传您的 PDF 文档。",
+                "工具将每一页转换为高分辨率的 JPG 图片。",
+                "单独下载图片或作为 ZIP 压缩包下载。"
+            ]
+        },
+        "pdf-to-png": {
+            "title": "如何将 PDF 转换为无损 PNG",
+            "category": "Convert",
+            "intro": "将页面提取为清晰、无背景的 PNG 文件。非常适合需要无损质量的平面设计师。",
+            "steps": [
+                "前往 **PDF 转 PNG (无损)**。",
+                "将您的 PDF 文件拖入上传区域。",
+                "转换过程将尽可能保留细节/透明度。",
+                "下载您的 **.png** 文件。"
+            ]
+        },
+        "img-to-pdf": {
+            "title": "如何将图片合并为 PDF 作品集",
+            "category": "Convert",
+            "intro": "将照片、扫描件或图表合并为一个干净的 PDF 文档，用于专业演示。",
+            "steps": [
+                "打开 **图片转 PDF**。",
+                "选择多个图片文件 (JPG, PNG)。",
+                "按您的喜好重新排序。每张图片将成为一页。",
+                "点击 **创建 PDF** 将它们打包成一个文件。"
+            ]
+        },
+        "ocr": {
+            "title": "如何使扫描的 PDF 可搜索 (OCR)",
+            "category": "Convert",
+            "intro": "解锁扫描文档中的文本。使用 OCR 制作可选择、可搜索和可复制的文本。",
+            "steps": [
+                "选择 **PDF 文本识别**。",
+                "上传您的扫描或基于图像的 PDF。",
+                "选择文档 **语言**（例如：英语、中文）以获得最佳准确性。",
+                "点击 **开始 OCR** 生成文本可选择的 PDF。"
+            ]
+        },
+        "rotate": {
+            "title": "如何修复 PDF 页面方向",
+            "category": "Organize",
+            "intro": "永久旋转倒置或侧向的 PDF 页面，以确保正确阅读。",
+            "steps": [
+                "选择 **PDF 页面旋转器**。",
+                "上传方向不正确的文件。",
+                "选择 **90°**、**180°** 或 **270°** 旋转。",
+                "点击 **旋转** 保存更正后的文件。"
+            ]
+        },
+        "page-number": {
+            "title": "如何为 PDF 添加页码",
+            "category": "Edit",
+            "intro": "添加专业的页码（页眉或页脚）以整理长合同或论文文档。",
+            "steps": [
+                "打开 **PDF 页码**。",
+                "上传您的文档。",
+                "选择位置：**顶部（页眉）** 或 **底部（页脚）**。",
+                "点击 **应用** 在每一页上已盖章页码。"
+            ]
+        },
+        "sign": {
+            "title": "如何电子签署 PDF 文档",
+            "category": "Edit",
+            "intro": "绘制您的数字签名并将其放置在合同或表格上，无需打印。",
+            "steps": [
+                "前往 **PDF 电子签名**。",
+                "在画板上绘制签名或上传签名图片。",
+                "选择页面和位置（例如：最后一页，右下角）。",
+                "点击 **签署 PDF** 完成文档。"
+            ]
+        },
+        "organize": {
+            "title": "如何重新排序和删除 PDF 页面",
+            "category": "Organize",
+            "intro": "掌控您的 PDF 结构。在几秒钟内直观地重新排列、删除或整理页面。",
+            "steps": [
+                "选择 **PDF 页面整理器**。",
+                "上传您的 PDF 以查看所有页面的网格视图。",
+                "**拖放** 页面以重新排序，或点击 **垃圾桶** 删除不需要的页面。",
+                "点击 **保存** 启用新的页面顺序。"
+            ]
+        },
+        "watermark": {
+            "title": "如何为 PDF 添加水印以进行品牌推广和安全保护",
+            "category": "Edit",
+            "intro": "通过在页面上印章 logo 或 \"机密\" 文本来保护您的知识产权。",
+            "steps": [
+                "选择 **PDF 品牌印章**。",
+                "上传文件并选择 **文本** 或 **图片** 水印。",
+                "自定义位置（例如：中心、平铺）、不透明度和旋转。",
+                "点击 **应用水印** 保护您的文档。"
+            ]
+        },
+        "edit-metadata": {
+            "title": "如何编辑 PDF 标题、作者和内容",
+            "category": "Edit",
+            "intro": "更新隐藏的 PDF 属性（元数据），如作者和标题，以改善文件整理和 SEO。",
+            "steps": [
+                "打开 **PDF 元数据编辑器**。",
+                "上传您的 PDF。",
+                "编辑字段，如 **标题**、**作者**、**主题** 和 **关键词**。",
+                "点击 **保存元数据** 更新文件属性。"
+            ]
+        },
+        "flatten": {
+            "title": "如何扁平化 PDF 表单和注释",
+            "category": "Organize",
+            "intro": "锁定可填写表单和注释，使内容无法被他人编辑。",
+            "steps": [
+                "选择 **PDF 扁平化工具**。",
+                "上传您的交互式 PDF 或表单。",
+                "点击 **扁平化 PDF**。",
+                "输出文件的所有内容将合并到基础层中。"
+            ]
+        },
+        "trim": {
+            "title": "如何裁剪 PDF 边距",
+            "category": "Organize",
+            "intro": "移除多余的空白或裁剪可见区域以优化打印布局。",
+            "steps": [
+                "前往 **PDF 智能裁剪**。",
+                "上传您的文件。",
+                "输入上、下、左、右的裁剪值（边距）。",
+                "点击 **裁剪** 调整页面大小。"
+            ]
+        },
+        "compare": {
+            "title": "如何直观地比较两个 PDF",
+            "category": "Organize",
+            "intro": "并排发现两个版本文档之间的差异。",
+            "steps": [
+                "选择 **PDF 视觉差异**。",
+                "上传 **版本 A**（原始）和 **版本 B**（修改后）。",
+                "工具将生成突出显示更改的比较文件。",
+                "下载比较报告。"
+            ]
+        },
+        "protect": {
+            "title": "如何用密码保护 PDF",
+            "category": "Security",
+            "intro": "使用军用级 AES 加密和唯一密码保护敏感文档。",
+            "steps": [
+                "打开 **PDF 安全保险箱**。",
+                "上传您想要锁定的文档。",
+                "输入一个强 **密码**。",
+                "点击 **加密** 保护文件。"
+            ]
+        },
+        "unlock": {
+            "title": "如何解锁受密码保护的 PDF",
+            "category": "Security",
+            "intro": "从 PDF 中移除已知密码，使其更易于访问和共享。",
+            "steps": [
+                "选择 **PDF 密码移除器**。",
+                "上传锁定的 PDF。",
+                "最后一次输入当前密码。",
+                "点击 **解锁** 保存一个永久的、无安全限制的副本。"
+            ]
+        },
+        "repair": {
+            "title": "如何修复损坏的 PDF 文件",
+            "category": "Organize",
+            "intro": "尝试从损坏或无法打开的 PDF 文件中恢复数据。",
+            "steps": [
+                "选择 **PDF 文件修复**。",
+                "上传损坏的文件。",
+                "如果损坏严重，请切换 **强制重建**。",
+                "点击 **修复** 并尝试打开结果。"
+            ]
+        },
+        "grayscale": {
+            "title": "如何将 PDF 转换为灰度",
+            "category": "Optimize",
+            "intro": "移除 PDF 中的所有颜色，以用于廉价的黑白打印或存档。",
+            "steps": [
+                "选择 **PDF 灰度转换器**。",
+                "上传您的彩色 PDF。",
+                "点击 **转换**。",
+                "下载高对比度的黑白版本。"
+            ]
+        },
+        "invert-colors": {
+            "title": "如何反转 PDF 颜色（夜间模式）",
+            "category": "Optimize",
+            "intro": "将白色背景切换为黑色，以便在低光环境下舒适阅读。",
+            "steps": [
+                "打开 **PDF 夜间模式**。",
+                "上传您的文档。",
+                "点击 **反转** 翻转所有颜色。",
+                "下载适合暗黑模式的版本。"
+            ]
+        },
+        "extract-text": {
+            "title": "如何从 PDF 抓取文本",
+            "category": "Convert",
+            "intro": "将原本 PDF 内容提取为简单的文本文件，以便复制或编码。",
+            "steps": [
+                "前往 **PDF 文本抓取器**。",
+                "上传您的 PDF。",
+                "工具将提取所有清晰的文本流。",
+                "将结果下载为 **.txt** 文件。"
+            ]
+        },
+        "remove-annotations": {
+            "title": "如何从 PDF 中移除注释",
+            "category": "Edit",
+            "intro": "通过剔除所有用户评论、高亮和标记来清理文档。",
+            "steps": [
+                "选择 **清理 PDF 标记**。",
+                "上传带注释的 PDF。",
+                "点击 **清理**。",
+                "获取没有编辑标记的原始版本。"
+            ]
+        },
+        "redact": {
+            "title": "如何永久涂掉 PDF 文本",
+            "category": "Security",
+            "intro": "安全地涂黑敏感信息（如社保号或姓名），使其无法恢复。",
+            "steps": [
+                "打开 **PDF 安全涂黑**。",
+                "上传您的文件。",
+                "输入您想要涂黑的 **文本术语**（逗号分隔）。",
+                "点击 **涂黑** 永久涂掉这些词。"
+            ]
+        },
+        "pdf-to-ppt": {
+            "title": "如何将 PDF 转换为 PowerPoint 幻灯片",
+            "category": "Convert",
+            "intro": "将您的 PDF 演示文稿转回为可编辑的 PowerPoint 幻灯片。",
+            "steps": [
+                "选择 **PDF 转 PowerPoint**。",
+                "上传您的 PDF。",
+                "工具将页面转换为幻灯片。",
+                "下载用于 Microsoft PowerPoint 的 **.pptx** 文件。"
+            ]
+        },
+        "excel-to-pdf": {
+            "title": "如何将 Excel 表格转换为 PDF",
+            "category": "Convert",
+            "intro": "通过将电子表格转换为不可编辑的标准 PDF 来安全地共享它们。",
+            "steps": [
+                "选择 **Excel 转 PDF 转换器**。",
+                "上传您的 .xlsx 或 .xls 文件。",
+                "工具将您的表格适应 PDF 页面。",
+                "下载专业报告。"
+            ]
+        },
+        "ppt-to-pdf": {
+            "title": "如何将 PowerPoint 保存为 PDF",
+            "category": "Convert",
+            "intro": "通过将演示文稿保存为 PDF，确保其在任何屏幕上看起来都很完美。",
+            "steps": [
+                "打开 **PowerPoint 转 PDF**。",
+                "上传您的 .pptx 演示文稿。",
+                "等待转换。",
+                "下载可作为讲义的 PDF。"
+            ]
+        },
+        "html-to-pdf": {
+            "title": "如何将网页保存为 PDF",
+            "category": "Convert",
+            "intro": "将文章、收据或网站捕获为干净、可离线阅读的 PDF 文档。",
+            "steps": [
+                "选择 **网页转 PDF 捕获**。",
+                "上传 HTML 文件（先将网页保存为 .html）。",
+                "工具将页面渲染为 PDF。",
+                "下载您的文档。"
+            ]
+        }
+    },
+    "hero": {
+        "title": "您需要的所有 PDF 工具",
+        "subtitle": "100% 免费。100% 私密。",
+        "description": "OrbitPDF 是一个免费的无服务器工具包。您的文件从未离开您的设备，确保 100% 隐私和闪电般的速度。",
+        "start": "开始使用",
+        "cta": "探索工具"
+    },
+    "tools": {
+        "merge": {
+            "title": "PDF 合并工具",
+            "desc": "将报告、合同和文件合并为一个主 PDF。"
+        },
+        "split": {
+            "title": "PDF 页面分割器",
+            "desc": "即时分离特定页面或分割大型 PDF 文档。"
+        },
+        "compress": {
+            "title": "PDF 超级压缩",
+            "desc": "在不损失质量的情况下，优化 PDF 文件大小以用于电子邮件和网络。"
+        },
+        "word-to-pdf": {
+            "title": "Docx 转 PDF 专业版",
+            "desc": "将 Word 文档转换为专业的、可共享的 PDF。"
+        },
+        "pdf-to-word": {
+            "title": "PDF 转 Word 文档",
+            "desc": "将静态 PDF 转回为可编辑的 Word 文档。"
+        },
+        "pdf-to-img": {
+            "title": "PDF 转图片 (HD)",
+            "desc": "将 PDF 页面转换为高分辨率 JPG 以便轻松共享。"
+        },
+        "img-to-pdf": {
+            "title": "图片转 PDF",
+            "desc": "将照片和扫描件整理为一个干净的 PDF 文档。"
+        },
+        "sign": {
+            "title": "PDF 电子签名",
+            "desc": "在任何 PDF 上绘制并放置您的数字签名。"
+        },
+        "protect": {
+            "title": "PDF 安全保险箱",
+            "desc": "使用军用级 AES 保护加密您的 PDF。"
+        },
+        "unlock": {
+            "title": "PDF 密码移除器",
+            "desc": "从您的 PDF 文件中移除密码和限制。"
+        },
+        "rotate": {
+            "title": "PDF 页面旋转器",
+            "desc": "永久修复 PDF 页面方向。"
+        },
+        "page-number": {
+            "title": "PDF 页码",
+            "desc": "为您的 PDF 文档添加专业的页码。"
+        },
+        "extract-text": {
+            "title": "PDF 文本抓取器",
+            "desc": "从您的 PDF 中提取原始文本内容到 .txt 文件。"
+        },
+        "remove-annotations": {
+            "title": "清理 PDF 标记",
+            "desc": "从 PDF 中剔除评论、高亮和标记。"
+        },
+        "html-to-pdf": {
+            "title": "网页转 PDF",
+            "desc": "将网站捕获为干净、可读的 PDF 文档。"
+        },
+        "compare": {
+            "title": "PDF 视觉差异",
+            "desc": "并排比较两个 PDF 文档以发现更改。"
+        },
+        "organize": {
+            "title": "PDF 页面整理器",
+            "desc": "直观地重新排序、删除或重新排列 PDF 页面。"
+        },
+        "watermark": {
+            "title": "PDF 品牌印章",
+            "desc": "为您的 PDF 应用专业的 Logo 或文本水印。"
+        },
+        "edit-metadata": {
+            "title": "PDF 元数据编辑器",
+            "desc": "更新 PDF 属性，如作者、标题和关键词。"
+        },
+        "flatten": {
+            "title": "PDF 扁平化工具",
+            "desc": "永久锁定 PDF 表单字段和注释。"
+        },
+        "trim": {
+            "title": "PDF 智能裁剪",
+            "desc": "移除空白或调整 PDF 页面大小以进行打印。"
+        },
+        "repair": {
+            "title": "PDF 文件修复",
+            "desc": "从损坏或破损的 PDF 文件中恢复数据。"
+        },
+        "grayscale": {
+            "title": "PDF 灰度转换器",
+            "desc": "将彩色 PDF 转换为专业的灰度文档。"
+        },
+        "invert-colors": {
+            "title": "PDF 夜间模式",
+            "desc": "反转 PDF 颜色以便在低光下舒适阅读。"
+        },
+        "redact": {
+            "title": "PDF 安全涂黑",
+            "desc": "从 PDF 中永久删除敏感的私人信息。"
+        },
+        "pdf-to-ppt": {
+            "title": "PDF 转 PowerPoint",
+            "desc": "将 PDF 文档转换为可编辑的 PowerPoint 幻灯片。"
+        },
+        "excel-to-pdf": {
+            "title": "Excel 转 PDF",
+            "desc": "将 Excel 电子表格转换为干净的 PDF 报告。"
+        },
+        "ppt-to-pdf": {
+            "title": "PowerPoint 转 PDF",
+            "desc": "将 PowerPoint 演示文稿保存为专业的 PDF 配发资料。"
+        },
+        "pdf-to-png": {
+            "title": "PDF 转 PNG (无损)",
+            "desc": "从您的 PDF 中提取页面为清晰、无损的 PNG 图片。"
+        },
+        "pdf-to-excel": {
+            "title": "PDF 表格提取器",
+            "desc": "将 PDF 表格转换为完全可编辑的 Excel 电子表格。"
+        },
+        "ocr": {
+            "title": "PDF 文本识别",
+            "desc": "即时使扫描的 PDF 文档可搜索和可选择。"
+        }
+    },
+    "footer": {
+        "tagline": "世界上最快、100% 私密的客户端 PDF 工具包。",
+        "toolsTitle": "工具",
+        "legalTitle": "法律",
+        "rights": "OrbitPDF. 版权所有.",
+        "logoAlt": "OrbitPDF Logo"
+    },
+    "pwa": {
+        "install": "安装应用"
+    },
+    "processor": {
+        "dragDrop": "点击选择文件",
+        "filesSelected": "已选择 {{count}} 个文件",
+        "processedLocally": "本地处理。100% 私密。",
+        "reorderFiles": "重新排序文件",
+        "reorderHint": "拖动以重新排序",
+        "clientSideConversion": "客户端转换",
+        "clientSideDesc": "为确保隐私，此转换完全在您的浏览器中进行。复杂布局可能会略有偏移。",
+        "textExtraction": "文本提取模式",
+        "textExtractionDesc": "基于简单的文本提取。图片和复杂布局可能无法完美保留。",
+        "ocrLanguage": "OCR 语言",
+        "ocrDesc": "选择文档的主要语言以获得最佳准确性。",
+        "signaturePosition": "签名位置",
+        "watermarkPlaceholder": "例如：机密，草稿",
+        "watermarkText": "水印文本",
+        "uploadLogo": "上传 Logo (PNG 或 JPG)",
+        "uploadedLogo": "Logo 图片",
+        "clickToSelectLogo": "点击选择 Logo",
+        "position": "位置",
+        "tiled": "平铺（对角线）",
+        "opacity": "不透明度",
+        "rotation": "旋转",
+        "extractPages": "提取页面",
+        "burstAll": "全部分割",
+        "pageRange": "页面范围",
+        "pageRangePlaceholder": "例如：1-5, 8, 10-12",
+        "singlePdf": "创建一个单独的 PDF。",
+        "separatePdf": "将每一页保存为单独的 PDF 文件 (ZIP)。",
+        "password": "密码",
+        "enterPassword": "输入密码",
+        "unlockPdf": "解锁 PDF",
+        "protectPdf": "保护 PDF",
+        "processingDesc": "正在设备上本地处理数据。",
+        "readyDesc": "您的文件已准备好下载。",
+        "oops": "哎呀！",
+        "compressionMode": "压缩模式",
+        "compressionDesc": "为了最大化压缩，此工具将 PDF 页面转换为优化后的图片。文本将不再可选择。",
+        "extreme": "极限",
+        "recommended": "推荐",
+        "highQuality": "高质量",
+        "smallestSize": "最小尺寸",
+        "goodBalance": "良好平衡",
+        "bestFidelity": "最佳保真度",
+        "encryptPdf": "加密 PDF",
+        "encryptDesc": "您的密码将用于加密文档。如果您忘记密码，将无法恢复。",
+        "importantNote": "重要提示",
+        "encryptWarning": "为了启用加密，此工具将 PDF 页面转换为图片。文本将不再可选择。",
+        "setPassword": "设置密码",
+        "enterStrongPassword": "输入强密码",
+        "unlockDesc": "输入密码以移除加密。",
+        "textConversionWarning": "文本转换警告",
+        "unlockWarning": "为了移除安全性，我们必须将文件重建为图片。文本将不再可选择。",
+        "enterFilePassword": "输入文件密码",
+        "repairPdf": "修复 PDF",
+        "repairDesc": "我们将尝试重建您的 PDF 内部结构。这可以修复无法打开或元数据损坏的文件。",
+        "deepRepair": "深度修复（重建）",
+        "deepRepairDesc": "将页面转换为图片以修复严重损坏。文本将不可选择。",
+        "convertToGrayscale": "转换为灰度",
+        "grayscaleDesc": "我们将所有页面转换为黑白图片。这减少了文件大小并节省彩色墨水。",
+        "grayscaleWarning": "为了应用滤镜，页面被转换为图片。文本将不再可选择。",
+        "invertColors": "反转颜色（夜间模式）",
+        "invertDesc": "我们将反转所有颜色（白色变为黑色）。非常适合夜间舒适阅读。",
+        "invertWarning": "为了应用滤镜，页面被转换为图片。文本将不再可选择。",
+        "makePdfSearchable": "使 PDF 可搜索 (OCR)",
+        "ocrDesc2": "我们将扫描您的文档以识别文本。结果将是一个您可以选择、复制和搜索文本的 PDF。",
+        "documentLanguage": "文档语言",
+        "extractPlainText": "提取纯文本",
+        "extractTextDesc": "我们将从 PDF 中提取所有文本并将其保存为简单的 .txt 文件。图片和格式将被忽略。",
+        "removeAllAnnotations": "移除所有注释",
+        "removeAnnotationsDesc": "我们将从文档中剔除所有评论、高亮、便签和表单字段。主要内容（文本和图片）将保持不变。",
+        "permanentRedaction": "永久涂黑",
+        "redactionDesc": "我们将找到文本，将其涂黑，然后光栅化页面。底层文本将被永久销毁。",
+        "textToRedact": "要涂黑的文本（逗号分隔）",
+        "redactAllNumbers": "涂黑所有数字",
+        "redactNumbersDesc": "自动涂黑所有数字位 (0-9)。",
+        "title": "标题",
+        "author": "作者",
+        "subject": "主题",
+        "keywords": "关键词",
+        "creator": "创建者",
+        "producer": "制作工具",
+        "trimMargins": "裁剪边距",
+        "trimDesc": "72 点 = 1 英寸",
+        "reset": "重置",
+        "safeArea": "安全区域",
+        "preparePages": "准备页面",
+        "positionOptions": {
+            "bottomFooter": "底部（页脚）",
+            "topHeader": "顶部（页眉）",
+            "lastPage": "仅最后一页",
+            "firstPage": "仅第一页",
+            "everyPage": "每一页"
+        },
+        "errors": {
+            "pageRange": "请输入页面范围（例如：1-5）。",
+            "mergeMinFiles": "请选择至少 2 个 PDF 文件进行合并。",
+            "compareCount": "请确切选择 2 个 PDF 文件（版本 A 和 B）进行比较。",
+            "signatureMissing": "请先绘制签名。",
+            "imageMissing": "请选择至少 1 张图片。",
+            "passwordMissing": "请输入密码。",
+            "passwordUnlockMissing": "请输入打开文件的密码。",
+            "notImplemented": "工具 '{{toolName}}' 尚未完全实现。",
+            "unexpected": "发生意外错误。",
+            "organizeFailed": "整理失败：{{error}}",
+            "loadPagesFailed": "加载 PDF 页面失败：{{error}}"
+        }
+    },
+    "notFound": {
+        "title": "页面未找到",
+        "desc": "您正在寻找的页面可能已被移除或暂时不可用。",
+        "back": "返回首页"
+    },
+    "errorBoundary": {
+        "title": "出错了",
+        "desc": "对于带来的不便，我们深表歉意。应用程序遇到了意外错误。",
+        "reload": "重新加载页面",
+        "home": "去首页",
+        "details": "错误详情（仅限开发人员）："
+    },
+    "pdfEngine": {
+        "page": "页",
+        "noPageInFile1": "（文件 1 中无此页）",
+        "noPageInFile2": "（文件 2 中无此页）",
+        "pageOverview": "第 {{current}} 页，共 {{total}} 页",
+        "convertedBy": "由 OrbitPDF 转换"
+    }
+}
