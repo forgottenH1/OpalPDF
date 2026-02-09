@@ -124,3 +124,6 @@ dist-ssr/
 # OS generic
 .DS_Store
 Thumbs.db
+
+# Agent
+.agent/
