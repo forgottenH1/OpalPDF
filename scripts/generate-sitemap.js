@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 
 // Configuration
 // IMPORTANT: Replace this with your actual domain name before deploying (e.g., https://my-app.netlify.app)
-const BASE_URL = 'https://YOUR-WEBSITE-URL.com';
+const BASE_URL = 'https://orbitpdf.pages.dev';
 const LANGUAGES = ['en', 'es', 'fr', 'ar', 'ja', 'zh', 'de', 'ru', 'pt', 'uk', 'tr'];
 
 // Paths
