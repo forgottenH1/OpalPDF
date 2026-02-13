@@ -51,7 +51,7 @@ export default function CampaignManager({ advertisers, campaigns, setCampaigns }
     };
 
     const handleSave = async () => {
-        const error = validateCampaign(tempData, editing || undefined);
+        const error = validateCampaign(tempData);
         if (error) {
             alert(error);
             return;
