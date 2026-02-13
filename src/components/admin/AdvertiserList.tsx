@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Advertiser, AdTier, Campaign } from '../../types/admin'; // Import Campaign
 import { adminService } from '../../services/adminService';
 import { Plus, Edit2, Trash2, Check, X, Mail } from 'lucide-react'; // Restored imports
