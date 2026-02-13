@@ -1,0 +1,9 @@
+{
+  "placements": {
+    "header": true,
+    "footer": true,
+    "sidebar-left": true,
+    "sidebar-right": true,
+    "interstitial": true
+  }
+}

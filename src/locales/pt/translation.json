@@ -34,13 +34,16 @@
     },
     "legal": {
         "privacyContent": "<p><strong>Última atualização: Outubro 2023</strong></p><p>No OrbitPDF, sua privacidade é nossa prioridade. Como nossas ferramentas rodam inteiramente no seu navegador (client-side), seus arquivos <strong>nunca saem do seu dispositivo</strong>. Nós não enviamos, armazenamos ou processamos seus documentos em servidores.</p><h3 class='text-xl font-bold text-white mt-4'>1. Coleta de Dados</h3><p>Não coletamos dados pessoais ou conteúdo de arquivos. Podemos usar análises anônimas (como Google Analytics) para melhorar a performance do site.</p><h3 class='text-xl font-bold text-white mt-4'>2. Cookies</h3><p>Usamos armazenamento local para salvar suas preferências (ex: Modo Escuro). Terceiros podem usar cookies para exibir anúncios baseados em visitas.</p>",
-        "termsContent": "<p><strong>Última atualização: Outubro 2023</strong></p><p>Ao usar o OrbitPDF, você concorda com estes termos. Nossas ferramentas são fornecidas \"como estão\", sem garantias.</p><h3 class='text-xl font-bold text-white mt-4'>1. Uso</h3><p>Você pode usar nossas ferramentas para fins pessoais ou comerciais. Você é responsável pelo conteúdo que processa.</p><h3 class='text-xl font-bold text-white mt-4'>2. Limitação de Responsabilidade</h3><p>Não somos responsáveis por perda de dados ou danos decorrentes do uso de nossas ferramentas. Mantenha sempre backups dos seus arquivos originais.</p>"
+        "termsContent": "<p><strong>Última atualização: Outubro 2023</strong></p><p>Ao usar o OrbitPDF, você concorda com estes termos. Nossas ferramentas são fornecidas \"como estão\", sem garantias.</p><h3 class='text-xl font-bold text-white mt-4'>1. Uso</h3><p>Você pode usar nossas ferramentas para fins pessoais ou comerciais. Você é responsável pelo conteúdo que processa.</p><h3 class='text-xl font-bold text-white mt-4'>2. Limitação de Responsabilidade</h3><p>Não somos responsáveis por perda de dados ou danos decorrentes do uso de nossas ferramentas. Mantenha sempre backups dos seus arquivos originais.</p>",
+        "adTermsTitle": "Contrato de Publicidade e Termos de Serviço",
+        "adTermsContent": "<h3>1. Disposições Gerais</h3><p>Este Contrato regula a relação comercial entre a plataforma OrbitPDF («Editor») e o Anunciante. Ao submeter materiais publicitários, o Anunciante aceita integralmente estes Termos de Serviço.</p><h3>2. Padrões de Publicidade e Aprovação</h3><p>O Editor reserva-se o direito exclusivo de rejeitar ou remover qualquer anúncio que viole suas políticas (ex: jogos de azar, conteúdo adulto, malware) ou que seja considerado inapropriado, sem aviso prévio.</p><h3>3. Termos Financeiros e Reembolso</h3><p>Todos os serviços de publicidade exigem pagamento antecipado integral (100%). Reembolsos serão emitidos apenas em caso de falha técnica comprovada por parte do Editor. Cancelamentos por parte do Anunciante não são elegíveis para reembolso.</p><h3>4. Declarações e Garantias</h3><p>O Anunciante garante que possui todos os direitos legais sobre o conteúdo submetido. O Anunciante concorda em indenizar e isentar o Editor de quaisquer reivindicações legais, danos ou despesas decorrentes da veiculação do anúncio.</p><h3>5. Limitação de Responsabilidade</h3><p>O serviço é fornecido \"como está\". O Editor não garante métricas específicas de desempenho, como taxas de cliques (CTR) ou conversões de vendas.</p>"
     },
     "nav": {
         "guides": "Guias",
         "contact": "Contato",
         "privacy": "Privacidade",
         "terms": "Termos",
+        "advertise": "Anuncie",
         "searchPlaceholder": "Buscar ferramentas ou guias...",
         "menu": "Menu",
         "quickTools": "Ferramentas Rápidas",
@@ -84,7 +87,9 @@
         "sending": "Enviando...",
         "successTitle": "Solicitação Enviada!",
         "successMessage": "Vamos analisar sua solicitação e entrar em contato em breve.",
-        "errorInquiry": "Falha ao enviar solicitação. Por favor, tente novamente mais tarde."
+        "errorInquiry": "Falha ao enviar solicitação. Por favor, tente novamente mais tarde.",
+        "agreeToTerms": "Li e concordo com o",
+        "termsLinkText": "Acordo de Publicidade"
     },
     "advertisePage": {
         "title": "Anuncie no OrbitPDF",
@@ -769,5 +774,11 @@
         "noPageInFile2": "(Sem pág no arquivo 2)",
         "pageOverview": "Pág {{current}} de {{total}}",
         "convertedBy": "Convertido com OrbitPDF"
+    },
+    "adBlock": {
+        "title": "Bloqueador de Anúncios Detectado",
+        "message": "Mantenha o OrbitPDF gratuito. Usamos anúncios para manter nossos servidores e ferramentas acessíveis a todos. Considere desativar seu bloqueador de anúncios para nos apoiar.",
+        "button": "Já Desativei, Atualizar",
+        "dismiss": "Continuar sem desativar"
     }
 }

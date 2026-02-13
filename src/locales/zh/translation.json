@@ -34,13 +34,16 @@
     },
     "legal": {
         "privacyContent": "<p><strong>最后更新：2023年10月</strong></p><p>在 OrbitPDF，我们优先考虑您的隐私。由于我们的工具完全在浏览器内（客户端）运行，您的文件<strong>从未离开您的设备</strong>。我们不会在任何服务器上传、存储或处理您的文档。</p><h3 class='text-xl font-bold text-white mt-4'>1. 数据收集</h3><p>我们不收集个人数据或文件内容。我们可能会使用匿名分析（如 Google Analytics）来改善网站性能。</p><h3 class='text-xl font-bold text-white mt-4'>2. Cookie</h3><p>我们使用本地存储来保存您的偏好（例如，深色模式）。第三方供应商可能会使用 Cookie 根据访问情况投放广告。</p>",
-        "termsContent": "<p><strong>最后更新：2023年10月</strong></p><p>使用 OrbitPDF 即表示您同意这些条款。我们的工具按“原样”提供，没有任何形式的保证。</p><h3 class='text-xl font-bold text-white mt-4'>1. 使用</h3><p>您可以将我们的工具用于个人或商业用途。您对处理的内容负责。</p><h3 class='text-xl font-bold text-white mt-4'>2. 限制</h3><p>对于因使用我们的工具而导致的任何数据丢失或损害，我们不承担任何责任。请始终保留原始文件的备份。</p>"
+        "termsContent": "<p><strong>最后更新：2023年10月</strong></p><p>使用 OrbitPDF 即表示您同意这些条款。我们的工具按“原样”提供，没有任何形式的保证。</p><h3 class='text-xl font-bold text-white mt-4'>1. 使用</h3><p>您可以将我们的工具用于个人或商业用途。您对处理的内容负责。</p><h3 class='text-xl font-bold text-white mt-4'>2. 限制</h3><p>对于因使用我们的工具而导致的任何数据丢失或损害，我们不承担任何责任。请始终保留原始文件的备份。</p>",
+        "adTermsTitle": "广告协议与服务条款",
+        "adTermsContent": "<div class='space-y-4 text-slate-300'><p><strong>广告协议与服务条款</strong></p><p>提交此询问并在 OrbitPDF（“服务”）上进行广告活动，即表示您（“广告商”）同意以下具有法律约束力的条款和条件：</p><h3 class='text-white font-bold mt-4'>1. 禁止内容</h3><p>OrbitPDF 对广告内容通过严格的零容忍政策。广告商保证其广告创意和落地页不包含、推广或链接到：</p><ul class='list-disc pl-5 space-y-1'><li><strong>非法活动：</strong>任何违反适用的当地、国家或国际法律的内容。</li><li><strong>成人内容：</strong>色情、裸露或任何形式的露骨色情材料。</li><li><strong>暴力与仇恨言论：</strong>对任何群体或个人的图形暴力、自残、骚扰或仇恨言论。</li><li><strong>政治或宗教议程：</strong>推广特定政党、候选人、宗教组织或有争议的意识形态议程的内容。</li><li><strong>恐怖主义与极端主义：</strong>支持或推广恐怖组织、暴力极端主义或激进化的内容。</li><li><strong>毒品与受控物质：</strong>非法毒品、未经适当授权的处方药或吸毒用具的销售、使用或推广。</li><li><strong>可疑或非法产品：</strong>假冒商品、武器、黑客工具或任何涉嫌非法或欺诈的产品。</li></ul><h3 class='text-white font-bold mt-4'>2. 国际合规性</h3><p>OrbitPDF 在全球范围内运营并尊重国际法律。广告商同意遵守其广告展示所在司法管辖区的所有适用法律和法规，包括但不限于 GDPR 和 CCPA。我们保留拒绝违反国际标准的活动的权利。</p><h3 class='text-white font-bold mt-4'>3. 拒绝权</h3><p>如果 OrbitPDF 认为广告活动不当、令人反感或违反本协议，OrbitPDF 保留自行决定拒绝、暂停或取消任何广告活动的权利，恕不另行通知。</p><h3 class='text-white font-bold mt-4'>4. 责任</h3><p>广告商对其广告内容承担全部责任，并同意赔偿并使 OrbitPDF 免受因其广告材料引起的任何索赔、损害或法律诉讼的影响。</p></div>"
     },
     "nav": {
         "guides": "用户指南",
         "contact": "联系我们",
         "privacy": "隐私政策",
         "terms": "服务条款",
+        "advertise": "广告投放",
         "searchPlaceholder": "搜索工具或指南...",
         "menu": "菜单",
         "quickTools": "快捷工具",
@@ -84,7 +87,9 @@
         "sending": "发送中...",
         "successTitle": "咨询已发送！",
         "successMessage": "我们将审核您的请求并尽快联系您。",
-        "errorInquiry": "发送咨询失败。请稍后重試。"
+        "errorInquiry": "发送咨询失败。请稍后重試。",
+        "agreeToTerms": "我同意",
+        "termsLinkText": "条款和条件"
     },
     "advertisePage": {
         "title": "在 OrbitPDF 上做广告",
@@ -769,5 +774,11 @@
         "noPageInFile2": "（文件 2 中无此页）",
         "pageOverview": "第 {{current}} 页，共 {{total}} 页",
         "convertedBy": "由 OrbitPDF 转换"
+    },
+    "adBlock": {
+        "title": "检测到广告拦截器",
+        "message": "请帮助保持 OrbitPDF 免费。我们需要广告收入来维持服务器运行并确保工具对所有人开放。请考虑关闭广告拦截器以支持我们。",
+        "button": "已关闭，刷新页面",
+        "dismiss": "继续而不关闭"
     }
 }

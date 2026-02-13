@@ -30,7 +30,7 @@ const PricingTable: React.FC<PricingTableProps> = () => {
     const tiers: PricingTier[] = [
         {
             title: t('pricing.bronze.title'),
-            price: '$19',
+            price: '$9',
             description: t('pricing.bronze.desc'),
             features: [
                 t('pricing.bronze.features.0'),
@@ -44,7 +44,7 @@ const PricingTable: React.FC<PricingTableProps> = () => {
         },
         {
             title: t('pricing.silver.title'),
-            price: '$49',
+            price: '$29',
             description: t('pricing.silver.desc'),
             features: [
                 t('pricing.silver.features.0'),
@@ -58,7 +58,7 @@ const PricingTable: React.FC<PricingTableProps> = () => {
         },
         {
             title: t('pricing.gold.title'),
-            price: '$89',
+            price: '$49',
             description: t('pricing.gold.desc'),
             features: [
                 t('pricing.gold.features.0'),
@@ -73,7 +73,7 @@ const PricingTable: React.FC<PricingTableProps> = () => {
         },
         {
             title: t('pricing.platinum.title'),
-            price: '$149',
+            price: '$99',
             description: t('pricing.platinum.desc'),
             features: [
                 t('pricing.platinum.features.0'),

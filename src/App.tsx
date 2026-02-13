@@ -9,6 +9,7 @@ import LegalModal from './components/LegalModal';
 import BackToTop from './components/BackToTop';
 // Lazy load the heavy ToolProcessor to avoid loading pdf-lib/tesseract on homepage
 const ToolProcessor = lazy(() => import('./components/ToolProcessor'));
+const AdminDashboard = lazy(() => import('./pages/AdminDashboard'));
 import MobileMenu from './components/MobileMenu'; // Import MobileMenu
 import AdSpace from './components/AdSpace';
 import NotFound from './components/NotFound'; // Import 404 Page
@@ -16,6 +17,7 @@ import NotFound from './components/NotFound'; // Import 404 Page
 
 // import Guides from './components/Guides'; // Removed for standalone page
 import LanguageSuggestion from './components/LanguageSuggestion';
+import AdBlockerDetector from './components/AdBlockerDetector';
 
 
 
@@ -29,12 +31,14 @@ export default function App() {
     const [activeModal, setActiveModal] = useState<'privacy' | 'terms' | null>(null);
     const [isMenuOpen, setIsMenuOpen] = useState(false); // Mobile Menu State
 
-    // Derived state from URL for Ad-Optimized Routing
+    // Lazy load components
+
+    // Derived state
     const urlParams = new URLSearchParams(window.location.search);
     const toolId = urlParams.get('tool');
     const activeToolId = toolId || null;
     const isRoot = window.location.pathname === '/' || window.location.pathname === '/index.html';
-    // const [activeToolId, setActiveToolId] = useState<string | null>(null); // Removed for URL routing
+    const isAdmin = window.location.pathname === '/admin';
     const [searchQuery, setSearchQuery] = useState('');
 
     // Handle RTL
@@ -42,6 +46,19 @@ export default function App() {
         document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
         document.documentElement.lang = i18n.language;
     }, [i18n.language]);
+
+    // Admin Route - Render completely separate layout
+    if (isAdmin) {
+        return (
+            <Suspense fallback={
+                <div className="min-h-screen bg-[#020617] flex items-center justify-center">
+                    <Loader2 className="w-12 h-12 text-blue-500 animate-spin" />
+                </div>
+            }>
+                <AdminDashboard />
+            </Suspense>
+        );
+    }
 
     // Filter tools based on responsive search bar input
     const filteredTools = tools.filter(tool =>
@@ -93,7 +110,7 @@ export default function App() {
                 {!activeToolId && isRoot ? (
                     <>
                         {/* Responsive top Banner */}
-                        <div className="w-full mb-4">
+                        <div className="w-full mb-4 py-4">
                             <AdSpace placement="header" className="w-full" />
                         </div>
 
@@ -142,18 +159,30 @@ export default function App() {
                         )}
                     </>
                 ) : activeToolData ? (
-                    <Suspense fallback={
-                        <div className="flex flex-col items-center justify-center min-h-[60vh]">
-                            <Loader2 className="w-12 h-12 text-blue-500 animate-spin mb-4" />
-                            <p className="text-slate-400 text-lg animate-pulse">{t('common.loading')}</p>
+                    <>
+                        {/* Tool Page Header Ad */}
+                        <div className="w-full mb-8">
+                            <AdSpace placement="header" className="w-full" />
                         </div>
-                    }>
-                        <ToolProcessor
-                            toolId={activeToolData.id}
-                            toolName={t(`tools.${activeToolData.id}.title`)}
-                            onBack={() => window.location.href = '/'}
-                        />
-                    </Suspense>
+
+                        <Suspense fallback={
+                            <div className="flex flex-col items-center justify-center min-h-[60vh]">
+                                <Loader2 className="w-12 h-12 text-blue-500 animate-spin mb-4" />
+                                <p className="text-slate-400 text-lg animate-pulse">{t('common.loading')}</p>
+                            </div>
+                        }>
+                            <ToolProcessor
+                                toolId={activeToolData.id}
+                                toolName={t(`tools.${activeToolData.id}.title`)}
+                                onBack={() => window.location.href = '/'}
+                            />
+                        </Suspense>
+
+                        {/* Tool Page Footer Ad */}
+                        <div className="mt-12 mb-8">
+                            <AdSpace placement="footer" className="w-full" />
+                        </div>
+                    </>
                 ) : (
                     <NotFound />
                 )}
@@ -181,6 +210,7 @@ export default function App() {
             />
             <BackToTop />
             <LanguageSuggestion />
+            <AdBlockerDetector />
         </div>
     );
 }

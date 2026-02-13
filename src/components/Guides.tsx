@@ -62,9 +62,9 @@ export default function Guides({ externalSearch }: GuidesProps) {
         return (
             <div className="w-full flex justify-center gap-6 px-4">
                 {/* Left Sidebar Ad (PC Only) */}
-                <div className="hidden xl:block w-[160px] flex-shrink-0 pt-20">
+                <div className="hidden xl:block w-[160px] min-w-[160px] flex-shrink-0 pt-20">
                     <div className="sticky top-24">
-                        <AdSpace placement="sidebar" />
+                        <AdSpace placement="sidebar-left" />
                     </div>
                 </div>
 
@@ -130,9 +130,9 @@ export default function Guides({ externalSearch }: GuidesProps) {
                 </div>
 
                 {/* Right Sidebar Ad (PC Only) */}
-                <div className="hidden xl:block w-[160px] flex-shrink-0 pt-20">
+                <div className="hidden xl:block w-[160px] min-w-[160px] flex-shrink-0 pt-20">
                     <div className="sticky top-24">
-                        <AdSpace placement="sidebar" />
+                        <AdSpace placement="sidebar-right" />
                     </div>
                 </div>
             </div>

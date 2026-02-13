@@ -50,7 +50,7 @@ const AdvertiseInquiryApp = () => {
                 openModal={setActiveModal}
             />
 
-            <main className="flex-grow container mx-auto px-4 py-1 flex flex-col justify-center">
+            <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-1 flex flex-col justify-center">
                 {/* Top Ad Banner */}
                 <div className="mb-4">
                     <AdSpace placement="header" className="w-full" />

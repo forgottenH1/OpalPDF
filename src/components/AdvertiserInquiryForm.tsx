@@ -1,18 +1,19 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Mail, Send, CheckCircle2, AlertCircle } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import LegalModal from './LegalModal'; // Import LegalModal
 
 interface AdvertiserInquiryFormProps {
     selectedTier?: string;
 }
-
-import { useTranslation } from 'react-i18next';
 
 const AdvertiserInquiryForm: React.FC<AdvertiserInquiryFormProps> = ({ selectedTier }) => {
     const { t } = useTranslation();
     const form = useRef<HTMLFormElement>(null);
     const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
     const [errorMessage, setErrorMessage] = useState('');
+    const [showContract, setShowContract] = useState(false);
 
     const sendEmail = (e: React.FormEvent) => {
         e.preventDefault();
@@ -106,6 +107,20 @@ const AdvertiserInquiryForm: React.FC<AdvertiserInquiryFormProps> = ({ selectedT
                         ></textarea>
                     </div>
 
+                    {/* Terms & Conditions Checkbox */}
+                    <div className="flex items-start gap-2 pt-2">
+                        <input
+                            type="checkbox"
+                            id="terms_accepted"
+                            name="terms_accepted"
+                            required
+                            className="mt-1 w-4 h-4 rounded border-slate-700 bg-slate-950/50 text-emerald-500 focus:ring-emerald-500 focus:ring-offset-0 cursor-pointer"
+                        />
+                        <label htmlFor="terms_accepted" className="text-sm text-slate-400 select-none">
+                            {t('advertise.agreeToTerms')} <button type="button" onClick={() => setShowContract(true)} className="text-blue-400 hover:text-blue-300 underline underline-offset-2 transition-colors">{t('advertise.termsLinkText')}</button>.
+                        </label>
+                    </div>
+
                     {status === 'sending' && (
                         <button disabled className="w-full bg-emerald-600/50 text-white font-bold py-3.5 rounded-xl flex items-center justify-center gap-2 cursor-wait">
                             <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
@@ -141,6 +156,18 @@ const AdvertiserInquiryForm: React.FC<AdvertiserInquiryFormProps> = ({ selectedT
                     )}
                 </form>
             </div>
+
+            <LegalModal
+                isOpen={showContract}
+                onClose={() => setShowContract(false)}
+                title={t('legal.adTermsTitle')}
+                content={
+                    <div
+                        className="prose prose-invert max-w-none"
+                        dangerouslySetInnerHTML={{ __html: t('legal.adTermsContent') }}
+                    />
+                }
+            />
         </div>
     );
 };

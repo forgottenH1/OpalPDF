@@ -403,9 +403,9 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
     return (
         <div className="w-full flex justify-center gap-6 px-4">
             {/* Left Sidebar Ad (PC Only) */}
-            <div className="hidden xl:block w-[160px] flex-shrink-0 pt-20">
+            <div className="hidden xl:block w-[160px] min-w-[160px] flex-shrink-0 pt-20">
                 <div className="sticky top-24">
-                    <AdSpace placement="sidebar" />
+                    <AdSpace placement="sidebar-left" />
                 </div>
             </div>
 
@@ -413,10 +413,6 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
             <div className="w-full max-w-4xl min-h-[500px] flex flex-col">
 
 
-                {/* Top Ad Banner */}
-                <div className="mb-8">
-                    <AdSpace placement="header" className="w-full" />
-                </div>
 
                 {/* Header */}
                 <div className="flex items-center mb-8">
@@ -1356,16 +1352,13 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
 
                 </div>
 
-                {/* Bottom Ad Banner */}
-                <div className="mt-8">
-                    <AdSpace placement="footer" className="w-full" />
-                </div>
+
             </div>
 
             {/* Right Sidebar Ad (PC Only) */}
-            <div className="hidden xl:block w-[160px] flex-shrink-0 pt-20" >
+            <div className="hidden xl:block w-[160px] min-w-[160px] flex-shrink-0 pt-20">
                 <div className="sticky top-24">
-                    <AdSpace placement="sidebar" />
+                    <AdSpace placement="sidebar-right" />
                 </div>
             </div>
         </div>
