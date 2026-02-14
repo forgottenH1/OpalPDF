@@ -198,7 +198,7 @@ app.post('/api/deploy', async (req, res) => {
 
         // 3. Git Operations
         // We add the files (now containing dummy data for advertisers)
-        await runCommand('git add src/data/advertisers.json src/data/campaigns.json src/data/settings.json');
+        await runCommand('git add src/data/advertisers.json src/data/campaigns.json src/data/settings.json public/ads');
 
         try {
             await runCommand('git commit -m "Update ads via Admin Dashboard (Secure Push)"');
