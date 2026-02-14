@@ -1,29 +1,29 @@
 [
   {
     "id": "1770983144720",
-    "companyName": "no",
-    "contactName": "youb raby",
-    "email": "gtgogeta@gmail.com",
+    "companyName": "Example Config",
+    "contactName": "Config",
+    "email": "contact@example.com",
     "tier": "bronze",
-    "notes": "",
-    "website": ""
+    "notes": "Placeholder data",
+    "website": "https://example.com"
   },
   {
     "id": "1770990298608",
-    "companyName": "Adsterra ADS",
-    "contactName": "Adsterra ",
-    "email": "Adsterra",
+    "companyName": "Example Advertiser 2",
+    "contactName": "Contact 2",
+    "email": "contact2@example.com",
     "tier": "unassigned",
-    "notes": "",
-    "website": ""
+    "notes": "Placeholder data",
+    "website": "https://example.com"
   },
   {
     "id": "1770998030663",
-    "companyName": "adil company",
-    "contactName": "adil lotfi",
-    "email": "gtgogeta@gmail.com",
+    "companyName": "Example Advertiser 3",
+    "contactName": "Contact 3",
+    "email": "contact3@example.com",
     "tier": "silver-right",
-    "notes": "",
-    "website": ""
+    "notes": "Placeholder data",
+    "website": "https://example.com"
   }
 ]
