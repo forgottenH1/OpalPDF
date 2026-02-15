@@ -15,8 +15,20 @@ interface ToolProcessorProps {
 
 import { useTranslation } from 'react-i18next';
 
+import { useNavigate } from 'react-router-dom';
+
 const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack }) => {
     const { t } = useTranslation();
+    const navigate = useNavigate();
+
+    // Override onBack validation
+    const handleBack = () => {
+        if (onBack) {
+            onBack();
+        } else {
+            navigate('/');
+        }
+    };
     const [files, setFiles] = useState<File[]>([]);
     const [status, setStatus] = useState<'idle' | 'processing' | 'organizing' | 'done' | 'error'>('idle');
     const [errorMessage, setErrorMessage] = useState('');
@@ -414,18 +426,18 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
 
 
 
-                {/* Header */}
-                <div className="flex items-center mb-8">
-
+                {/* Header / Back Button */}
+                <div className="flex items-center gap-4 mb-8">
                     <button
-                        onClick={onBack}
-                        className="mr-4 p-2 rounded-lg hover:bg-white/10 text-slate-300 hover:text-white transition-colors"
+                        onClick={handleBack}
+                        className="p-2 rounded-full hover:bg-white/5 text-slate-400 hover:text-white transition-colors"
                     >
-                        <ArrowLeft size={24} />
+                        <ArrowLeft className="w-6 h-6" />
                     </button>
-                    <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
-                        {toolName}
-                    </h2>
+                    <div>
+                        <h1 className="text-2xl font-bold font-['Outfit'] text-white">{toolName}</h1>
+                        <p className="text-slate-400 text-sm">Processing engine ready</p>
+                    </div>
                 </div>
 
                 {/* Main Workspace */}

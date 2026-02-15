@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
 interface ToolCardProps {
     title: string;
@@ -9,10 +10,21 @@ interface ToolCardProps {
     onClick?: () => void;
     className?: string;
     tag?: string;
+    toolId?: string; // Add ID to construct URL
 }
 
-const ToolCard: React.FC<ToolCardProps> = ({ title, description, icon: Icon, onClick, className = '', tag }) => {
+const ToolCard: React.FC<ToolCardProps> = ({ title, description, icon: Icon, onClick, className = '', tag, toolId }) => {
     const { t } = useTranslation();
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        if (onClick) {
+            onClick();
+        } else if (toolId) {
+            navigate(`/?tool=${toolId}`);
+        }
+    };
+
     return (
         <div
             className={`
@@ -24,7 +36,7 @@ const ToolCard: React.FC<ToolCardProps> = ({ title, description, icon: Icon, onC
                 hover:shadow-[0_20px_40px_-15px_rgba(59,130,246,0.3)]
                 ${className}
             `}
-            onClick={onClick}
+            onClick={handleClick}
         >
             {/* Inner Content Container */}
             <div className="relative h-full rounded-[20px] bg-slate-900/40 p-3 md:p-6 overflow-hidden">

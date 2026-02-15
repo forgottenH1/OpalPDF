@@ -2,6 +2,7 @@ import { useState, useEffect, lazy, Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Loader2 } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
+import { useSearchParams, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ToolCard from './components/ToolCard';
@@ -34,11 +35,13 @@ export default function App() {
     // Lazy load components
 
     // Derived state
-    const urlParams = new URLSearchParams(window.location.search);
-    const toolId = urlParams.get('tool');
+    const [searchParams] = useSearchParams();
+    const location = useLocation();
+
+    const toolId = searchParams.get('tool');
     const activeToolId = toolId || null;
-    const isRoot = window.location.pathname === '/' || window.location.pathname === '/index.html';
-    const isAdmin = window.location.pathname === '/admin';
+    const isRoot = location.pathname === '/' || location.pathname === '/index.html';
+    const isAdmin = location.pathname === '/admin';
     const [searchQuery, setSearchQuery] = useState('');
 
     // Handle RTL
@@ -126,15 +129,15 @@ export default function App() {
                         </header>
 
                         {/* 2. Responsive Tool Grid */}
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                             {filteredTools.map((tool) => (
                                 <ToolCard
                                     key={tool.id}
                                     title={t(`tools.${tool.id}.title`)}
                                     description={t(`tools.${tool.id}.desc`)}
                                     icon={tool.icon}
-                                    tag={tool.category} // You might want to translate categories too if they are fixed
-                                    onClick={() => window.location.href = `/?tool=${tool.id}`} // Activate tool with full reload
+                                    tag={tool.category}
+                                    toolId={tool.id}
                                 />
                             ))}
                         </div>
@@ -174,7 +177,7 @@ export default function App() {
                             <ToolProcessor
                                 toolId={activeToolData.id}
                                 toolName={t(`tools.${activeToolData.id}.title`)}
-                                onBack={() => window.location.href = '/'}
+                                onBack={() => window.location.href = '/'} // ToolProcessor usually handles this internally now
                             />
                         </Suspense>
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link, useNavigate } from 'react-router-dom';
 
 import LanguageSwitcher from './LanguageSwitcher';
 
@@ -13,11 +14,12 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ onSearch, openModal, isMenuOpen, onToggleMenu }) => {
     const { t } = useTranslation();
     const [query, setQuery] = useState('');
+    const navigate = useNavigate();
 
     const handleSearch = (e: React.FormEvent) => {
         e.preventDefault();
         if (query.trim()) {
-            window.location.href = `/guides.html?search=${encodeURIComponent(query)}`;
+            navigate(`/guides.html?search=${encodeURIComponent(query)}`);
         }
     };
 
@@ -25,12 +27,12 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch, openModal, isMenuOpen, onTogg
         <nav className="sticky top-0 z-50 w-full border-b border-white/10 bg-slate-900/70 backdrop-blur-md">
             <div className="container mx-auto px-6 h-20 flex items-center justify-between">
                 {/* Logo */}
-                <div className="flex items-center gap-2 cursor-pointer z-[60]" onClick={() => window.location.href = '/'}>
+                <Link to="/" className="flex items-center gap-2 cursor-pointer z-[60]">
                     <img src="/logo-transparent.png" alt={t('footer.logoAlt')} className="w-10 h-10 rounded-xl" />
                     <span className="text-2xl font-semibold tracking-tight text-white hidden sm:block">
                         Orbit<span className="text-blue-400">PDF</span>
                     </span>
-                </div>
+                </Link>
 
                 {/* Global Search Bar */}
                 <form onSubmit={handleSearch} className={`hidden md:block flex-1 max-w-md mx-8 transition-opacity duration-300`}>
@@ -53,8 +55,8 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch, openModal, isMenuOpen, onTogg
 
                 {/* Desktop Navigation */}
                 <div className="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-300">
-                    <a href="/guides.html" className="hover:text-white transition-colors">{t('nav.guides')}</a>
-                    <a href="/contact.html" className="hover:text-white transition-colors">{t('nav.contact')}</a>
+                    <Link to="/guides.html" className="hover:text-white transition-colors">{t('nav.guides')}</Link>
+                    <Link to="/contact.html" className="hover:text-white transition-colors">{t('nav.contact')}</Link>
                     <button onClick={() => openModal('privacy')} className="hover:text-white transition-colors">{t('nav.privacy')}</button>
                     <div className="pl-4 border-l border-white/10">
                         <LanguageSwitcher />
