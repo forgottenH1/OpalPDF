@@ -14,7 +14,7 @@ const BuyMeCoffee: React.FC = () => {
 
                         (window as any).paypal.HostedButtons({
                             hostedButtonId: "258NAXUKV2VWG",
-                            onApprove: function (data: any, actions: any) {
+                            onApprove: function () {
                                 // Fallback: Redirect to thanks page client-side
                                 window.location.href = "https://orbitpdf.pages.dev/thanks";
                             }
