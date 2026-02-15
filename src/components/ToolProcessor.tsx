@@ -4,6 +4,7 @@ import { ArrowLeft, Upload, File as FileIcon, Loader2, Download, AlertCircle, Lo
 import { OrbitPDFEngine } from '../lib/pdf-engine';
 import PageGrid from './PageGrid';
 import AdSpace from './AdSpace';
+import BuyMeCoffee from './BuyMeCoffee';
 
 import SignaturePad from './SignaturePad';
 
@@ -1340,6 +1341,9 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
                                     {t('common.startOver')}
                                 </button>
                             </div>
+
+                            {/* Buy Me a Coffee Button */}
+                            <BuyMeCoffee />
                         </div>
                     )}
 
