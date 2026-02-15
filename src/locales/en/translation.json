@@ -10,6 +10,7 @@
         "home": "Home",
         "search": "Search",
         "loading": "Loading...",
+        "backToHome": "Back to Home",
         "error": "Error",
         "success": "Success",
         "download": "Download {{ext}}",

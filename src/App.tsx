@@ -12,6 +12,7 @@ import BackToTop from './components/BackToTop';
 // Lazy load the heavy ToolProcessor
 const ToolProcessor = lazy(() => import('./components/ToolProcessor'));
 const AdminDashboard = lazy(() => import('./pages/AdminDashboard'));
+const Thanks = lazy(() => import('./pages/Thanks'));
 import MobileMenu from './components/MobileMenu';
 import AdSpace from './components/AdSpace';
 import NotFound from './components/NotFound';
@@ -126,6 +127,12 @@ export default function App() {
                         <link rel="canonical" href="https://orbitpdf.com/" />
                     </Helmet>
                 } />
+                <Route path="/thanks" element={
+                    <Helmet>
+                        <title>{t('payment.success.title', 'Thank You')} | OrbitPDF</title>
+                        <meta name="robots" content="noindex" />
+                    </Helmet>
+                } />
                 <Route path="/:toolId" element={<ToolMetadata />} />
             </Routes>
 
@@ -217,6 +224,12 @@ export default function App() {
 
                     {/* Tool Route - Clean URL /merge-pdf etc */}
                     <Route path="/:toolId" element={<ToolRoute />} />
+
+                    <Route path="/thanks" element={
+                        <Suspense fallback={<Loader2 className="w-10 h-10 animate-spin mx-auto mt-20 text-blue-500" />}>
+                            <Thanks />
+                        </Suspense>
+                    } />
 
                     {/* Fallback */}
                     <Route path="*" element={<NotFound />} />
