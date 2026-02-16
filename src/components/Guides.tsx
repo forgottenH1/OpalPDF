@@ -212,26 +212,30 @@ export default function Guides({ externalSearch }: GuidesProps) {
             {/* Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {filteredGuides.map(guide => (
-                    <a
+                    <div
                         key={guide.id}
-                        href={`/guides/${guide.id}`}
-                        className="group bg-slate-900/40 border border-slate-800 hover:border-blue-500/50 rounded-2xl p-3 md:p-6 cursor-pointer transition-all hover:bg-slate-800/60 flex flex-col h-full !no-underline"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            window.location.assign(`${window.location.origin}/guides/${guide.id}`);
+                        }}
+                        className="group bg-slate-900/40 border border-slate-800 hover:border-blue-500/50 rounded-2xl p-3 md:p-6 cursor-pointer transition-all hover:bg-slate-800/60 flex flex-col h-full"
                     >
-                        <div className="mb-2 md:mb-4">
+                        <div className="mb-2 md:mb-4 text-left">
                             <span className="text-[8px] md:text-xs font-bold text-blue-400 bg-blue-500/10 px-1.5 py-0.5 md:px-2 md:py-1 rounded-md uppercase tracking-wider">
                                 {guide.category}
                             </span>
                         </div>
-                        <h3 className="text-base md:text-xl font-bold text-slate-100 mb-0.5 md:mb-3 group-hover:text-blue-400 transition-colors">
+                        <h3 className="text-base md:text-xl font-bold text-slate-100 mb-0.5 md:mb-3 group-hover:text-blue-400 transition-colors text-left">
                             {guide.title}
                         </h3>
-                        <p className="text-slate-400 text-[10px] md:text-sm mb-0 md:mb-6 flex-grow line-clamp-2 md:line-clamp-3">
+                        <p className="text-slate-400 text-[10px] md:text-sm mb-0 md:mb-6 flex-grow line-clamp-2 md:line-clamp-3 text-left">
                             {guide.intro}
                         </p>
-                        <div className="hidden md:flex items-center text-sm font-medium text-slate-300 group-hover:text-white mt-auto">
+                        <div className="hidden md:flex items-center text-sm font-medium text-slate-300 group-hover:text-white mt-auto text-left">
                             {t('guides.readGuide')} <ChevronRight size={16} className="ml-1 opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all" />
                         </div>
-                    </a>
+                    </div>
                 ))}
             </div>
 
