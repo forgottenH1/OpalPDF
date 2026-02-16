@@ -51,11 +51,11 @@ const Footer: React.FC<FooterProps> = ({ openModal }) => {
                     <div>
                         <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-widest">{t('footer.legalTitle')}</h4>
                         <ul className="text-slate-400 text-sm space-y-2">
-                            <li><a href="/guides.html" className="hover:text-blue-400 transition-colors">{t('nav.guides')}</a></li>
+                            <li><a href="/guides" className="hover:text-blue-400 transition-colors">{t('nav.guides')}</a></li>
                             <li><button onClick={() => openModal('privacy')} className="hover:text-blue-400 transition-colors text-left">{t('nav.privacy')}</button></li>
                             <li><button onClick={() => openModal('terms')} className="hover:text-blue-400 transition-colors text-left">{t('nav.terms')}</button></li>
-                            <li><a href="/contact.html" className="hover:text-blue-400 transition-colors">{t('nav.contact')}</a></li>
-                            <li><a href="/advertise.html" className="text-yellow-500 hover:text-yellow-400 font-medium transition-colors">{t('nav.advertise')}</a></li>
+                            <li><a href="/contact" className="hover:text-blue-400 transition-colors">{t('nav.contact')}</a></li>
+                            <li><a href="/advertise" className="text-yellow-500 hover:text-yellow-400 font-medium transition-colors">{t('nav.advertise')}</a></li>
 
                         </ul>
                     </div>

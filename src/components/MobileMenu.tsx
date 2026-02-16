@@ -83,7 +83,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose, openModal }) =
                             </a>
 
                             <a
-                                href="/guides.html"
+                                href="/guides"
                                 onClick={onClose}
                                 className={`flex items-center gap-4 text-2xl font-medium text-white transition-all duration-500 ease-out ${getDelayClass(1)}`}
                             >
@@ -91,7 +91,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose, openModal }) =
                                 {t('nav.guides')}
                             </a>
                             <a
-                                href="/contact.html"
+                                href="/contact"
                                 onClick={onClose}
                                 className={`flex items-center gap-4 text-2xl font-medium text-white transition-all duration-500 ease-out ${getDelayClass(2)}`}
                             >
