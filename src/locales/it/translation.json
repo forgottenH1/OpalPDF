@@ -175,7 +175,7 @@
                 "Clicca **Unisci PDF** per creare istantaneamente il tuo documento unificato."
             ]
         },
-        "split": {
+        "split-pdf": {
             "title": "Come Dividere Pagine PDF o Estrarre Intervalli",
             "category": "Organizza",
             "intro": "Estrai pagine specifiche come fatture o capitoli da un documento di grandi dimensioni, o separa l'intero PDF in file distinti.",

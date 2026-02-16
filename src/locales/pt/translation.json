@@ -175,7 +175,7 @@
                 "Clique em **Juntar PDF** para criar seu documento único instantaneamente."
             ]
         },
-        "split": {
+        "split-pdf": {
             "title": "Como Dividir Páginas de PDF ou Extrair Intervalos",
             "category": "Organizar",
             "intro": "Extraia páginas específicas (como uma fatura ou capítulo) de um documento grande ou divida um PDF inteiro em arquivos separados.",

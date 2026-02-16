@@ -164,7 +164,7 @@
                 "Haz clic en **Fusionar PDF** para crear instantáneamente tu documento unificado."
             ]
         },
-        "split": {
+        "split-pdf": {
             "title": "Cómo Dividir Páginas PDF o Extraer Rangos",
             "category": "Organizar",
             "intro": "Extrae páginas específicas como facturas o capítulos de un documento grande, o divide todo el PDF en archivos separados.",

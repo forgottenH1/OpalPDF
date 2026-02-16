@@ -13,7 +13,7 @@ const useGuidesData = () => {
     // We can't easily iterate keys in i18next without a text structure or returnObjects: true
     // So we'll map the known IDs which matches standard tools
     const guideIds = [
-        'merge', 'split', 'compress', 'word-to-pdf', 'pdf-to-word', 'pdf-to-excel',
+        'merge', 'split-pdf', 'compress', 'word-to-pdf', 'pdf-to-word', 'pdf-to-excel',
         'pdf-to-img', 'pdf-to-png', 'img-to-pdf', 'ocr', 'rotate', 'page-number',
         'sign', 'organize', 'watermark', 'edit-metadata', 'flatten', 'trim',
         'compare', 'protect', 'unlock', 'repair', 'grayscale', 'invert-colors',
@@ -144,7 +144,7 @@ export default function Guides({ externalSearch }: GuidesProps) {
                         <div className="mt-12 pt-8 border-t border-slate-700/50 flex justify-between items-center">
                             <p className="text-slate-500 italic">{t('guides.readyToTry')}</p>
                             <a
-                                href={`/${activeGuide.id}`}
+                                href={`/${activeGuide.id === 'split-pdf' ? 'split' : activeGuide.id}`}
                                 className="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-xl font-medium transition-all shadow-lg hover:shadow-blue-500/25 inline-block"
                             >
                                 {t('guides.openTool')}

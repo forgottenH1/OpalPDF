@@ -175,7 +175,7 @@
                 "Tek belgenizi anında oluşturmak için **PDF Birleştir**'e tıklayın."
             ]
         },
-        "split": {
+        "split-pdf": {
             "title": "PDF Sayfaları Nasıl Bölünür veya Ayrıştırılır",
             "category": "Düzenle",
             "intro": "Büyük bir belgeden belirli sayfaları (örneğin bir fatura veya bölüm) çıkarın veya tüm PDF'i ayrı dosyalara bölün.",

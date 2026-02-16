@@ -190,7 +190,7 @@
                 "Click **Merge PDFs** to instantly create your unified document."
             ]
         },
-        "split": {
+        "split-pdf": {
             "title": "How to Split PDF Pages or Extract Ranges",
             "category": "Organize",
             "intro": "Extract specific pages like invoices or chapters from a large document, or burst the entire PDF into separate files.",

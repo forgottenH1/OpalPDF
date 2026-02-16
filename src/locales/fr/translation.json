@@ -164,7 +164,7 @@
                 "Cliquez sur **Fusionner PDF** pour créer instantanément votre document unifié."
             ]
         },
-        "split": {
+        "split-pdf": {
             "title": "Comment diviser des pages PDF ou extraire des plages",
             "category": "Organiser",
             "intro": "Extrayez des pages spécifiques comme des factures ou des chapitres d'un grand document.",

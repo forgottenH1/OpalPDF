@@ -175,7 +175,7 @@
                 "Klicken Sie auf **PDFs zusammenführen**, um Ihr Dokument sofort zu erstellen."
             ]
         },
-        "split": {
+        "split-pdf": {
             "title": "So teilen Sie PDF-Seiten oder extrahieren Bereiche",
             "category": "Organisieren",
             "intro": "Extrahieren Sie bestimmte Seiten (wie Rechnungen oder Kapitel) aus einem großen Dokument oder teilen Sie ein ganzes PDF in einzelne Dateien auf.",
