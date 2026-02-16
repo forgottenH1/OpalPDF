@@ -267,7 +267,6 @@ export default function App() {
             />
             <BackToTop />
             <LanguageSuggestion />
-            <LanguageSuggestion />
             <AdBlockerDetector />
             <CookieConsent />
         </div>

@@ -204,10 +204,10 @@ export default function Guides({ externalSearch }: GuidesProps) {
             {/* Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {filteredGuides.map(guide => (
-                    <a
+                    <div
                         key={guide.id}
-                        href={`/guides/${guide.id}`}
-                        className="group bg-slate-900/40 border border-slate-800 hover:border-blue-500/50 rounded-2xl p-3 md:p-6 cursor-pointer transition-all hover:bg-slate-800/60 flex flex-col h-full no-underline"
+                        onClick={() => window.location.href = `/guides/${guide.id}`}
+                        className="group bg-slate-900/40 border border-slate-800 hover:border-blue-500/50 rounded-2xl p-3 md:p-6 cursor-pointer transition-all hover:bg-slate-800/60 flex flex-col h-full"
                     >
                         <div className="mb-2 md:mb-4">
                             <span className="text-[8px] md:text-xs font-bold text-blue-400 bg-blue-500/10 px-1.5 py-0.5 md:px-2 md:py-1 rounded-md uppercase tracking-wider">
@@ -223,7 +223,7 @@ export default function Guides({ externalSearch }: GuidesProps) {
                         <div className="hidden md:flex items-center text-sm font-medium text-slate-300 group-hover:text-white mt-auto">
                             {t('guides.readGuide')} <ChevronRight size={16} className="ml-1 opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all" />
                         </div>
-                    </a>
+                    </div>
                 ))}
             </div>
 
