@@ -73,7 +73,7 @@ export default function Guides({ externalSearch }: GuidesProps) {
                 {/* Main Content */}
                 <div className="w-full max-w-4xl animate-in slide-in-from-right duration-300">
                     <button
-                        onClick={() => window.location.href = '/guides.html'}
+                        onClick={() => window.location.href = '/guides'}
                         className="flex items-center text-slate-400 hover:text-white mb-8 transition-colors"
                     >
                         <ArrowLeft size={20} className="mr-2" /> {t('common.back')}

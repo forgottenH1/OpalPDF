@@ -17,7 +17,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch, openModal, isMenuOpen, onTogg
     const handleSearch = (e: React.FormEvent) => {
         e.preventDefault();
         if (query.trim()) {
-            window.location.href = `/guides.html?search=${encodeURIComponent(query)}`;
+            window.location.href = `/guides?search=${encodeURIComponent(query)}`;
         }
     };
 
@@ -53,8 +53,9 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch, openModal, isMenuOpen, onTogg
 
                 {/* Desktop Navigation */}
                 <div className="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-300">
-                    <a href="/guides.html" className="hover:text-white transition-colors">{t('nav.guides')}</a>
-                    <a href="/contact.html" className="hover:text-white transition-colors">{t('nav.contact')}</a>
+                    <a href="/guides" className="hover:text-white transition-colors">{t('nav.guides')}</a>
+                    <a href="/contact" className="hover:text-white transition-colors">{t('nav.contact')}</a>
+
                     <button onClick={() => openModal('privacy')} className="hover:text-white transition-colors">{t('nav.privacy')}</button>
                     <div className="pl-4 border-l border-white/10">
                         <LanguageSwitcher />

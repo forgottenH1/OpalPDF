@@ -45,8 +45,8 @@ export default function GuidesApp() {
                 </div>
 
                 <Routes>
-                    {/* Render Guides component for any route hitting this entry point. 
-                        This solves issues with /guides vs /guides.html vs /guides/some-id */}
+                    <Route path="/guides/:id" element={<Guides externalSearch={searchQuery} />} />
+                    <Route path="/guides" element={<Guides externalSearch={searchQuery} />} />
                     <Route path="*" element={<Guides externalSearch={searchQuery} />} />
                 </Routes>
 
