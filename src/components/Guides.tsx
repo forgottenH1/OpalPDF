@@ -49,15 +49,21 @@ export default function Guides({ externalSearch }: GuidesProps) {
     const pathParts = cleanPath.split('/');
     const lastPart = pathParts[pathParts.length - 1];
 
-    // If we're on /guides or /guides.html, we're in list mode
-    const isListMode = !lastPart || lastPart === 'guides' || lastPart === 'guides.html';
-    const guideId = routeId || (isListMode ? null : lastPart);
+    // Aggressive ID Normalization: handle case, trailing slashes, and whitespace
+    const normalizedRouteId = routeId?.trim().toLowerCase();
+    const normalizedLastPart = lastPart?.trim().toLowerCase();
 
-    const activeGuide = guideId ? toolsGuides.find(g => g.id === guideId) || null : null;
+    // Check if we're on /guides or /guides.html
+    const isListMode = !normalizedLastPart || normalizedLastPart === 'guides' || normalizedLastPart === 'guides.html';
+
+    // Choose the best candidate for guide ID
+    const guideId = normalizedRouteId || (isListMode ? null : normalizedLastPart);
+
+    const activeGuide = guideId ? toolsGuides.find(g => g.id.toLowerCase() === guideId) || null : null;
 
     const filteredGuides = toolsGuides.filter(g =>
-        g.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        g.category.toLowerCase().includes(searchTerm.toLowerCase())
+        (g.title || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
+        (g.category || '').toLowerCase().includes(searchTerm.toLowerCase())
     );
 
     // Sync with external search if provided (e.g. from Navbar)
@@ -115,20 +121,23 @@ export default function Guides({ externalSearch }: GuidesProps) {
                             </h2>
 
                             <div className="space-y-6">
-                                {activeGuide.steps.map((step, idx) => (
-                                    <div key={idx} className="flex gap-4 group">
-                                        <div className="flex-shrink-0 w-10 h-10 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-blue-400 font-bold group-hover:border-blue-500 transition-colors">
-                                            {idx + 1}
+                                {Array.isArray(activeGuide.steps) && activeGuide.steps.map((step, idx) => {
+                                    if (typeof step !== 'string') return null;
+                                    return (
+                                        <div key={idx} className="flex gap-4 group">
+                                            <div className="flex-shrink-0 w-10 h-10 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-blue-400 font-bold group-hover:border-blue-500 transition-colors">
+                                                {idx + 1}
+                                            </div>
+                                            <div className="pt-2">
+                                                <p className="text-slate-300 text-lg leading-relaxed">
+                                                    {(step || '').split('**').map((part: string, i: number) =>
+                                                        i % 2 === 1 ? <strong key={i} className="text-white font-semibold">{part}</strong> : part
+                                                    )}
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div className="pt-2">
-                                            <p className="text-slate-300 text-lg leading-relaxed">
-                                                {step.split('**').map((part: string, i: number) =>
-                                                    i % 2 === 1 ? <strong key={i} className="text-white font-semibold">{part}</strong> : part
-                                                )}
-                                            </p>
-                                        </div>
-                                    </div>
-                                ))}
+                                    );
+                                })}
                             </div>
                         </div>
 
