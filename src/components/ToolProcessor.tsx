@@ -408,7 +408,13 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
         e.preventDefault();
         e.stopPropagation();
         if (e.dataTransfer.files && e.dataTransfer.files.length > 0) {
-            setFiles(Array.from(e.dataTransfer.files));
+            const newFiles = Array.from(e.dataTransfer.files);
+            // Append if multi-file tool
+            if (toolId === 'merge' || toolId === 'img-to-pdf') {
+                setFiles(prev => [...prev, ...newFiles]);
+            } else {
+                setFiles(newFiles);
+            }
             setStatus('idle');
         }
     };
@@ -475,7 +481,7 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
                             {/* Tool Specific Inputs */}
                             {files.length > 0 && (
                                 <div className="space-y-4">
-                                    {toolId === 'merge' && (
+                                    {(toolId === 'merge' || toolId === 'img-to-pdf') && (
                                         <div className="w-full max-w-2xl mx-auto mb-8">
                                             <h3 className="text-lg font-medium text-white mb-4 text-left">{t('processor.reorderFiles')}</h3>
                                             <div className="space-y-2">
@@ -486,10 +492,13 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
                                                                 {idx + 1}
                                                             </div>
                                                             <div className="flex flex-col text-left overflow-hidden">
-                                                                <span className="text-emerald-400 text-xs font-medium bg-emerald-400/10 px-2 py-0.5 rounded border border-emerald-400/20">
-                                                                    {t('processor.processedLocally')}
-                                                                </span>
-                                                                <span className="text-slate-500 text-xs">{(file.size / 1024 / 1024).toFixed(2)} MB</span>
+                                                                <span className="text-white font-medium truncate max-w-[200px]">{file.name}</span>
+                                                                <div className="flex items-center gap-2">
+                                                                    <span className="text-emerald-400 text-[10px] font-bold uppercase tracking-wider bg-emerald-400/10 px-1.5 py-0.5 rounded border border-emerald-400/20">
+                                                                        {t('processor.processedLocally')}
+                                                                    </span>
+                                                                    <span className="text-slate-500 text-xs text-left">{(file.size / 1024 / 1024).toFixed(2)} MB</span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div className="flex items-center gap-1">

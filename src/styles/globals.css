@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Pacifico&family=Sacramento&family=Allura&display=swap');
 
 
 @tailwind base;
@@ -116,4 +115,38 @@ html[lang="uk"] * {
 
 ::-webkit-scrollbar-thumb {
   @apply bg-slate-700 rounded-full hover:bg-slate-600;
+}
+
+/* GHOST STEALTH LOCKDOWN:
+   Silent background isolation. No app-hiding.
+   We only use the locking attribute for our Deep Space Guard. */
+
+/* DEEP SPACE GUARD:
+   Instantly teleport any element added to the body (clones, frames, artifacts)
+   that isn't our main app root to 200,000 pixels away.
+   This ensures zero visual flicker while the capture engine works flawlessly. */
+body[data-orbit-pdf-locking="true"]> :not(#root):not(script):not(style):not(link) {
+  position: fixed !important;
+  top: -200000px !important;
+  left: -200000px !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: none !important;
+  z-index: -999999 !important;
+}
+
+/* Specific Tripwire Classes (Backup Protection) */
+.html2pdf__container,
+.html2canvas-container,
+.html2canvas-proxy,
+[id^="html2pdf-"],
+#orbit-pdf-quarantine,
+#orbit-pdf-stage,
+#orbit-pdf-ghost-shield,
+#orbit-pdf-vault-shield,
+#orbit-pdf-the-vault {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }

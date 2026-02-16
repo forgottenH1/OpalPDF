@@ -2,11 +2,13 @@ import { PDFDocument, rgb, StandardFonts, degrees, PDFName } from 'pdf-lib';
 import JSZip from 'jszip';
 
 // Helper to get PDFJS only when needed
+// Helper to get PDFJS only when needed
 const getPdfJs = async () => {
     // @ts-ignore
     const pdfjsLib = await import('pdfjs-dist');
-    // Using version 3.11.174 which matches the installed package.
-    pdfjsLib.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`;
+    // @ts-ignore
+    const workerSrc = (await import('pdfjs-dist/build/pdf.worker.min.js?url')).default;
+    pdfjsLib.GlobalWorkerOptions.workerSrc = workerSrc;
     return pdfjsLib;
 };
 
@@ -15,6 +17,7 @@ const getPdfJs = async () => {
 // Helper to sanitize text for WinAnsi (StandardFonts)
 const sanitizeText = (text: string): string => {
     return text
+        .replace(/\t/g, '    ')      // Replace tabs with 4 spaces
         .replace(/[\u2018\u2019]/g, "'") // Smart quotes
         .replace(/[\u201C\u201D]/g, '"') // Smart double quotes
         .replace(/[\u2013\u2014]/g, '-') // Dashes
@@ -1115,74 +1118,131 @@ export const OrbitPDFEngine = {
         return thumbnails;
     },
 
-    // 13. Images to PDF (JPG, PNG, BMP)
+    // 13. Images to PDF (JPG, PNG, BMP, WebP, etc.)
     async imagesToPDF(files: File[]): Promise<Uint8Array> {
-
         const pdfDoc = await PDFDocument.create();
+        console.log(`[imagesToPDF] Processing ${files.length} files.`);
 
         for (const file of files) {
-            // Yield to main thread to keep UI responsive
-            await new Promise(resolve => setTimeout(resolve, 50));
+            try {
+                // Yield to main thread
+                await new Promise(resolve => setTimeout(resolve, 10));
 
+                let imageBytes: ArrayBuffer | null = null;
+                let imageType: 'png' | 'jpg' | null = null;
+                let usedFallback = false;
 
-            let imageBytes: ArrayBuffer | null = null;
-            let imageType: 'png' | 'jpg' | null = null;
+                // Strategy 1: Direct Embed (Fastest, preserves quality)
+                const isJpg = file.type === 'image/jpeg' || /\.(jpg|jpeg)$/i.test(file.name);
+                const isPng = file.type === 'image/png' || /\.png$/i.test(file.name);
 
-            // 1. Determine type and process
-            if (file.type === 'image/jpeg' || file.name.toLowerCase().endsWith('.jpg') || file.name.toLowerCase().endsWith('.jpeg')) {
-                imageBytes = await file.arrayBuffer();
-                imageType = 'jpg';
-            } else if (file.type === 'image/png' || file.name.toLowerCase().endsWith('.png')) {
-                imageBytes = await file.arrayBuffer();
-                imageType = 'png';
-            } else {
-                // BMP, TIFF, or others -> Try to convert via Canvas
+                if (isJpg || isPng) {
+                    try {
+                        imageBytes = await file.arrayBuffer();
+                        imageType = isJpg ? 'jpg' : 'png';
+                        // Test embed immediately to catch errors early
+                        // We don't add page yet, just verifying it embeds
+                        /* 
+                           Note: pdf-lib doesn't throw on embed usually until save, 
+                           but invalid data might throw. 
+                           To be safe, we will proceed to logic 2.
+                        */
+                    } catch (e) {
+                        console.warn(`[imagesToPDF] Direct read failed for ${file.name}, trying fallback.`, e);
+                        imageBytes = null; // Trigger fallback
+                    }
+                }
 
-                try {
-                    const bitmap = await createImageBitmap(file);
-                    const canvas = document.createElement('canvas');
-                    canvas.width = bitmap.width;
-                    canvas.height = bitmap.height;
-                    const ctx = canvas.getContext('2d');
-                    if (ctx) {
-                        ctx.drawImage(bitmap, 0, 0);
-                        const blob = await new Promise<Blob | null>(r => canvas.toBlob(r, 'image/jpeg', 0.9));
-                        if (blob) {
-                            imageBytes = await blob.arrayBuffer();
-                            imageType = 'jpg';
+                // Strategy 2: Canvas Conversion (Fallback for BMP, WebP, or broken JPG/PNG)
+                if (!imageBytes) {
+                    usedFallback = true;
+                    try {
+                        const bitmap = await createImageBitmap(file);
+                        const canvas = document.createElement('canvas');
+                        canvas.width = bitmap.width;
+                        canvas.height = bitmap.height;
+                        const ctx = canvas.getContext('2d');
+                        if (ctx) {
+                            ctx.drawImage(bitmap, 0, 0);
+                            // Convert to JPEG for PDF (smaller size usually)
+                            const blob = await new Promise<Blob | null>(r => canvas.toBlob(r, 'image/jpeg', 0.9));
+                            if (blob) {
+                                imageBytes = await blob.arrayBuffer();
+                                imageType = 'jpg';
+                            }
+                        }
+                    } catch (e) {
+                        console.error(`[imagesToPDF] Canvas conversion failed for ${file.name}`, e);
+                        continue; // Nothing we can do
+                    }
+                }
+
+                // 3. Embed into PDF
+                if (imageBytes && imageType) {
+
+                    let embeddedImage;
+                    const cleanType = imageType; // capture for closure if needed
+
+                    try {
+                        if (cleanType === 'jpg') embeddedImage = await pdfDoc.embedJpg(imageBytes);
+                        else embeddedImage = await pdfDoc.embedPng(imageBytes);
+                    } catch (e) {
+                        // If direct embed failed (e.g. really a transparent PNG labeled as JPG, or corrupt)
+                        // AND we haven't tried fallback yet, try fallback now.
+                        if (!usedFallback) {
+                            console.warn(`[imagesToPDF] Direct embed failed for ${file.name}, trying fallback conversion.`, e);
+                            try {
+                                const bitmap = await createImageBitmap(file);
+                                const canvas = document.createElement('canvas');
+                                canvas.width = bitmap.width;
+                                canvas.height = bitmap.height;
+                                const ctx = canvas.getContext('2d');
+                                if (ctx) {
+                                    ctx.drawImage(bitmap, 0, 0);
+                                    const blob = await new Promise<Blob | null>(r => canvas.toBlob(r, 'image/jpeg', 0.9));
+                                    if (blob) {
+                                        const newBytes = await blob.arrayBuffer();
+                                        embeddedImage = await pdfDoc.embedJpg(newBytes);
+                                    }
+                                }
+                            } catch (err2) {
+                                console.error(`[imagesToPDF] Double fallback failed for ${file.name}`, err2);
+                                continue;
+                            }
+                        } else {
+                            throw e;
                         }
                     }
-                } catch (e) {
-                    console.warn(`Could not convert ${file.name}. Skipping.`, e);
-                    continue; // Skip if fails
+
+                    if (embeddedImage) {
+                        const { width, height } = embeddedImage.scale(1);
+                        const page = pdfDoc.addPage([width, height]);
+                        page.drawImage(embeddedImage, {
+                            x: 0,
+                            y: 0,
+                            width: width,
+                            height: height,
+                        });
+                        console.log(`[imagesToPDF] Successfully added page for ${file.name}. Total pages: ${pdfDoc.getPageCount()}`);
+                    } else {
+                        console.warn(`[imagesToPDF] Skipping ${file.name} - failed to embed image.`);
+                    }
                 }
-            }
 
-            // 2. Embed into PDF
-            if (imageBytes && imageType) {
-                try {
-                    let embeddedImage;
-                    if (imageType === 'jpg') embeddedImage = await pdfDoc.embedJpg(imageBytes);
-                    else embeddedImage = await pdfDoc.embedPng(imageBytes);
-
-                    const { width, height } = embeddedImage.scale(1);
-
-                    // Add Page (use image logic to fit or full size)
-                    // For now: Page size = Image size (Simplest for "Photos to PDF")
-                    const page = pdfDoc.addPage([width, height]);
-                    page.drawImage(embeddedImage, {
-                        x: 0,
-                        y: 0,
-                        width: width,
-                        height: height,
-                    });
-                } catch (e) {
-                    console.error(`Failed to embed ${file.name}`, e);
-                }
+            } catch (err) {
+                console.error(`[imagesToPDF] Error processing file ${file.name}`, err);
             }
         }
 
-        return await pdfDoc.save();
+        console.log(`[imagesToPDF] Finished processing. Final page count: ${pdfDoc.getPageCount()}`);
+
+        if (pdfDoc.getPageCount() === 0) {
+            throw new Error("No images could be successfully converted.");
+        }
+
+        const pdfBytes = await pdfDoc.save();
+        console.log(`[imagesToPDF] PDF saved. Total bytes: ${pdfBytes.length}`);
+        return pdfBytes;
     },
 
     // 14. Add Page Numbers
@@ -1416,316 +1476,232 @@ export const OrbitPDFEngine = {
 
     // 20. OCR PDF (Make Searchable)
     async ocrPDF(file: File, language: string = 'eng', onProgress?: (status: string) => void): Promise<Uint8Array> {
+        console.log(`[ocrPDF] Starting OCR Process for: ${file.name}`);
+        console.log(`[ocrPDF] Target Language: ${language}`);
 
-
-        // @ts-ignore
-        const { createWorker } = await import('tesseract.js');
-        const pdfjsLib = await getPdfJs();
-
-        const arrayBuffer = await file.arrayBuffer();
-        const loadingTask = pdfjsLib.getDocument({ data: arrayBuffer });
-        const pdf = await loadingTask.promise;
-
-        const newPdfDoc = await PDFDocument.create();
-        const helveticaFont = await newPdfDoc.embedFont(StandardFonts.Helvetica);
-
-        // Initialize Tesseract Worker
-        // Removing '1' (LSTM_ONLY) to let Tesseract decide best mode for bounding boxes
-        // Initialize Tesseract Worker
-        // OEM: 1 (LSTM_ONLY) is standard for v5
-        const worker = await createWorker(language, 1, {
-            logger: _m => { }
-        });
-
-        // FORCE TSV OUTPUT & AUTO SEGMENTATION (Using Strings)
-        await worker.setParameters({
-            tessedit_create_tsv: '1',
-            tessedit_create_hocr: '1',
-            tessedit_create_box: '1', // Add BOX for good measure
-            tessedit_pageseg_mode: '1' as any, // PSM_AUTO_OSD (String)
-        });
-
-        for (let i = 1; i <= pdf.numPages; i++) {
-            // ... loop content ...
-            if (onProgress) onProgress(`Processing Page ${i} of ${pdf.numPages}...`);
-
-            const page = await pdf.getPage(i);
-            const viewport = page.getViewport({ scale: 2.0 }); // High scale for better OCR
-            const canvas = document.createElement('canvas');
-            const context = canvas.getContext('2d');
-            canvas.height = viewport.height;
-            canvas.width = viewport.width;
-
-            if (!context) throw new Error("Canvas context failed");
-
-            // Fill white background first (PDFs can be transparent)
-            context.fillStyle = '#FFFFFF';
-            context.fillRect(0, 0, canvas.width, canvas.height);
-
-            await page.render({ canvasContext: context, viewport: viewport }).promise;
-
-            // Get Image Data URL
-            const imgDataUrl = canvas.toDataURL('image/jpeg', 1.0); // High quality
-
-
-            // Run OCR
-
-
+        let worker: any = null;
+        try {
+            // 1. Setup PDF.js and Tesseract.js
+            console.log("[ocrPDF] Step 1: Loading libraries...");
             // @ts-ignore
-            // Tesseract.js v6+ BREAKING CHANGE: Must explicitly request outputs in 3rd argument!
-            const result = await worker.recognize(imgDataUrl, {}, {
-                text: true,
-                blocks: true, // Needed for deep fallback
-                hocr: true,
-                tsv: true,    // Needed for TSV fallback
-                box: true
-            });
-            const data = result.data as any;
-            const { text } = data;
+            const { createWorker } = await import('tesseract.js');
+            const pdfjsLib = await getPdfJs();
+            console.log("[ocrPDF] Libraries loaded successfully");
 
-            // Initialize arrays early for fallbacks
-            let lines = data.lines || [];
-            let words = data.words || [];
+            console.log("[ocrPDF] Step 2: Reading file buffer...");
+            const arrayBuffer = await file.arrayBuffer();
+            const loadingTask = pdfjsLib.getDocument({ data: arrayBuffer });
+            const pdf = await loadingTask.promise;
+            console.log(`[ocrPDF] PDF loaded. Total pages: ${pdf.numPages}`);
 
+            const newPdfDoc = await PDFDocument.create();
+            const helveticaFont = await newPdfDoc.embedFont(StandardFonts.Helvetica);
 
-
-
-
-            // TSV FALLBACK (Priority over HOCR)
-            if ((!words || words.length === 0) && data.tsv) {
-                console.warn("DEBUG: Using TSV Parser Fallback");
-
-
-                const tsvLines = data.tsv.split('\n');
-                const tsvWords: any[] = [];
-
-                // Default indices
-                let leftIdx = 6, topIdx = 7, widthIdx = 8, heightIdx = 9, textIdx = 11, confIdx = 10;
-
-                if (tsvLines.length > 0) {
-                    const header = tsvLines[0].split('\t');
-                    leftIdx = header.indexOf('left');
-                    topIdx = header.indexOf('top');
-                    widthIdx = header.indexOf('width');
-                    heightIdx = header.indexOf('height');
-                    textIdx = header.indexOf('text');
-                    confIdx = header.indexOf('conf');
-                }
-
-                for (let j = 1; j < tsvLines.length; j++) {
-                    const row = tsvLines[j].split('\t');
-                    // Skip if not enough columns
-                    if (row.length < 10) continue;
-
-                    const valText = row[textIdx];
-                    const valLeft = parseInt(row[leftIdx]);
-                    const valTop = parseInt(row[topIdx]);
-                    const valWidth = parseInt(row[widthIdx]);
-                    const valHeight = parseInt(row[heightIdx]);
-
-                    // We only care about rows that have actual text and valid geometry
-                    if (valText && valText.trim().length > 0 && !isNaN(valLeft) && !isNaN(valTop) && valWidth > 0 && valHeight > 0) {
-                        tsvWords.push({
-                            text: valText.trim(),
-                            bbox: {
-                                x0: valLeft,
-                                y0: valTop,
-                                x1: valLeft + valWidth,
-                                y1: valTop + valHeight
-                            },
-                            confidence: !isNaN(parseFloat(row[confIdx])) ? parseFloat(row[confIdx]) : 0
-                        });
-                    }
-                }
-
-                if (tsvWords.length > 0) {
-
-                    words = tsvWords;
-                }
-            }
-
-
-
-            // lines/words declared above
-
-            // DEEP FALLBACK: If lines/words are empty, try to extract from blocks -> paragraphs
-            if ((!lines || lines.length === 0) && data.blocks && data.blocks.length > 0) {
-                console.warn("DEBUG: Using Deep Block Extraction Fallback");
-                const extractedWords: any[] = [];
-
-                data.blocks.forEach((block: any) => {
-                    if (block.paragraphs) {
-                        block.paragraphs.forEach((p: any) => {
-                            if (p.lines) {
-                                p.lines.forEach((l: any) => {
-                                    if (l.words) {
-                                        l.words.forEach((w: any) => extractedWords.push(w));
-                                    }
-                                });
-                            }
-                        });
-                    }
-                });
-
-                if (extractedWords.length > 0) {
-
-                    words = extractedWords;
-                }
-            }
-
-
-
-
-
-            // HOCR FALLBACK (LAST RESORT)
-            if ((!words || words.length === 0) && data.hocr) {
-                console.warn("DEBUG: Using HOCR Parser Fallback");
-
-                // Log the start of HOCR content to verify structure
-
-
-                const hocrWords: any[] = [];
-
-                try {
-                    const parser = new DOMParser();
-                    const doc = parser.parseFromString(data.hocr, "text/html");
-                    const spans = doc.querySelectorAll('.ocrx_word');
-
-
-
-                    spans.forEach((span: Element) => {
-                        const title = span.getAttribute('title');
-                        const text = span.textContent;
-
-                        if (title && text) {
-                            // Format: bbox 104 290 157 308; x_wconf 96
-                            const bboxMatch = title.match(/bbox (\d+) (\d+) (\d+) (\d+)/);
-                            if (bboxMatch) {
-                                hocrWords.push({
-                                    text: text.trim(),
-                                    bbox: {
-                                        x0: parseInt(bboxMatch[1]),
-                                        y0: parseInt(bboxMatch[2]),
-                                        x1: parseInt(bboxMatch[3]),
-                                        y1: parseInt(bboxMatch[4])
-                                    }
-                                });
-                            }
-                        }
-                    });
-                } catch (e) {
-                    console.error("HOCR Parsing Failed:", e);
-                }
-
-                if (hocrWords.length > 0) {
-
-                    words = hocrWords;
-                }
-            }
-
-
-
-
-            // Create New PDF Page
-            // We use the original page size (unscaled) for the PDF structure
-            const originalViewport = page.getViewport({ scale: 1.0 });
-            const pdfPage = newPdfDoc.addPage([originalViewport.width, originalViewport.height]);
-
-            // 1. Draw Original Image as Background
-            const embeddedImage = await newPdfDoc.embedJpg(imgDataUrl);
-            pdfPage.drawImage(embeddedImage, {
-                x: 0,
-                y: 0,
-                width: originalViewport.width,
-                height: originalViewport.height
-            });
-
-            // 2. Overlay Invisible Text
-            // Scale factor between Canvas (2.0) and PDF Page (1.0) = 0.5
-            const scaleFactor = originalViewport.width / viewport.width;
-
-            // Initialize Tesseract Worker
-            // ... (existing helper function context)
-
-            // Helper to load font safely
-            const loadCustomFont = async (doc: any, url: string) => {
-                try {
-                    const response = await fetch(url);
-                    if (!response.ok) return null;
-                    const fontBytes = await response.arrayBuffer();
-                    // Validate size (Fonts are usually > 20KB)
-                    if (fontBytes.byteLength < 20 * 1024) {
-                        console.warn(`Font ${url} is too small (${fontBytes.byteLength} bytes). Ignoring.`);
-                        return null;
-                    }
-                    return await doc.embedFont(fontBytes);
-                } catch (e) {
-                    // Normalize error message to avoid flooding console with stack traces
-                    console.warn(`Failed to load font ${url}: ${(e as Error).message}`);
-                    return null;
-                }
-            };
-
-            // ...
-
-            // REGISTER FONTKIT
+            // 2. REGISTER FONTKIT (One-time)
+            console.log("[ocrPDF] Step 3: Registering fontkit...");
             // @ts-ignore
             const fontkit = await import('@pdf-lib/fontkit');
             newPdfDoc.registerFontkit(fontkit.default || fontkit);
 
-            const [fontArabic] = await Promise.all([
-                // loadCustomFont(newPdfDoc, '/fonts/NotoSansSC.ttf'),
-                loadCustomFont(newPdfDoc, '/fonts/NotoSansArabic.ttf'),
-            ]);
-
-            // ... (Inside loop) ....
-
-            // Helper to draw a single word
-            const drawWord = (word: any) => {
-                const { bbox, text } = word;
-                if (!bbox || !text) return;
-
-                const x = bbox.x0 * scaleFactor;
-                const y = originalViewport.height - (bbox.y1 * scaleFactor); // Flip Y
-                const h = (bbox.y1 - bbox.y0) * scaleFactor;
-                const fontSize = h > 0 ? h : 12;
-
-                // Pick Font based on content
-                let selectedFont = helveticaFont;
-                if (/[\u0600-\u06FF]/.test(text) && fontArabic) {
-                    selectedFont = fontArabic;
-                }
-
+            // Helper to load font safely
+            const loadCustomFont = async (doc: any, url: string) => {
+                console.log(`[ocrPDF] Attempting to load font: ${url}`);
                 try {
-                    pdfPage.drawText(text, {
-                        x: x,
-                        y: y,
-                        size: fontSize,
-                        font: selectedFont,
-                        color: rgb(0, 0, 0),
-                        opacity: 0 // INVISIBLE (Searchable only)
-                    });
-                } catch (drawErr) {
-                    // console.warn(`Skipping unencodable word: ${text}`);
+                    const response = await fetch(url);
+                    if (!response.ok) {
+                        console.warn(`[ocrPDF] Font fetch failed (${response.status}): ${url}`);
+                        return null;
+                    }
+                    const fontBytes = await response.arrayBuffer();
+                    if (fontBytes.byteLength < 20 * 1024) {
+                        console.warn(`[ocrPDF] Font too small: ${url} (${fontBytes.byteLength} bytes)`);
+                        return null;
+                    }
+                    const font = await doc.embedFont(fontBytes);
+                    console.log(`[ocrPDF] Font loaded successfully: ${url}`);
+                    return font;
+                } catch (e) {
+                    console.warn(`[ocrPDF] Exception loading font ${url}:`, e);
+                    return null;
                 }
             };
 
-            if (lines && lines.length > 0) {
-                // Standard Lines -> Words iteration
-                lines.forEach((line: any) => {
-                    if (line.words) line.words.forEach(drawWord);
-                });
-            } else if (words && words.length > 0) {
-                // Fallback: Direct Words iteration
-                console.warn("Using Words Fallback for OCR");
-                words.forEach(drawWord);
-            } else {
-                console.warn(`DEBUG: No structural data (lines/words) found. Text length: ${text ? text.length : 0}`);
+            // 3. Load Fonts (One-time)
+            console.log("[ocrPDF] Step 4: Loading auxiliary fonts...");
+            const [fontArabic] = await Promise.all([
+                // loadCustomFont(newPdfDoc, '/fonts/NotoSansArabic.ttf'),
+            ]);
+
+            // 4. Initialize Tesseract Worker (One-time)
+            console.log(`[ocrPDF] Step 5: Initializing Tesseract worker for ${language}...`);
+            worker = await createWorker(language, 1, {
+                logger: m => {
+                    if (m.status === 'recognizing text' && onProgress) {
+                        // Optional: detailed progress
+                        // onProgress(`Recognizing: ${Math.round(m.progress * 100)}%`);
+                    }
+                }
+            });
+            console.log("[ocrPDF] Worker created");
+
+            await worker.setParameters({
+                tessedit_create_tsv: '1',
+                tessedit_create_hocr: '1',
+                tessedit_create_box: '1',
+                tessedit_pageseg_mode: '1' as any, // PSM_AUTO_OSD
+            });
+            console.log("[ocrPDF] Worker parameters set");
+
+            for (let i = 1; i <= pdf.numPages; i++) {
+                console.log(`[ocrPDF] --- Processing Page ${i}/${pdf.numPages} ---`);
+                try {
+                    if (onProgress) onProgress(`Processing Page ${i} of ${pdf.numPages}...`);
+
+                    const page = await pdf.getPage(i);
+                    const viewport = page.getViewport({ scale: 2.0 });
+                    const canvas = document.createElement('canvas');
+                    const context = canvas.getContext('2d');
+                    canvas.height = viewport.height;
+                    canvas.width = viewport.width;
+
+                    if (!context) throw new Error("Canvas 2D context creation failed");
+
+                    context.fillStyle = '#FFFFFF';
+                    context.fillRect(0, 0, canvas.width, canvas.height);
+
+                    console.log(`[ocrPDF] Rendering page ${i} to canvas...`);
+                    await page.render({ canvasContext: context, viewport: viewport }).promise;
+
+                    console.log(`[ocrPDF] Page ${i} rendered. Converting to data URL...`);
+                    const imgDataUrl = canvas.toDataURL('image/jpeg', 0.90);
+
+                    console.log(`[ocrPDF] Page ${i}: Running Tesseract recognition...`);
+                    const result = await worker.recognize(imgDataUrl, {}, {
+                        text: true,
+                        blocks: true,
+                        hocr: true,
+                        tsv: true,
+                        box: true
+                    });
+                    console.log(`[ocrPDF] Page ${i}: Recognition complete.`);
+
+                    const data = result.data as any;
+                    let words = data.words || [];
+                    let lines = data.lines || [];
+
+                    // FALLBACKS
+                    if ((!words || words.length === 0) && data.tsv) {
+                        console.log(`[ocrPDF] Page ${i}: Using TSV fallback parser`);
+                        const tsvLines = data.tsv.split('\n');
+                        const tsvWords: any[] = [];
+                        let leftIdx = 6, topIdx = 7, widthIdx = 8, heightIdx = 9, textIdx = 11, confIdx = 10;
+                        if (tsvLines.length > 0) {
+                            const header = tsvLines[0].split('\t');
+                            leftIdx = header.indexOf('left'); topIdx = header.indexOf('top');
+                            widthIdx = header.indexOf('width'); heightIdx = header.indexOf('height');
+                            textIdx = header.indexOf('text'); confIdx = header.indexOf('conf');
+                        }
+                        for (let j = 1; j < tsvLines.length; j++) {
+                            const row = tsvLines[j].split('\t');
+                            if (row.length < 10) continue;
+                            const valText = row[textIdx];
+                            if (valText && valText.trim().length > 0) {
+                                tsvWords.push({
+                                    text: valText.trim(),
+                                    bbox: {
+                                        x0: parseInt(row[leftIdx]) || 0,
+                                        y0: parseInt(row[topIdx]) || 0,
+                                        x1: (parseInt(row[leftIdx]) || 0) + (parseInt(row[widthIdx]) || 0),
+                                        y1: (parseInt(row[topIdx]) || 0) + (parseInt(row[heightIdx]) || 0)
+                                    },
+                                    confidence: parseFloat(row[confIdx]) || 0
+                                });
+                            }
+                        }
+                        if (tsvWords.length > 0) words = tsvWords;
+                    }
+
+                    // Deep Fallback via blocks
+                    if ((!words || words.length === 0) && data.blocks) {
+                        console.warn(`[ocrPDF] Page ${i}: Using Block fallback`);
+                        const extractedWords: any[] = [];
+                        data.blocks.forEach((block: any) => {
+                            (block.paragraphs || []).forEach((p: any) => {
+                                (p.lines || []).forEach((l: any) => {
+                                    (l.words || []).forEach((w: any) => extractedWords.push(w));
+                                });
+                            });
+                        });
+                        if (extractedWords.length > 0) words = extractedWords;
+                    }
+
+                    const originalViewport = page.getViewport({ scale: 1.0 });
+                    const pdfPage = newPdfDoc.addPage([originalViewport.width, originalViewport.height]);
+
+                    console.log(`[ocrPDF] Page ${i}: Embedding background image...`);
+                    const embeddedImage = await newPdfDoc.embedJpg(imgDataUrl);
+                    pdfPage.drawImage(embeddedImage, {
+                        x: 0, y: 0, width: originalViewport.width, height: originalViewport.height
+                    });
+
+                    const scaleFactor = originalViewport.width / viewport.width;
+
+                    const drawWord = (word: any) => {
+                        const { bbox, text } = word;
+                        if (!bbox || !text) return;
+
+                        // Safety checks for coordinates
+                        const x0 = parseFloat(bbox.x0);
+                        const y0 = parseFloat(bbox.y0);
+                        const x1 = parseFloat(bbox.x1);
+                        const y1 = parseFloat(bbox.y1);
+
+                        if (isNaN(x0) || isNaN(y0) || isNaN(x1) || isNaN(y1)) return;
+
+                        const x = x0 * scaleFactor;
+                        const y = originalViewport.height - (y1 * scaleFactor);
+                        const h = (y1 - y0) * scaleFactor;
+                        const fontSize = Math.max(h, 2) || 8;
+
+                        let selectedFont = helveticaFont;
+                        if (/[\u0600-\u06FF]/.test(text) && fontArabic) selectedFont = fontArabic;
+
+                        try {
+                            pdfPage.drawText(text, {
+                                x: x, y: y, size: fontSize, font: selectedFont, color: rgb(0, 0, 0), opacity: 0
+                            });
+                        } catch (drawErr) {
+                            // Silently ignore encoding errors for individual words
+                        }
+                    };
+
+                    console.log(`[ocrPDF] Page ${i}: Drawing invisible text layer...`);
+                    if (lines && lines.length > 0) {
+                        lines.forEach((line: any) => (line.words || []).forEach(drawWord));
+                    } else if (words && words.length > 0) {
+                        words.forEach(drawWord);
+                    }
+                    console.log(`[ocrPDF] Page ${i}: Summary - Processed ${words.length} words.`);
+
+                } catch (pageErr) {
+                    console.error(`[ocrPDF] Critical error on page ${i}:`, pageErr);
+                }
+            }
+
+            console.log("[ocrPDF] Step 6: Finalizing PDF...");
+            const finalBytes = await newPdfDoc.save();
+            console.log(`[ocrPDF] OCR finished. Final bytes: ${finalBytes.length}`);
+            return finalBytes;
+
+        } catch (fatalErr) {
+            console.error("[ocrPDF] FATAL ERROR during OCR process:", fatalErr);
+            throw fatalErr; // Re-throw so ToolProcessor handles it
+        } finally {
+            if (worker) {
+                console.log("[ocrPDF] Cleaning up Tesseract worker...");
+                await worker.terminate();
             }
         }
-
-        await worker.terminate();
-        return await newPdfDoc.save();
     },
 
     // 17. PDF to PowerPoint (Image based)
@@ -1921,99 +1897,198 @@ export const OrbitPDFEngine = {
         return new Uint8Array(pdfArrayBuffer);
     },
 
-    // 20. HTML to PDF (Clean Reinstall - Off-Screen Overlay Strategy)
+    // 20. HTML to PDF (Isolated Rendering via Iframe)
     async htmlToPDF(file: File): Promise<Uint8Array> {
-        // @ts-ignore
-        const html2pdf = (await import('html2pdf.js')).default;
+        // PULSE-CAPTURE: Segmented vertical mirror to prevent main-thread freeze
         const text = await file.text();
+        const isFullDoc = /<html/i.test(text);
 
-        // 1. Create a Full-Screen Overlay (Pseudo-Modal)
-        // We move it OFF-SCREEN so the user doesn't see it, but we keep it "fixed" and high z-index
-        // to trick the browser into rendering it fully.
-        const overlay = document.createElement('div');
-        overlay.style.position = 'fixed';
-        overlay.style.top = '0';
-        overlay.style.left = '-10000px'; // Hide from view
-        overlay.style.width = '100vw';
-        overlay.style.height = '100vh';
-        overlay.style.backgroundColor = 'white'; // White background just in case
-        overlay.style.zIndex = '999999';
-        overlay.style.display = 'flex';
-        overlay.style.justifyContent = 'center';
-        overlay.style.alignItems = 'center';
-        // overlay.style.visibility = 'hidden'; // DO NOT USE THIS (Prevents painting)
+        // @ts-ignore
+        const html2canvas = (await import('html2canvas')).default;
+        // @ts-ignore
+        const { jsPDF } = await import('jspdf');
 
-        // 2. The Actual Document Container (A4 Paper)
-        const container = document.createElement('div');
-        container.innerHTML = text; // Inject HTML
-
-        // Paper Styling
-        Object.assign(container.style, {
-            width: '794px',   // A4 Width @ 96 DPI
-            minHeight: '1123px', // A4 Height
-            backgroundColor: 'white',
-            color: 'black', // Force black text
-            padding: '40px',
-            boxShadow: 'none', // No shadow needed off-screen
-            margin: '0',
-            position: 'relative'
+        // 1. Enter Stealth Mode: Quantum Overlay
+        document.body.setAttribute('data-orbit-pdf-locking', 'true');
+        const vault = document.createElement('iframe');
+        vault.id = 'orbit-pdf-the-vault-pulse';
+        Object.assign(vault.style, {
+            position: 'fixed',
+            top: '0',
+            left: '0',
+            width: '100vw',
+            height: '100vh',
+            border: 'none',
+            visibility: 'visible',
+            opacity: '0.005',
+            zIndex: '2147483647',
+            pointerEvents: 'none'
         });
+        document.body.appendChild(vault);
 
-        // No Label needed since it's hidden
-        overlay.appendChild(container);
-
-        // Inject styles to ensure content looks good
-        const style = document.createElement('style');
-        style.innerHTML = `
-            img { max-width: 100%; height: auto; display: block; margin: 10px 0; }
-            body { background-color: white !important; } /* Override any scoped body styles */
-        `;
-        container.appendChild(style);
-
-        document.body.appendChild(overlay);
-
-        // 3. Wait for Rendering & Images
-        await new Promise(r => setTimeout(r, 1000)); // 1s delay for layout/paint
-
-        // 4. Wait for images (Robust)
-        const images = Array.from(container.getElementsByTagName('img'));
-        await Promise.all(images.map(img => {
-            if (img.complete) return Promise.resolve();
-            return new Promise(resolve => {
-                img.onload = resolve;
-                img.onerror = resolve;
-                setTimeout(resolve, 3000); // 3s timeout per image
-            });
-        }));
-
-        // Final paint delay
-        await new Promise(r => setTimeout(r, 500));
+        const CHUNK_HEIGHT = 1000; // Neural Pulse: Micro-slices to prevent main-thread spikes
 
         try {
-            const opt = {
-                margin: [10, 10, 10, 10] as [number, number, number, number],
-                filename: 'document.pdf',
-                image: { type: 'jpeg' as const, quality: 0.98 },
-                html2canvas: {
-                    scale: 2,
-                    useCORS: true,
-                    letterRendering: true,
-                    backgroundColor: '#ffffff',
-                    windowWidth: 794
-                },
-                jsPDF: { unit: 'mm' as const, format: 'a4' as const, orientation: 'portrait' as const },
-                pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+            const vaultDoc = vault.contentDocument || vault.contentWindow?.document;
+            if (!vaultDoc) throw new Error("Quantum access denied.");
+
+            // Optimized Proxy: Yield every 2 images to keep spinner alive
+            const proxyImagesToDataUrls = async (doc: Document) => {
+                const images = Array.from(doc.querySelectorAll('img'));
+                for (let i = 0; i < images.length; i++) {
+                    if (i % 2 === 0) await new Promise(r => setTimeout(r, 60));
+                    const img = images[i];
+                    try {
+                        if (!img.complete) {
+                            await new Promise(res => {
+                                img.onload = res;
+                                img.onerror = res;
+                                setTimeout(res, 2000);
+                            });
+                        }
+                        const canvas = document.createElement('canvas');
+                        canvas.width = img.naturalWidth || img.width;
+                        canvas.height = img.naturalHeight || img.height;
+                        if (canvas.width > 0 && canvas.height > 0) {
+                            const ctx = canvas.getContext('2d');
+                            ctx?.drawImage(img, 0, 0);
+                            img.src = canvas.toDataURL('image/jpeg', 0.9);
+                            img.setAttribute('crossOrigin', 'anonymous');
+                        }
+                    } catch (e) {
+                        console.warn("OrbitPDF: Neural-proxy skipped image.", e);
+                    }
+                }
             };
 
-            // Convert
-            const pdfArrayBuffer = await html2pdf().from(container).set(opt).output('arraybuffer');
-            return new Uint8Array(pdfArrayBuffer);
+            const scrubDOM = (doc: Document, isNuclear: boolean) => {
+                const root = doc.body || doc.documentElement;
+                if (!root) return;
+                const walker = doc.createTreeWalker(root, NodeFilter.SHOW_ELEMENT);
+                let node;
+                const toRemove: Element[] = [];
+                while (node = walker.nextNode() as Element) {
+                    node.removeAttribute('style');
+                    const tag = node.tagName.toLowerCase();
+                    if (['svg', 'canvas', 'iframe', 'symbol', 'use', 'pattern', 'defs', 'script', 'noscript'].includes(tag)) {
+                        toRemove.push(node);
+                    }
+                    if (isNuclear && !['p', 'h1', 'h2', 'h3', 'h4', 'span', 'img', 'body', 'html', 'div', 'br', 'b', 'i', 'strong', 'em', 'ul', 'ol', 'li'].includes(tag)) {
+                        toRemove.push(node);
+                    }
+                }
+                toRemove.forEach(el => el.remove());
+            };
+
+            const injectContent = (isNuclear: boolean) => {
+                vaultDoc.open();
+                const safeText = text.trim() || "<p>Empty document</p>";
+                const content = isFullDoc ? safeText : `
+                    <!DOCTYPE html>
+                    <html>
+                        <head>
+                            <style>
+                                body { 
+                                    background: white !important; 
+                                    color: black !important; 
+                                    margin: 0 !important; 
+                                    padding: 60px !important; 
+                                    width: 800px !important; 
+                                    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+                                    line-height: 1.6 !important;
+                                    word-wrap: break-word !important;
+                                }
+                                * { 
+                                    background: transparent !important;
+                                    background-image: none !important;
+                                    box-shadow: none !important;
+                                }
+                                img { max-width: 100%; height: auto; display: block; margin: 30px 0; border-radius: 4px; }
+                                h1, h2, h3 { color: #0f172a !important; margin-top: 30px; font-weight: bold !important; }
+                                p { margin-bottom: 20px; font-size: 16px !important; }
+                                #orbit-safety-anchor { height: 1px; width: 800px; clear: both; }
+                            </style>
+                        </head>
+                        <body>${safeText}<div id="orbit-safety-anchor"></div></body>
+                    </html>
+                `;
+                vaultDoc.write(content);
+                vaultDoc.close();
+                scrubDOM(vaultDoc, isNuclear);
+            };
+
+            injectContent(false);
+
+            await new Promise((resolve) => {
+                const start = Date.now();
+                const check = () => {
+                    const elapsed = Date.now() - start;
+                    if ((vaultDoc.readyState === 'complete' && (vaultDoc.body?.scrollHeight || 0) > 10) || elapsed > 10000) resolve(null);
+                    else setTimeout(check, 100);
+                };
+                check();
+            });
+
+            await proxyImagesToDataUrls(vaultDoc);
+            await new Promise(r => setTimeout(r, 1000));
+
+            const totalHeight = Math.max(vaultDoc.body?.scrollHeight || 0, vaultDoc.documentElement.scrollHeight || 0, 1000);
+            vault.style.height = `${totalHeight + 200}px`;
+
+            const pdf = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+            const pdfWidth = pdf.internal.pageSize.getWidth();
+            let currentPointer = 0;
+
+            // Neural Pulse Loop: High-speed JPEG encoding with paint-cycle sync
+            while (currentPointer < totalHeight) {
+                // Heartbeat: Wait for a full browser repaint to keep spinner fluid
+                await new Promise(r => {
+                    requestAnimationFrame(() => {
+                        setTimeout(r, 150); // Generous yield for UI
+                    });
+                });
+
+                const remaining = totalHeight - currentPointer;
+                const chunkHeight = Math.min(CHUNK_HEIGHT, remaining);
+
+                const canvas = await html2canvas(vaultDoc.body || vaultDoc.documentElement, {
+                    scale: 2,
+                    useCORS: true,
+                    allowTaint: true,
+                    backgroundColor: '#ffffff',
+                    logging: false,
+                    width: 800,
+                    height: chunkHeight,
+                    windowWidth: 800,
+                    windowHeight: chunkHeight,
+                    y: currentPointer,
+                    scrollX: 0,
+                    scrollY: -currentPointer,
+                    parent: document.body
+                });
+
+                // Turbo Encoding: JPEG is much faster to compress than PNG
+                const imgData = canvas.toDataURL('image/jpeg', 0.95);
+                const imgProps = pdf.getImageProperties(imgData);
+                const chunkHeightMM = (imgProps.height * pdfWidth) / imgProps.width;
+
+                pdf.addImage(imgData, 'JPEG', 0, 0, pdfWidth, chunkHeightMM);
+
+                currentPointer += chunkHeight;
+                if (currentPointer < totalHeight) pdf.addPage();
+
+                // Final slice yield
+                await new Promise(r => setTimeout(r, 50));
+            }
+
+            // Yield before final serialization
+            await new Promise(r => setTimeout(r, 200));
+            const arrayBuffer = pdf.output('arraybuffer');
+            return new Uint8Array(arrayBuffer);
 
         } finally {
-            // 5. Cleanup
-            if (document.body.contains(overlay)) {
-                document.body.removeChild(overlay);
-            }
+            vault.remove();
+            document.body.removeAttribute('data-orbit-pdf-locking');
         }
     }
 };
