@@ -1503,7 +1503,8 @@ export const OrbitPDFEngine = {
             const fontkit = await import('@pdf-lib/fontkit');
             newPdfDoc.registerFontkit(fontkit.default || fontkit);
 
-            // Helper to load font safely
+            /* 
+            // Helper to load font safely (Commented out to prevent TS6133 unused error)
             const loadCustomFont = async (doc: any, url: string) => {
                 console.log(`[ocrPDF] Attempting to load font: ${url}`);
                 try {
@@ -1525,10 +1526,11 @@ export const OrbitPDFEngine = {
                     return null;
                 }
             };
+            */
 
             // 3. Load Fonts (One-time)
             console.log("[ocrPDF] Step 4: Loading auxiliary fonts...");
-            const [fontArabic] = await Promise.all([
+            await Promise.all([
                 // loadCustomFont(newPdfDoc, '/fonts/NotoSansArabic.ttf'),
             ]);
 
@@ -2063,8 +2065,7 @@ export const OrbitPDFEngine = {
                     windowHeight: chunkHeight,
                     y: currentPointer,
                     scrollX: 0,
-                    scrollY: -currentPointer,
-                    parent: document.body
+                    scrollY: -currentPointer
                 });
 
                 // Turbo Encoding: JPEG is much faster to compress than PNG
