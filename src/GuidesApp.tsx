@@ -45,8 +45,14 @@ export default function GuidesApp() {
                 </div>
 
                 <Routes>
+                    {/* Explicit guide routes */}
                     <Route path="/guides/:id" element={<Guides externalSearch={searchQuery} />} />
                     <Route path="/guides" element={<Guides externalSearch={searchQuery} />} />
+
+                    {/* Fallback for when the server rewrites without the prefix (basename issues) */}
+                    <Route path="/:id" element={<Guides externalSearch={searchQuery} />} />
+
+                    {/* General catch-all */}
                     <Route path="*" element={<Guides externalSearch={searchQuery} />} />
                 </Routes>
 

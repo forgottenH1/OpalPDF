@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft, BookOpen, ChevronRight, Search } from 'lucide-react';
-import { useParams } from 'react-router-dom';
+import { useParams, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import AdSpace from './AdSpace';
 

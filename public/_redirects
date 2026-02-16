@@ -1,5 +1,6 @@
-# Cloudflare Pages Redirects
 # Handle SPA routing for Guides
+/guides    /guides.html  200
+/guides/   /guides.html  200
 /guides/*  /guides.html  200
 
 # Handle SPA routing for Contact
