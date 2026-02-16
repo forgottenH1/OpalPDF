@@ -21,6 +21,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://orbitpdf.pages.dev/thanks?lng=en</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://orbitpdf.pages.dev/merge?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -181,7 +186,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split?lng=en</loc>
+    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -351,6 +356,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://orbitpdf.pages.dev/thanks?lng=es</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://orbitpdf.pages.dev/merge?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -511,7 +521,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split?lng=es</loc>
+    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -681,6 +691,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://orbitpdf.pages.dev/thanks?lng=fr</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://orbitpdf.pages.dev/merge?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -841,7 +856,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split?lng=fr</loc>
+    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1011,6 +1026,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://orbitpdf.pages.dev/thanks?lng=ar</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://orbitpdf.pages.dev/merge?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1171,7 +1191,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split?lng=ar</loc>
+    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1341,6 +1361,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://orbitpdf.pages.dev/thanks?lng=ja</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://orbitpdf.pages.dev/merge?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1501,7 +1526,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split?lng=ja</loc>
+    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1671,6 +1696,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://orbitpdf.pages.dev/thanks?lng=zh</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://orbitpdf.pages.dev/merge?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1831,7 +1861,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split?lng=zh</loc>
+    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2001,6 +2031,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://orbitpdf.pages.dev/thanks?lng=de</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://orbitpdf.pages.dev/merge?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2161,7 +2196,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split?lng=de</loc>
+    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2331,6 +2366,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://orbitpdf.pages.dev/thanks?lng=ru</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://orbitpdf.pages.dev/merge?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2491,7 +2531,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split?lng=ru</loc>
+    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2661,6 +2701,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://orbitpdf.pages.dev/thanks?lng=pt</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://orbitpdf.pages.dev/merge?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2821,7 +2866,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split?lng=pt</loc>
+    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2991,6 +3036,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://orbitpdf.pages.dev/thanks?lng=uk</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://orbitpdf.pages.dev/merge?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3151,7 +3201,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split?lng=uk</loc>
+    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3321,6 +3371,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://orbitpdf.pages.dev/thanks?lng=tr</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://orbitpdf.pages.dev/merge?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3481,7 +3536,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split?lng=tr</loc>
+    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3651,6 +3706,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://orbitpdf.pages.dev/thanks?lng=it</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://orbitpdf.pages.dev/merge?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3811,7 +3871,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split?lng=it</loc>
+    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

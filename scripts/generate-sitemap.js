@@ -63,7 +63,8 @@ function generateSitemap() {
         { path: '/', priority: '1.0' },
         { path: '/contact', priority: '0.4' },
         { path: '/advertise', priority: '0.6' },
-        { path: '/guides', priority: '0.7' } // Main guides hub
+        { path: '/guides', priority: '0.7' }, // Main guides hub
+        { path: '/thanks', priority: '0.3' } // Post-download/payment success page
     ];
 
     // Helper to add URL entry
