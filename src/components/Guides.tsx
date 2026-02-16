@@ -38,9 +38,15 @@ export default function Guides({ externalSearch }: GuidesProps) {
     const { t } = useTranslation();
     const toolsGuides = useGuidesData();
     const [searchTerm, setSearchTerm] = useState(externalSearch || '');
-    const { id: guideId } = useParams();
+    const { id: routeId } = useParams();
+    const location = useLocation();
 
-    const activeGuide = guideId ? toolsGuides.find(g => g.id === guideId) || null : null;
+    // Safety Fallback: If routeId is missing (Router mismatch), extract from pathname
+    const guideId = routeId || location.pathname.split('/').pop();
+
+    const activeGuide = (guideId && guideId !== 'guides' && guideId !== 'guides.html')
+        ? toolsGuides.find(g => g.id === guideId) || null
+        : null;
 
     const filteredGuides = toolsGuides.filter(g =>
         g.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
