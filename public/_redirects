@@ -1,13 +1,10 @@
-# Handle SPA routing for Guides
-/guides    /guides.html  200
-/guides/   /guides.html  200
-/guides/*  /guides.html  200
+# Handle MPA routing for Contact
+/contact/    /contact.html  200
+/contact/*   /contact.html  200
 
-# Handle SPA routing for Contact
-/contact/* /contact.html 200
-
-# Handle SPA routing for Advertise
+# Handle MPA routing for Advertise
+/advertise/  /advertise.html 200
 /advertise/* /advertise.html 200
 
-# Handle SPA routing for Main App (Tools) - Catch all
+# Handle all other routing (including Unified Guides) through main index.html
 /*  /index.html  200

@@ -133,6 +133,18 @@ export default function App() {
                         <meta name="robots" content="noindex" />
                     </Helmet>
                 } />
+                <Route path="/guides" element={
+                    <Helmet>
+                        <title>{t('guides.title')} | OrbitPDF</title>
+                        <meta name="description" content={t('guides.subtitle')} />
+                    </Helmet>
+                } />
+                <Route path="/guides/:id" element={
+                    <Helmet>
+                        {/* Title will be handled inside Guides component for specific IDs */}
+                        <title>{t('guides.title')} | OrbitPDF</title>
+                    </Helmet>
+                } />
                 <Route path="/:toolId" element={<ToolMetadata />} />
             </Routes>
 
@@ -204,7 +216,7 @@ export default function App() {
                             <div className="w-full mb-4">
                                 <AdSpace placement="header" className="w-full" />
                             </div>
-                            <Guides />
+                            <Guides externalSearch={searchQuery} />
                             <div className="mt-12 mb-8">
                                 <AdSpace placement="footer" className="w-full" />
                             </div>
@@ -215,7 +227,7 @@ export default function App() {
                             <div className="w-full mb-4">
                                 <AdSpace placement="header" className="w-full" />
                             </div>
-                            <Guides />
+                            <Guides externalSearch={searchQuery} />
                             <div className="mt-12 mb-8">
                                 <AdSpace placement="footer" className="w-full" />
                             </div>

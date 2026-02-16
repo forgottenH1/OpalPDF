@@ -8,7 +8,6 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: 'index.html',
-                guides: 'guides.html',
                 contact: 'contact.html',
                 advertise: 'advertise.html',
                 advertiseInquiry: 'advertise-inquiry.html'
