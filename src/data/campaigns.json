@@ -5,13 +5,14 @@
     "startDate": "2026-02-13",
     "clicks": 0,
     "endDate": "2027-02-13",
-    "script": "<script>\n  atOptions = {\n    'key' : 'b6081800cc3b82edbc24e2a9c3cda3da',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://exterminatordesperate.com/b6081800cc3b82edbc24e2a9c3cda3da/invoke.js\"></script>",
     "mobileScript": "<script>\n  atOptions = {\n    'key' : '2f6d8232ca3284168a2c7f30ef9e738a',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://exterminatordesperate.com/2f6d8232ca3284168a2c7f30ef9e738a/invoke.js\"></script>",
     "footerMobileScript": "<script>\n  atOptions = {\n    'key' : 'f0b108fb287c4e16dff617c551f7d09f',\n    'format' : 'iframe',\n    'height' : 50,\n    'width' : 320,\n    'params' : {}\n  };\n</script>\n<script src=\"https://exterminatordesperate.com/f0b108fb287c4e16dff617c551f7d09f/invoke.js\"></script>",
     "footerScript": "<script>\n  atOptions = {\n    'key' : 'b6081800cc3b82edbc24e2a9c3cda3da',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://exterminatordesperate.com/b6081800cc3b82edbc24e2a9c3cda3da/invoke.js\"></script>",
     "id": "1770990298616",
     "advertiserId": "1770990298608",
-    "tier": "unassigned"
+    "tier": "unassigned",
+    "imageUrl": "/ads/desktop/header/desktop header svg.svg",
+    "footerImageUrl": "/ads/desktop/footer/desktop footer banner svg.svg"
   },
   {
     "status": "active",
