@@ -50,14 +50,17 @@ export default function Guides({ externalSearch }: GuidesProps) {
     const lastPart = pathParts[pathParts.length - 1];
 
     // Aggressive ID Normalization: handle case, trailing slashes, and whitespace
-    const normalizedRouteId = routeId?.trim().toLowerCase();
+    let normalizedRouteId = routeId?.trim().toLowerCase();
     const normalizedLastPart = lastPart?.trim().toLowerCase();
 
     // Check if we're on /guides or /guides.html
     const isListMode = !normalizedLastPart || normalizedLastPart === 'guides' || normalizedLastPart === 'guides.html';
 
+    // Legacy Mapping: if they visit /guides/split, map it to split-pdf
+    if (normalizedRouteId === 'split') normalizedRouteId = 'split-pdf';
+
     // Choose the best candidate for guide ID
-    const guideId = normalizedRouteId || (isListMode ? null : normalizedLastPart);
+    const guideId = normalizedRouteId || (isListMode ? null : (normalizedLastPart === 'split' ? 'split-pdf' : normalizedLastPart));
 
     const activeGuide = guideId ? toolsGuides.find(g => g.id.toLowerCase() === guideId) || null : null;
 
