@@ -1528,6 +1528,7 @@ export const OrbitPDFEngine = {
             };
             */
 
+            const fontArabic = null; // Arabic font loading is currently disabled
             // 3. Load Fonts (One-time)
             console.log("[ocrPDF] Step 4: Loading auxiliary fonts...");
             await Promise.all([
