@@ -122,7 +122,7 @@ export default function Guides({ externalSearch }: GuidesProps) {
                                         </div>
                                         <div className="pt-2">
                                             <p className="text-slate-300 text-lg leading-relaxed">
-                                                {step.split('**').map((part, i) =>
+                                                {step.split('**').map((part: string, i: number) =>
                                                     i % 2 === 1 ? <strong key={i} className="text-white font-semibold">{part}</strong> : part
                                                 )}
                                             </p>
