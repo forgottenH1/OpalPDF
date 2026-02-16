@@ -21,13 +21,16 @@ const useGuidesData = () => {
         'ppt-to-pdf', 'html-to-pdf'
     ];
 
-    return guideIds.map(id => ({
-        id,
-        title: t(`guidesData.${id}.title`),
-        category: t(`guidesData.${id}.category`),
-        intro: t(`guidesData.${id}.intro`),
-        steps: t(`guidesData.${id}.steps`, { returnObjects: true }) as string[]
-    }));
+    return guideIds.map(id => {
+        const rawSteps = t(`guidesData.${id}.steps`, { returnObjects: true });
+        return {
+            id,
+            title: t(`guidesData.${id}.title`) || id,
+            category: t(`guidesData.${id}.category`) || 'Guide',
+            intro: t(`guidesData.${id}.intro`) || '',
+            steps: Array.isArray(rawSteps) ? rawSteps : []
+        };
+    });
 };
 
 interface GuidesProps {
@@ -41,12 +44,16 @@ export default function Guides({ externalSearch }: GuidesProps) {
     const { id: routeId } = useParams();
     const location = useLocation();
 
-    // Safety Fallback: If routeId is missing (Router mismatch), extract from pathname
-    const guideId = routeId || location.pathname.split('/').pop();
+    // Improved ID Extraction: Handle trailing slashes and common path variants
+    const cleanPath = location.pathname.replace(/\/$/, ''); // Remove trailing slash
+    const pathParts = cleanPath.split('/');
+    const lastPart = pathParts[pathParts.length - 1];
 
-    const activeGuide = (guideId && guideId !== 'guides' && guideId !== 'guides.html')
-        ? toolsGuides.find(g => g.id === guideId) || null
-        : null;
+    // If we're on /guides or /guides.html, we're in list mode
+    const isListMode = !lastPart || lastPart === 'guides' || lastPart === 'guides.html';
+    const guideId = routeId || (isListMode ? null : lastPart);
+
+    const activeGuide = guideId ? toolsGuides.find(g => g.id === guideId) || null : null;
 
     const filteredGuides = toolsGuides.filter(g =>
         g.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
