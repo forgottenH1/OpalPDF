@@ -13,6 +13,7 @@ import BackToTop from './components/BackToTop';
 const ToolProcessor = lazy(() => import('./components/ToolProcessor'));
 const AdminDashboard = lazy(() => import('./pages/AdminDashboard'));
 const Thanks = lazy(() => import('./pages/Thanks'));
+const FAQ = lazy(() => import('./pages/FAQ'));
 import MobileMenu from './components/MobileMenu';
 import AdSpace from './components/AdSpace';
 import NotFound from './components/NotFound';
@@ -133,6 +134,13 @@ export default function App() {
                         <meta name="robots" content="noindex" />
                     </Helmet>
                 } />
+                <Route path="/faq" element={
+                    <Helmet>
+                        <title>{t('faq.title')} | OrbitPDF</title>
+                        <meta name="description" content={t('faq.subtitle')} />
+                        <link rel="canonical" href="https://orbitpdf.com/faq" />
+                    </Helmet>
+                } />
                 <Route path="/guides" element={
                     <Helmet>
                         <title>{t('guides.title')} | OrbitPDF</title>
@@ -240,6 +248,12 @@ export default function App() {
                     <Route path="/thanks" element={
                         <Suspense fallback={<Loader2 className="w-10 h-10 animate-spin mx-auto mt-20 text-blue-500" />}>
                             <Thanks />
+                        </Suspense>
+                    } />
+
+                    <Route path="/faq" element={
+                        <Suspense fallback={<Loader2 className="w-10 h-10 animate-spin mx-auto mt-20 text-blue-500" />}>
+                            <FAQ />
                         </Suspense>
                     } />
 

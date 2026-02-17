@@ -110,38 +110,38 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose, openModal }) =
                             {t('nav.quickTools')}
                         </p>
                         <nav className="grid grid-cols-2 gap-4">
-                            <a href="/?tool=merge" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(3)}`}>
+                            <a href="/merge" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(3)}`}>
                                 <LinkIcon className="w-6 h-6 text-purple-400 mb-2" />
                                 <span className="text-sm text-slate-300">{t('tools.merge.title')}</span>
                             </a>
-                            <a href="/?tool=split" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(3)}`}>
+                            <a href="/split" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(3)}`}>
                                 <Split className="w-6 h-6 text-indigo-400 mb-2" />
                                 <span className="text-sm text-slate-300">{t('tools.split.title')}</span>
                             </a>
 
-                            <a href="/?tool=compress" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(4)}`}>
+                            <a href="/compress" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(4)}`}>
                                 <Minimize2 className="w-6 h-6 text-orange-400 mb-2" />
                                 <span className="text-sm text-slate-300">{t('tools.compress.title')}</span>
                             </a>
-                            <a href="/?tool=pdf-to-word" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(4)}`}>
+                            <a href="/pdf-to-word" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(4)}`}>
                                 <FileText className="w-6 h-6 text-emerald-400 mb-2" />
                                 <span className="text-sm text-slate-300">{t('tools.pdf-to-word.title')}</span>
                             </a>
 
-                            <a href="/?tool=word-to-pdf" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(5)}`}>
+                            <a href="/word-to-pdf" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(5)}`}>
                                 <FileText className="w-6 h-6 text-blue-400 mb-2" />
                                 <span className="text-sm text-slate-300">{t('tools.word-to-pdf.title')}</span>
                             </a>
-                            <a href="/?tool=pdf-to-img" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(5)}`}>
+                            <a href="/pdf-to-img" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(5)}`}>
                                 <Image className="w-6 h-6 text-pink-400 mb-2" />
                                 <span className="text-sm text-slate-300">{t('tools.pdf-to-img.title')}</span>
                             </a>
 
-                            <a href="/?tool=sign" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(6)}`}>
+                            <a href="/sign" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(6)}`}>
                                 <PenTool className="w-6 h-6 text-teal-400 mb-2" />
                                 <span className="text-sm text-slate-300">{t('tools.sign.title')}</span>
                             </a>
-                            <a href="/?tool=protect" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(6)}`}>
+                            <a href="/protect" onClick={onClose} className={`flex flex-col items-center justify-center p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all duration-500 ${getDelayClass(6)}`}>
                                 <Lock className="w-6 h-6 text-red-400 mb-2" />
                                 <span className="text-sm text-slate-300">{t('tools.protect.title')}</span>
                             </a>

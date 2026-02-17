@@ -21,9 +21,11 @@
         "noToolsFound": "Nenhuma ferramenta encontrada para \"{{query}}\"",
         "tryAgain": "Tentar novamente",
         "clear": "Limpar",
-        "launchTool": "Abrir Ferramenta",
-        "notSelected": "Não selecionado",
-        "closeModal": "Fechar Modal"
+        "launchTool": "Iniciar Ferramenta",
+        "notSelected": "Não Selecionado",
+        "closeModal": "Fechar Modal",
+        "buyMeCoffee": "Pague-me um café",
+        "supportWithPaypal": "Apoiar com PayPal"
     },
     "categories": {
         "Organize": "Organizar",
@@ -48,7 +50,8 @@
         "menu": "Menu",
         "quickTools": "Ferramentas Rápidas",
         "ariaOpen": "Abrir menu",
-        "ariaClose": "Fechar menu"
+        "ariaClose": "Fechar menu",
+        "faq": "FAQ"
     },
     "contact": {
         "getInTouch": "Fale Conosco",
@@ -788,5 +791,35 @@
         "learnMoreGoogle": "Como a Google utiliza os dados quando utiliza sites ou aplicações dos nossos parceiros",
         "accept": "Aceitar tudo",
         "decline": "Recusar"
+    },
+    "faq": {
+        "title": "Perguntas Frequentes",
+        "subtitle": "Perguntas comuns sobre o OrbitPDF e como funciona.",
+        "items": [
+            {
+                "question": "O OrbitPDF é gratuito?",
+                "answer": "Sim! Todas as ferramentas no OrbitPDF são 100% gratuitas. Não há taxas ocultas, assinaturas ou limites no número de arquivos que você pode processar."
+            },
+            {
+                "question": "Meus arquivos estão seguros?",
+                "answer": "Absolutamente. O OrbitPDF opera inteiramente no lado do cliente, o que significa que seus arquivos são processados diretamente no seu navegador. Eles nunca são enviados para nossos servidores, garantindo total privacidade e segurança."
+            },
+            {
+                "question": "Preciso instalar algum software?",
+                "answer": "Nenhuma instalação é necessária. O OrbitPDF funciona diretamente no seu navegador (Chrome, Firefox, Safari, Edge, etc.) em qualquer dispositivo, incluindo computadores, tablets e smartphones."
+            },
+            {
+                "question": "Como junto vários arquivos PDF?",
+                "answer": "Basta navegar até a ferramenta 'Juntar PDF', selecionar seus arquivos, organizá-los na ordem desejada e clicar em 'Juntar PDF'. Seu novo documento estará pronto para download instantaneamente."
+            },
+            {
+                "question": "Posso usar o OrbitPDF offline?",
+                "answer": "Sim, o OrbitPDF é um Progressive Web App (PWA). Uma vez carregado, muitas ferramentas podem funcionar offline, e você pode instalá-lo no seu dispositivo para acesso rápido."
+            },
+            {
+                "question": "Como entro em contato com o suporte?",
+                "answer": "Se você encontrar algum problema ou tiver dúvidas, visite nossa página de Contato ou envie um e-mail. Ficaremos felizes em ajudar!"
+            }
+        ]
     }
 }

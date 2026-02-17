@@ -23,7 +23,9 @@
         "clear": "清除",
         "launchTool": "启动工具",
         "notSelected": "未选择",
-        "closeModal": "关闭模态框"
+        "closeModal": "关闭模态框",
+        "buyMeCoffee": "请我喝咖啡",
+        "supportWithPaypal": "通过 PayPal 支持"
     },
     "categories": {
         "Organize": "整理",
@@ -48,7 +50,8 @@
         "menu": "菜单",
         "quickTools": "快捷工具",
         "ariaOpen": "打开菜单",
-        "ariaClose": "关闭菜单"
+        "ariaClose": "关闭菜单",
+        "faq": "常见问题"
     },
     "contact": {
         "getInTouch": "取得联系",
@@ -788,5 +791,35 @@
         "learnMoreGoogle": "Google 如何利用从由于您使用我们的合作伙伴的网站或应用而产生的数据",
         "accept": "全部接受",
         "decline": "拒绝"
+    },
+    "faq": {
+        "title": "常见问题",
+        "subtitle": "关于 OrbitPDF 及其工作原理的常见问题。",
+        "items": [
+            {
+                "question": "OrbitPDF 是免费的吗？",
+                "answer": "是的！OrbitPDF 上的所有工具都是 100% 免费的。没有隐藏费用、订阅或您可以处理的文件数量限制。"
+            },
+            {
+                "question": "我的文件安全吗？",
+                "answer": "绝对安全。OrbitPDF 完全在客户端运行，这意味着您的文件直接在您的 Web 浏览器中处理。它们从未上传到我们的服务器，确保了完全的隐私和安全。"
+            },
+            {
+                "question": "我需要安装任何软件吗？",
+                "answer": "无需安装。OrbitPDF 直接在您的 Web 浏览器（Chrome、Firefox、Safari、Edge 等）中运行，适用于任何设备，包括台式机、平板电脑和智能手机。"
+            },
+            {
+                "question": "如何合并多个 PDF 文件？",
+                "answer": "只需导航到“PDF 合并工具”，选择您的文件，按照您想要的顺序排列它们，然后点击“合并 PDF”。您的新文档将立即准备好下载。"
+            },
+            {
+                "question": "我可以离线使用 OrbitPDF 吗？",
+                "answer": "是的，OrbitPDF 是一个渐进式 Web 应用程序 (PWA)。加载后，许多工具可以离线工作，您可以将其安装到您的设备上以便快速访问。"
+            },
+            {
+                "question": "如何联系支持？",
+                "answer": "如果您遇到任何问题或有疑问，请访问我们的联系页面或给我们发送电子邮件。我们很乐意提供帮助！"
+            }
+        ]
     }
 }

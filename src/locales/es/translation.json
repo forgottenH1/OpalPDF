@@ -4,7 +4,7 @@
         "settings": "Configuración",
         "save": "Guardar",
         "cancel": "Cancelar",
-        "close": "Cerrar",
+        "ariaClose": "Cerrar menú",
         "back": "Atrás",
         "next": "Siguiente",
         "home": "Inicio",
@@ -37,7 +37,8 @@
         "advertise": "Anunciarse",
         "searchPlaceholder": "Buscar herramientas o guías...",
         "menu": "Menú",
-        "quickTools": "Herramientas Rápidas"
+        "quickTools": "Herramientas Rápidas",
+        "faq": "Preguntas frecuentes"
     },
     "contact": {
         "getInTouch": "Ponte en Contacto",
@@ -744,5 +745,35 @@
         "learnMoreGoogle": "Cómo utiliza Google los datos cuando utilizas los sitios o aplicaciones de nuestros partners",
         "accept": "Aceptar todo",
         "decline": "Rechazar"
+    },
+    "faq": {
+        "title": "Preguntas Frecuentes",
+        "subtitle": "Preguntas comunes sobre OrbitPDF y cómo funciona.",
+        "items": [
+            {
+                "question": "¿Es OrbitPDF gratuito?",
+                "answer": "¡Sí! Todas las herramientas de OrbitPDF son 100% gratuitas. No hay tarifas ocultas, suscripciones ni límites en la cantidad de archivos que puedes procesar."
+            },
+            {
+                "question": "¿Están seguros mis archivos?",
+                "answer": "Absolutamente. OrbitPDF opera completamente en el lado del cliente, lo que significa que tus archivos se procesan directamente en tu navegador web. Nunca se suben a nuestros servidores, garantizando total privacidad y seguridad."
+            },
+            {
+                "question": "¿Necesito instalar algún software?",
+                "answer": "No se requiere instalación. OrbitPDF funciona directamente en tu navegador web (Chrome, Firefox, Safari, Edge, etc.) en cualquier dispositivo, incluyendo computadoras de escritorio, tabletas y teléfonos inteligentes."
+            },
+            {
+                "question": "¿Cómo fusiono varios archivos PDF?",
+                "answer": "Simplemente navega a la herramienta 'Mazo de Fusión PDF', selecciona tus archivos, organízalos en el orden deseado y haz clic en 'Fusionar PDF'. Tu nuevo documento estará listo para descargar al instante."
+            },
+            {
+                "question": "¿Puedo usar OrbitPDF sin conexión?",
+                "answer": "Sí, OrbitPDF es una Aplicación Web Progresiva (PWA). Una vez cargada, muchas herramientas pueden funcionar sin conexión, y puedes instalarla en tu dispositivo para un acceso rápido."
+            },
+            {
+                "question": "¿Cómo puedo contactar al soporte?",
+                "answer": "Si encuentras algún problema o tienes preguntas, por favor visita nuestra página de Contacto o envíanos un correo electrónico. ¡Estaremos encantados de ayudar!"
+            }
+        ]
     }
 }

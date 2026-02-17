@@ -37,7 +37,8 @@
         "advertise": "Publicité",
         "searchPlaceholder": "Rechercher des outils ou guides...",
         "menu": "Menu",
-        "quickTools": "Outils Rapides"
+        "quickTools": "Outils Rapides",
+        "faq": "FAQ"
     },
     "contact": {
         "getInTouch": "Contactez-nous",
@@ -759,5 +760,35 @@
         "learnMoreGoogle": "Comment Google utilise certaines données collectées lorsque vous utilisez des sites ou applications de nos partenaires",
         "accept": "Tout accepter",
         "decline": "Refuser"
+    },
+    "faq": {
+        "title": "Foire Aux Questions",
+        "subtitle": "Questions fréquentes sur OrbitPDF et son fonctionnement.",
+        "items": [
+            {
+                "question": "OrbitPDF est-il gratuit ?",
+                "answer": "Oui ! Tous les outils sur OrbitPDF sont 100% gratuits. Il n'y a pas de frais cachés, d'abonnements ou de limites sur le nombre de fichiers que vous pouvez traiter."
+            },
+            {
+                "question": "Mes fichiers sont-ils en sécurité ?",
+                "answer": "Absolument. OrbitPDF fonctionne entièrement côté client, ce qui signifie que vos fichiers sont traités directement dans votre navigateur web. Ils ne sont jamais téléchargés sur nos serveurs, garantissant une confidentialité et une sécurité totales."
+            },
+            {
+                "question": "Dois-je installer un logiciel ?",
+                "answer": "Aucune installation n'est requise. OrbitPDF fonctionne directement dans votre navigateur web (Chrome, Firefox, Safari, Edge, etc.) sur n'importe quel appareil, y compris ordinateurs, tablettes et smartphones."
+            },
+            {
+                "question": "Comment fusionner plusieurs fichiers PDF ?",
+                "answer": "Naviguez simplement vers l'outil 'Fusion PDF', sélectionnez vos fichiers, organisez-les dans l'ordre souhaité et cliquez sur 'Fusionner PDF'. Votre nouveau document sera prêt à être téléchargé instantanément."
+            },
+            {
+                "question": "Puis-je utiliser OrbitPDF hors ligne ?",
+                "answer": "Oui, OrbitPDF est une Progressive Web App (PWA). Une fois chargée, de nombreux outils peuvent fonctionner hors ligne, et vous pouvez l'installer sur votre appareil pour un accès rapide."
+            },
+            {
+                "question": "Comment contacter le support ?",
+                "answer": "Si vous rencontrez des problèmes ou avez des questions, veuillez visiter notre page Contact ou envoyez-nous un email. Nous sommes heureux de vous aider !"
+            }
+        ]
     }
 }

@@ -55,6 +55,7 @@ const Footer: React.FC<FooterProps> = ({ openModal }) => {
                             <li><button onClick={() => openModal('privacy')} className="hover:text-blue-400 transition-colors text-left">{t('nav.privacy')}</button></li>
                             <li><button onClick={() => openModal('terms')} className="hover:text-blue-400 transition-colors text-left">{t('nav.terms')}</button></li>
                             <li><a href="/contact" className="hover:text-blue-400 transition-colors">{t('nav.contact')}</a></li>
+                            <li><a href="/faq" className="hover:text-blue-400 transition-colors">{t('nav.faq')}</a></li>
                             <li><a href="/advertise" className="text-yellow-500 hover:text-yellow-400 font-medium transition-colors">{t('nav.advertise')}</a></li>
 
                         </ul>

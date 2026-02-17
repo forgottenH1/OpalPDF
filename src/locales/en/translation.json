@@ -24,7 +24,9 @@
         "clear": "Clear",
         "launchTool": "Launch Tool",
         "notSelected": "Not Selected",
-        "closeModal": "Close Modal"
+        "closeModal": "Close Modal",
+        "buyMeCoffee": "Buy me a coffee",
+        "supportWithPaypal": "Support with PayPal"
     },
     "categories": {
         "Organize": "Organize",
@@ -47,9 +49,11 @@
         "advertise": "Advertise",
         "searchPlaceholder": "Search tools or guides...",
         "menu": "Menu",
+        "faq": "FAQ",
         "quickTools": "Quick Tools",
         "ariaOpen": "Open Menu",
-        "ariaClose": "Close Menu"
+        "ariaClose": "Close Menu",
+        "faq": "FAQ"
     },
     "contact": {
         "getInTouch": "Get in Touch",
@@ -118,6 +122,36 @@
         "learnMoreGoogle": "How Google uses data when you use our partners' sites or apps",
         "accept": "Accept All",
         "decline": "Decline"
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Common questions about OrbitPDF and how it works.",
+        "items": [
+            {
+                "question": "Is OrbitPDF free to use?",
+                "answer": "Yes! All tools on OrbitPDF are 100% free to use. There are no hidden fees, subscriptions, or limits on the number of files you can process."
+            },
+            {
+                "question": "Are my files safe?",
+                "answer": "Absolutely. OrbitPDF operates entirely client-side, meaning your files are processed directly in your web browser. They are never uploaded to our servers, ensuring complete privacy and security."
+            },
+            {
+                "question": "Do I need to install any software?",
+                "answer": "No installation is required. OrbitPDF works directly in your web browser (Chrome, Firefox, Safari, Edge, etc.) on any device, including desktops, tablets, and smartphones."
+            },
+            {
+                "question": "How do I merge multiple PDF files?",
+                "answer": "Simply navigate to the 'Merge PDF' tool, select your files, arrange them in the desired order, and click 'Merge PDF'. Your new document will differ be ready for download instantly."
+            },
+            {
+                "question": "Can I use OrbitPDF offline?",
+                "answer": "Yes, OrbitPDF is a Progressive Web App (PWA). Once loaded, many tools can work offline, and you can install it on your device for quick access."
+            },
+            {
+                "question": "How can I contact support?",
+                "answer": "If you encounter any issues or have questions, please visit our Contact page or send us an email. We're happy to help!"
+            }
+        ]
     },
     "pricing": {
         "title": "Ad Pricing",
@@ -808,5 +842,35 @@
         "noPageInFile2": "(No page in File 2)",
         "pageOverview": "Page {{current}} of {{total}}",
         "convertedBy": "Converted by OrbitPDF"
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Common questions about OrbitPDF and how it works.",
+        "items": [
+            {
+                "question": "Is OrbitPDF free?",
+                "answer": "Yes! All tools on OrbitPDF are 100% free. No hidden fees, subscriptions, or limits on the number of files you can process."
+            },
+            {
+                "question": "Are my files safe?",
+                "answer": "Absolutely. OrbitPDF operates entirely client-side, meaning your files are processed directly in your web browser. They are never uploaded to our servers, ensuring complete privacy and security."
+            },
+            {
+                "question": "Do I need to install software?",
+                "answer": "No installation is required. OrbitPDF works directly in your web browser (Chrome, Firefox, Safari, Edge, etc.) on any device, including desktop computers, tablets, and smartphones."
+            },
+            {
+                "question": "How do I merge multiple PDF files?",
+                "answer": "Simply navigate to the 'Merge PDF' tool, select your files, arrange them in the desired order, and click 'Merge PDF'. Your new document will be ready for download instantly."
+            },
+            {
+                "question": "Can I use OrbitPDF offline?",
+                "answer": "Yes, OrbitPDF is a Progressive Web App (PWA). Once loaded, many tools can work offline, and you can install it on your device for quick access."
+            },
+            {
+                "question": "How can I contact support?",
+                "answer": "If you encounter any issues or have questions, please visit our Contact page or send us an email. We're happy to help!"
+            }
+        ]
     }
 }

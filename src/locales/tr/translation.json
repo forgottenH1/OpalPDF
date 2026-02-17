@@ -23,7 +23,9 @@
         "clear": "Temizle",
         "launchTool": "Aracı Başlat",
         "notSelected": "Seçilmedi",
-        "closeModal": "Pencereyi Kapat"
+        "closeModal": "Modalı Kapat",
+        "buyMeCoffee": "Bana bir kahve ısmarla",
+        "supportWithPaypal": "PayPal ile Destekle"
     },
     "categories": {
         "Organize": "Düzenle",
@@ -48,7 +50,8 @@
         "menu": "Menü",
         "quickTools": "Hızlı Araçlar",
         "ariaOpen": "Menüyü aç",
-        "ariaClose": "Menüyü kapat"
+        "ariaClose": "Menüyü kapat",
+        "faq": "SSS"
     },
     "contact": {
         "getInTouch": "Bize Ulaşın",
@@ -788,5 +791,35 @@
         "learnMoreGoogle": "Google, iş ortaklarımızın sitelerini veya uygulamalarını kullandığınızda verileri nasıl kullanır",
         "accept": "Tümünü Kabul Et",
         "decline": "Reddet"
+    },
+    "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "subtitle": "OrbitPDF ve nasıl çalıştığı hakkında genel sorular.",
+        "items": [
+            {
+                "question": "OrbitPDF ücretsiz mi?",
+                "answer": "Evet! OrbitPDF üzerindeki tüm araçlar %100 ücretsizdir. Gizli ücretler, abonelikler veya işleyebileceğiniz dosya sayısında herhangi bir sınır yoktur."
+            },
+            {
+                "question": "Dosyalarım güvende mi?",
+                "answer": "Kesinlikle. OrbitPDF tamamen istemci tarafında çalışır, yani dosyalarınız doğrudan web tarayıcınızda işlenir. Asla sunucularımıza yüklenmezler, bu da tam gizlilik ve güvenlik sağlar."
+            },
+            {
+                "question": "Yazılım yüklemem gerekiyor mu?",
+                "answer": "Kurulum gerekmez. OrbitPDF, doğrudan web tarayıcınızda (Chrome, Firefox, Safari, Edge, vb.) masaüstü bilgisayarlar, tabletler ve akıllı telefonlar dahil olmak üzere herhangi bir cihazda çalışır."
+            },
+            {
+                "question": "Birden fazla PDF dosyasını nasıl birleştiririm?",
+                "answer": "Sadece 'PDF Birleştir' aracına gidin, dosyalarınızı seçin, istediğiniz sıraya göre düzenleyin ve 'PDF Birleştir'e tıklayın. Yeni belgeniz anında indirilmeye hazır olacaktır."
+            },
+            {
+                "question": "OrbitPDF'i çevrimdışı kullanabilir miyim?",
+                "answer": "Evet, OrbitPDF bir Aşamalı Web Uygulamasıdır (PWA). Bir kez yüklendiğinde, birçok araç çevrimdışı çalışabilir ve hızlı erişim için cihazınıza yükleyebilirsiniz."
+            },
+            {
+                "question": "Destek ekibiyle nasıl iletişime geçebilirim?",
+                "answer": "Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa, lütfen İletişim sayfamızı ziyaret edin veya bize bir e-posta gönderin. Yardımcı olmaktan mutluluk duyarız!"
+            }
+        ]
     }
 }
