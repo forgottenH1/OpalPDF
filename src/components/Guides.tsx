@@ -69,6 +69,7 @@ export default function Guides({ externalSearch }: GuidesProps) {
     React.useEffect(() => {
         if (normalizedRouteId === 'split' || (normalizedLastPart === 'split' && !isListMode)) {
             window.location.replace('/guides/split-pdf');
+            return; // Exit early to prevent rendering the old URL
         }
     }, [normalizedRouteId, normalizedLastPart, isListMode]);
 
