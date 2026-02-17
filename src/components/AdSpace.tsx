@@ -322,11 +322,16 @@ const ScriptAd = ({ script, className, isSidebar }: { script: string, className:
 
     if (isAdSense) {
         return (
-            <div
-                ref={containerRef}
-                className={`relative overflow-hidden group mx-auto flex items-center justify-center ${isSidebar ? 'w-[160px] min-h-[600px]' : 'w-full min-h-[90px]'} ${className}`}
-            >
-                {/* AdSense will be injected here */}
+            <div className={`flex flex-col items-center justify-center mx-auto ${className}`}>
+                <div className="text-[10px] text-slate-500 uppercase tracking-widest mb-1 w-full text-center">
+                    Advertisement
+                </div>
+                <div
+                    ref={containerRef}
+                    className={`relative overflow-hidden group flex items-center justify-center ${isSidebar ? 'w-[160px] min-h-[600px]' : 'w-full min-h-[90px]'}`}
+                >
+                    {/* AdSense will be injected here */}
+                </div>
             </div>
         );
     }
