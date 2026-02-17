@@ -22,6 +22,16 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
     const { t } = useTranslation();
     const navigate = useNavigate();
 
+    // Map tool identifiers to guide identifiers where they differ
+    // 'split' tool corresponds to 'split-pdf' guide data
+    const guideIdMap: Record<string, string> = {
+        'split': 'split-pdf'
+    };
+    const guideId = guideIdMap[toolId] || toolId;
+
+    // Fetch guide steps for the current tool
+    const guideSteps = t(`guidesData.${guideId}.steps`, { returnObjects: true }) as string[];
+
     // Override onBack validation
     const handleBack = () => {
         if (onBack) {
@@ -1383,8 +1393,32 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
                             {toolName}
                         </h2>
                         <p className="text-slate-400 text-sm leading-relaxed">
-                            {t(`guidesData.${toolId}.intro`, { defaultValue: t(`tools.${toolId}.desc`) })}
+                            {t(`guidesData.${guideId}.intro`, { defaultValue: t(`tools.${toolId}.desc`) })}
                         </p>
+
+                        {/* Guide Steps Enhancement for AdSense/SEO */}
+                        {Array.isArray(guideSteps) && guideSteps.length > 0 && (
+                            <div className="mt-8 text-left space-y-4 border-t border-white/10 pt-6">
+                                <h3 className="text-lg font-semibold text-slate-200 mb-4 flex items-center gap-2">
+                                    <span className="bg-blue-500/10 text-blue-400 text-xs px-2 py-1 rounded-md uppercase tracking-wide">Guide</span>
+                                    {t('guides.stepByStep', 'How to Use')}
+                                </h3>
+                                <ol className="list-none space-y-3">
+                                    {guideSteps.map((step, i) => (
+                                        <li key={i} className="flex gap-3 text-slate-400 text-sm leading-relaxed">
+                                            <span className="flex-shrink-0 w-6 h-6 rounded-full bg-slate-800 text-blue-400 text-xs font-bold flex items-center justify-center border border-slate-700">
+                                                {i + 1}
+                                            </span>
+                                            <span>
+                                                {step.split('**').map((part, j) =>
+                                                    j % 2 === 1 ? <strong key={j} className="text-slate-200 font-medium">{part}</strong> : part
+                                                )}
+                                            </span>
+                                        </li>
+                                    ))}
+                                </ol>
+                            </div>
+                        )}
                     </div>
 
                 </div>
