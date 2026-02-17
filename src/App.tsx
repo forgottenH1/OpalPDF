@@ -12,6 +12,8 @@ import BackToTop from './components/BackToTop';
 // Lazy load the heavy ToolProcessor
 const ToolProcessor = lazy(() => import('./components/ToolProcessor'));
 const AdminDashboard = lazy(() => import('./pages/AdminDashboard'));
+const Advertise = lazy(() => import('./pages/Advertise'));
+const Contact = lazy(() => import('./pages/Contact'));
 const Thanks = lazy(() => import('./pages/Thanks'));
 const FAQ = lazy(() => import('./pages/FAQ'));
 import MobileMenu from './components/MobileMenu';
@@ -100,7 +102,7 @@ export default function App() {
 
         const pageTitle = `${t(`tools.${activeToolData.id}.title`)} - OrbitPDF`;
         const pageDescription = t(`tools.${activeToolData.id}.desc`);
-        const canonicalUrl = `https://orbitpdf.com/${activeToolData.id}`; // Clean URL
+        const canonicalUrl = `https://orbitpdf.pages.dev/${activeToolData.id}`; // Clean URL
 
         return (
             <Helmet>
@@ -125,7 +127,7 @@ export default function App() {
                         <meta name="description" content={t('hero.description')} />
                         <meta property="og:title" content={`${t('hero.title')} | OrbitPDF`} />
                         <meta property="og:description" content={t('hero.description')} />
-                        <link rel="canonical" href="https://orbitpdf.com/" />
+                        <link rel="canonical" href="https://orbitpdf.pages.dev/" />
                     </Helmet>
                 } />
                 <Route path="/thanks" element={
@@ -138,7 +140,7 @@ export default function App() {
                     <Helmet>
                         <title>{t('faq.title')} | OrbitPDF</title>
                         <meta name="description" content={t('faq.subtitle')} />
-                        <link rel="canonical" href="https://orbitpdf.com/faq" />
+                        <link rel="canonical" href="https://orbitpdf.pages.dev/faq" />
                     </Helmet>
                 } />
                 <Route path="/guides" element={
@@ -254,6 +256,18 @@ export default function App() {
                     <Route path="/faq" element={
                         <Suspense fallback={<Loader2 className="w-10 h-10 animate-spin mx-auto mt-20 text-blue-500" />}>
                             <FAQ />
+                        </Suspense>
+                    } />
+
+                    <Route path="/advertise" element={
+                        <Suspense fallback={<Loader2 className="w-10 h-10 animate-spin mx-auto mt-20 text-blue-500" />}>
+                            <Advertise />
+                        </Suspense>
+                    } />
+
+                    <Route path="/contact" element={
+                        <Suspense fallback={<Loader2 className="w-10 h-10 animate-spin mx-auto mt-20 text-blue-500" />}>
+                            <Contact />
                         </Suspense>
                     } />
 

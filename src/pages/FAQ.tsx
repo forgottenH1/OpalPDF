@@ -21,7 +21,7 @@ export default function FAQ() {
             <Helmet>
                 <title>{title} | OrbitPDF</title>
                 <meta name="description" content={subtitle} />
-                <link rel="canonical" href="https://orbitpdf.com/faq" />
+                <link rel="canonical" href="https://orbitpdf.pages.dev/faq" />
             </Helmet>
 
             <main className="container mx-auto px-4 py-12 max-w-4xl">

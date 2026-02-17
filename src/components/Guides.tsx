@@ -90,7 +90,7 @@ export default function Guides({ externalSearch }: GuidesProps) {
                 <Helmet>
                     <title>{activeGuide.title} | OrbitPDF Guides</title>
                     <meta name="description" content={activeGuide.intro} />
-                    <link rel="canonical" href={`https://orbitpdf.com/guides/${activeGuide.id}`} />
+                    <link rel="canonical" href={`https://orbitpdf.pages.dev/guides/${activeGuide.id}`} />
                 </Helmet>
 
                 {/* Left Sidebar Ad (PC Only) */}
@@ -179,7 +179,7 @@ export default function Guides({ externalSearch }: GuidesProps) {
             <Helmet>
                 <title>{t('guides.title')} | OrbitPDF</title>
                 <meta name="description" content={t('guides.subtitle')} />
-                <link rel="canonical" href="https://orbitpdf.com/guides" />
+                <link rel="canonical" href="https://orbitpdf.pages.dev/guides" />
             </Helmet>
 
             {/* Header */}
