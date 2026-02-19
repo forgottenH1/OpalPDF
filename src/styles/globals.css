@@ -24,7 +24,7 @@ body {
 }
 
 @font-face {
-  font-family: 'OrbitArabic';
+  font-family: 'OpalArabic';
   src: url('../assets/fonts/GARABICSB.OTF') format('opentype');
   font-weight: normal;
   font-style: normal;
@@ -34,7 +34,7 @@ body {
 /* RTL Font Support */
 html[lang="ar"] *,
 html[dir="rtl"] * {
-  font-family: 'OrbitArabic', sans-serif !important;
+  font-family: 'OpalArabic', sans-serif !important;
 }
 
 html[lang="ja"] * {
@@ -125,7 +125,7 @@ html[lang="uk"] * {
    Instantly teleport any element added to the body (clones, frames, artifacts)
    that isn't our main app root to 200,000 pixels away.
    This ensures zero visual flicker while the capture engine works flawlessly. */
-body[data-orbit-pdf-locking="true"]> :not(#root):not(script):not(style):not(link) {
+body[data-opal-pdf-locking="true"]> :not(#root):not(script):not(style):not(link) {
   position: fixed !important;
   top: -200000px !important;
   left: -200000px !important;
@@ -140,11 +140,11 @@ body[data-orbit-pdf-locking="true"]> :not(#root):not(script):not(style):not(link
 .html2canvas-container,
 .html2canvas-proxy,
 [id^="html2pdf-"],
-#orbit-pdf-quarantine,
-#orbit-pdf-stage,
-#orbit-pdf-ghost-shield,
-#orbit-pdf-vault-shield,
-#orbit-pdf-the-vault {
+#opal-pdf-quarantine,
+#opal-pdf-stage,
+#opal-pdf-ghost-shield,
+#opal-pdf-vault-shield,
+#opal-pdf-the-vault {
   display: none !important;
   visibility: hidden !important;
   opacity: 0 !important;
