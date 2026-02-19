@@ -101,7 +101,7 @@ export default function App() {
         if (!activeToolData) return null;
 
         const pageTitle = `${t(`tools.${activeToolData.id}.title`)} - OpalPDF`;
-        const socialTitle = `${t(`tools.${activeToolData.id}.title`)} - TG Image`;
+        const socialTitle = `${t(`tools.${activeToolData.id}.title`)} - OpalPDF`;
         const pageDescription = t(`tools.${activeToolData.id}.desc`);
         const canonicalUrl = `https://opalpdf.com/${activeToolData.id}`; // Clean URL
 
@@ -126,7 +126,7 @@ export default function App() {
                     <Helmet>
                         <title>{t('hero.title')} | OpalPDF</title>
                         <meta name="description" content={t('hero.description')} />
-                        <meta property="og:title" content={`${t('hero.title')} | TG Image`} />
+                        <meta property="og:title" content={`${t('hero.title')} | OpalPDF`} />
                         <meta property="og:description" content={t('hero.description')} />
                         <link rel="canonical" href="https://opalpdf.com/" />
                     </Helmet>

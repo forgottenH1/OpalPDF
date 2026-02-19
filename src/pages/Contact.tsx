@@ -17,9 +17,9 @@ export default function Contact() {
                 <title>Contact Us | OpalPDF</title>
                 <meta name="description" content="Get in touch with the OpalPDF team. We'd love to hear from you." />
                 <link rel="canonical" href="https://opalpdf.com/contact" />
-                <meta property="og:title" content="Contact Us | TG Image" />
+                <meta property="og:title" content="Contact Us | OpalPDF" />
                 <meta property="og:description" content="Get in touch with the OpalPDF team. We'd love to hear from you." />
-                <meta name="twitter:title" content="Contact Us | TG Image" />
+                <meta name="twitter:title" content="Contact Us | OpalPDF" />
                 <meta name="twitter:description" content="Get in touch with the OpalPDF team. We'd love to hear from you." />
             </Helmet>
 

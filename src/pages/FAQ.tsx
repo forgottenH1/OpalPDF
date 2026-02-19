@@ -22,7 +22,7 @@ export default function FAQ() {
                 <title>{title} | OpalPDF</title>
                 <meta name="description" content={subtitle} />
                 <link rel="canonical" href="https://opalpdf.com/faq" />
-                <meta property="og:title" content={`${title} | TG Image`} />
+                <meta property="og:title" content={`${title} | OpalPDF`} />
             </Helmet>
 
             <main className="container mx-auto px-4 py-12 max-w-4xl">

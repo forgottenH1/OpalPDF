@@ -17,9 +17,9 @@ export default function Advertise() {
                 <title>Advertise with Us | OpalPDF</title>
                 <meta name="description" content="Reach thousands of users daily. Advertise your product on OpalPDF with our transparent and premium ad spots." />
                 <link rel="canonical" href="https://opalpdf.com/advertise" />
-                <meta property="og:title" content="Advertise with Us | TG Image" />
+                <meta property="og:title" content="Advertise with Us | OpalPDF" />
                 <meta property="og:description" content="Reach thousands of users daily. Advertise your product on OpalPDF with our transparent and premium ad spots." />
-                <meta name="twitter:title" content="Advertise with Us | TG Image" />
+                <meta name="twitter:title" content="Advertise with Us | OpalPDF" />
                 <meta name="twitter:description" content="Reach thousands of users daily. Advertise your product on OpalPDF with our transparent and premium ad spots." />
             </Helmet>
 
