@@ -47,7 +47,7 @@ const BuyMeCoffee: React.FC = () => {
                         (window as any).paypal.HostedButtons({
                             hostedButtonId: "258NAXUKV2VWG",
                             onApprove: function () {
-                                window.location.href = "https://orbitpdf.pages.dev/thanks";
+                                window.location.href = "https://opalpdf.com/thanks";
                             }
                         }).render("#paypal-container-258NAXUKV2VWG");
                     } catch (error) {

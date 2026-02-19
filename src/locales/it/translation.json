@@ -35,10 +35,10 @@
         "Security": "Sicurezza"
     },
     "legal": {
-        "privacyContent": "<p><strong>Ultimo aggiornamento: Febbraio 2026</strong></p><p>A OrbitPDF, diamo priorità alla tua privacy. Poiché i nostri strumenti funzionano interamente nel tuo browser (lato client), i tuoi file <strong>non lasciano mai il tuo dispositivo</strong>. Non carichiamo, memorizziamo o elaboriamo i tuoi documenti su alcun server.</p><h3 class='text-xl font-bold text-white mt-4'>1. Raccolta Dati</h3><p>Non raccogliamo dati personali o contenuti dei file. Potremmo utilizzare analisi anonime (come Google Analytics) per migliorare le prestazioni del sito.</p><h3 class='text-xl font-bold text-white mt-4'>2. Cookie</h3><p>Utilizziamo l'archiviazione locale per salvare le tue preferenze (ad es. modalità scura). Fornitori terzi potrebbero utilizzare i cookie per mostrare annunci basati sulle visite.</p>",
-        "termsContent": "<p><strong>Ultimo aggiornamento: Febbraio 2026</strong></p><p>Utilizzando OrbitPDF, accetti questi termini. I nostri strumenti sono forniti \"così com'è\" senza garanzia di alcun tipo.</p><h3 class='text-xl font-bold text-white mt-4'>1. Utilizzo</h3><p>Puoi utilizzare i nostri strumenti per scopi personali o commerciali. Sei responsabile del contenuto che elabori.</p><h3 class='text-xl font-bold text-white mt-4'>2. Limitazioni</h3><p>Non siamo responsabili per eventuali perdite di dati o danni derivanti dall'uso dei nostri strumenti. Tieni sempre dei backup dei tuoi file originali.</p>",
+        "privacyContent": "<p><strong>Ultimo aggiornamento: Febbraio 2026</strong></p><p>A OpalPDF, diamo priorità alla tua privacy. Poiché i nostri strumenti funzionano interamente nel tuo browser (lato client), i tuoi file <strong>non lasciano mai il tuo dispositivo</strong>. Non carichiamo, memorizziamo o elaboriamo i tuoi documenti su alcun server.</p><h3 class='text-xl font-bold text-white mt-4'>1. Raccolta Dati</h3><p>Non raccogliamo dati personali o contenuti dei file. Potremmo utilizzare analisi anonime (come Google Analytics) per migliorare le prestazioni del sito.</p><h3 class='text-xl font-bold text-white mt-4'>2. Cookie</h3><p>Utilizziamo l'archiviazione locale per salvare le tue preferenze (ad es. modalità scura). Fornitori terzi potrebbero utilizzare i cookie per mostrare annunci basati sulle visite.</p>",
+        "termsContent": "<p><strong>Ultimo aggiornamento: Febbraio 2026</strong></p><p>Utilizzando OpalPDF, accetti questi termini. I nostri strumenti sono forniti \"così com'è\" senza garanzia di alcun tipo.</p><h3 class='text-xl font-bold text-white mt-4'>1. Utilizzo</h3><p>Puoi utilizzare i nostri strumenti per scopi personali o commerciali. Sei responsabile del contenuto che elabori.</p><h3 class='text-xl font-bold text-white mt-4'>2. Limitazioni</h3><p>Non siamo responsabili per eventuali perdite di dati o danni derivanti dall'uso dei nostri strumenti. Tieni sempre dei backup dei tuoi file originali.</p>",
         "adTermsTitle": "Accordo Pubblicitario e Termini di Servizio",
-        "adTermsContent": "<div class='space-y-4 text-slate-300'><p><strong>Accordo Pubblicitario e Termini di Servizio</strong></p><p>Inviando questa richiesta e procedendo con una campagna pubblicitaria su OrbitPDF (\"Servizio\"), tu (\"Inserzionista\") accetti i seguenti termini e condizioni legalmente vincolanti:</p><h3 class='text-white font-bold mt-4'>1. Contenuto Vietato</h3><p>OrbitPDF mantiene una rigorosa politica di tolleranza zero per quanto riguarda il contenuto degli annunci. L'Inserzionista garantisce che le sue creatività pubblicitarie e le pagine di destinazione NON contengano, promuovano o linkino a:</p><ul class='list-disc pl-5 space-y-1'><li><strong>Attività Illegali:</strong> Qualsiasi contenuto che violi le leggi locali, nazionali o internazionali applicabili.</li><li><strong>Contenuti per Adulti:</strong> Pornografia, nudità o materiale sessualmente esplicito di qualsiasi tipo.</li><li><strong>Violenza e Discorso d'Odio:</strong> Violenza grafica, autolesionismo, molestie o incitamento all'odio contro qualsiasi gruppo o individuo.</li><li><strong>Agende Politiche o Religiose:</strong> Contenuti che promuovono specifici partiti politici, candidati, organizzazioni religiose o agende ideologiche controverse.</li><li><strong>Terrorismo ed Estremismo:</strong> Contenuti che supportano o promuovono organizzazioni terroristiche o estremismo violento.</li><li><strong>Droghe e Sostanze Controllate:</strong> La vendita, l'uso o la promozione di droghe illegali, farmaci da prescrizione senza autorizzazione.</li><li><strong>Prodotti Sospetti o Illegali:</strong> Merci contraffatte, armi, strumenti di hacking o qualsiasi prodotto sospettato di essere illegale o fraudolento.</li></ul><h3 class='text-white font-bold mt-4'>2. Conformità Internazionale</h3><p>OrbitPDF opera a livello globale e rispetta le leggi e gli accordi internazionali. L'Inserzionista accetta di rispettare tutte le leggi e i regolamenti applicabili nelle giurisdizioni in cui vengono mostrati i suoi annunci.</p><h3 class='text-white font-bold mt-4'>3. Diritto di Rifiuto</h3><p>OrbitPDF si riserva il diritto di rifiutare, sospendere o annullare qualsiasi campagna pubblicitaria a sua esclusiva discrezione, senza preavviso, se ritenuta inappropriata, offensiva o in violazione del presente accordo.</p><h3 class='text-white font-bold mt-4'>4. Responsabilità</h3><p>L'Inserzionista si assume la piena responsabilità per il contenuto dei suoi annunci e accetta di indennizzare e tenere indenne OrbitPDF da qualsiasi reclamo, danno o azione legale derivante dal suo materiale pubblicitario.</p></div>"
+        "adTermsContent": "<div class='space-y-4 text-slate-300'><p><strong>Accordo Pubblicitario e Termini di Servizio</strong></p><p>Inviando questa richiesta e procedendo con una campagna pubblicitaria su OpalPDF (\"Servizio\"), tu (\"Inserzionista\") accetti i seguenti termini e condizioni legalmente vincolanti:</p><h3 class='text-white font-bold mt-4'>1. Contenuto Vietato</h3><p>OpalPDF mantiene una rigorosa politica di tolleranza zero per quanto riguarda il contenuto degli annunci. L'Inserzionista garantisce che le sue creatività pubblicitarie e le pagine di destinazione NON contengano, promuovano o linkino a:</p><ul class='list-disc pl-5 space-y-1'><li><strong>Attività Illegali:</strong> Qualsiasi contenuto che violi le leggi locali, nazionali o internazionali applicabili.</li><li><strong>Contenuti per Adulti:</strong> Pornografia, nudità o materiale sessualmente esplicito di qualsiasi tipo.</li><li><strong>Violenza e Discorso d'Odio:</strong> Violenza grafica, autolesionismo, molestie o incitamento all'odio contro qualsiasi gruppo o individuo.</li><li><strong>Agende Politiche o Religiose:</strong> Contenuti che promuovono specifici partiti politici, candidati, organizzazioni religiose o agende ideologiche controverse.</li><li><strong>Terrorismo ed Estremismo:</strong> Contenuti che supportano o promuovono organizzazioni terroristiche o estremismo violento.</li><li><strong>Droghe e Sostanze Controllate:</strong> La vendita, l'uso o la promozione di droghe illegali, farmaci da prescrizione senza autorizzazione.</li><li><strong>Prodotti Sospetti o Illegali:</strong> Merci contraffatte, armi, strumenti di hacking o qualsiasi prodotto sospettato di essere illegale o fraudolento.</li></ul><h3 class='text-white font-bold mt-4'>2. Conformità Internazionale</h3><p>OpalPDF opera a livello globale e rispetta le leggi e gli accordi internazionali. L'Inserzionista accetta di rispettare tutte le leggi e i regolamenti applicabili nelle giurisdizioni in cui vengono mostrati i suoi annunci.</p><h3 class='text-white font-bold mt-4'>3. Diritto di Rifiuto</h3><p>OpalPDF si riserva il diritto di rifiutare, sospendere o annullare qualsiasi campagna pubblicitaria a sua esclusiva discrezione, senza preavviso, se ritenuta inappropriata, offensiva o in violazione del presente accordo.</p><h3 class='text-white font-bold mt-4'>4. Responsabilità</h3><p>L'Inserzionista si assume la piena responsabilità per il contenuto dei suoi annunci e accetta di indennizzare e tenere indenne OpalPDF da qualsiasi reclamo, danno o azione legale derivante dal suo materiale pubblicitario.</p></div>"
     },
     "nav": {
         "guides": "Guide Utente",
@@ -95,7 +95,7 @@
         "termsLinkText": "Termini e Condizioni"
     },
     "advertisePage": {
-        "title": "Pubblicizza con OrbitPDF",
+        "title": "Pubblicizza con OpalPDF",
         "heroTitle": "Raggiungi Migliaia di Utenti Ogni Giorno.",
         "heroDesc": "Connettiti con un pubblico altamente coinvolto in cerca di produttività e soluzioni documentali. Prezzi trasparenti, posizionamento premium e supporto diretto."
     },
@@ -155,7 +155,7 @@
         }
     },
     "guides": {
-        "title": "Guide Utente OrbitPDF",
+        "title": "Guide Utente OpalPDF",
         "subtitle": "Padroneggia ogni strumento della nostra suite con questi tutorial rapidi e professionali.",
         "backToTools": "Torna agli Strumenti",
         "searchPlaceholder": "Cerca una guida...",
@@ -512,7 +512,7 @@
     "hero": {
         "title": "Tutti gli Strumenti PDF di Cui Hai Bisogno",
         "subtitle": "100% Gratis. 100% Privato.",
-        "description": "OrbitPDF è un toolkit gratuito e serverless. I tuoi file non lasciano mai il tuo dispositivo, garantendo privacy al 100% e velocità fulminee.",
+        "description": "OpalPDF è un toolkit gratuito e serverless. I tuoi file non lasciano mai il tuo dispositivo, garantendo privacy al 100% e velocità fulminee.",
         "start": "Inizia",
         "cta": "Esplora Strumenti"
     },
@@ -646,8 +646,8 @@
         "tagline": "Il toolkit PDF client-side più veloce, 100% privato al mondo.",
         "toolsTitle": "Strumenti",
         "legalTitle": "Legale",
-        "rights": "OrbitPDF. Tutti i diritti riservati.",
-        "logoAlt": "Logo OrbitPDF"
+        "rights": "OpalPDF. Tutti i diritti riservati.",
+        "logoAlt": "Logo OpalPDF"
     },
     "pwa": {
         "install": "Installa App"
@@ -795,11 +795,11 @@
         "noPageInFile1": "(Nessuna pagina nel File 1)",
         "noPageInFile2": "(Nessuna pagina nel File 2)",
         "pageOverview": "Pagina {{current}} di {{total}}",
-        "convertedBy": "Convertito da OrbitPDF"
+        "convertedBy": "Convertito da OpalPDF"
     },
     "adBlock": {
         "title": "Rilevato blocco annunci",
-        "message": "Mantieni OrbitPDF gratuito. Utilizziamo gli annunci per finanziare i nostri server e mantenere i nostri strumenti accessibili a tutti. Ti preghiamo di considerare di disattivare il blocco per supportarci.",
+        "message": "Mantieni OpalPDF gratuito. Utilizziamo gli annunci per finanziare i nostri server e mantenere i nostri strumenti accessibili a tutti. Ti preghiamo di considerare di disattivare il blocco per supportarci.",
         "button": "L'ho disattivato, aggiorna",
         "dismiss": "Continua senza disattivare"
     },
@@ -813,27 +813,27 @@
     },
     "faq": {
         "title": "Domande Frequenti",
-        "subtitle": "Domande comuni su OrbitPDF e come funziona.",
+        "subtitle": "Domande comuni su OpalPDF e come funziona.",
         "items": [
             {
-                "question": "OrbitPDF è gratuito?",
-                "answer": "Sì! Tutti gli strumenti su OrbitPDF sono gratuiti al 100%. Non ci sono costi nascosti, abbonamenti o limiti al numero di file che puoi elaborare."
+                "question": "OpalPDF è gratuito?",
+                "answer": "Sì! Tutti gli strumenti su OpalPDF sono gratuiti al 100%. Non ci sono costi nascosti, abbonamenti o limiti al numero di file che puoi elaborare."
             },
             {
                 "question": "I miei file sono al sicuro?",
-                "answer": "Assolutamente. OrbitPDF opera interamente lato client, il che significa che i tuoi file vengono elaborati direttamente nel tuo browser web. Non vengono mai caricati sui nostri server, garantendo privacy e sicurezza totali."
+                "answer": "Assolutamente. OpalPDF opera interamente lato client, il che significa che i tuoi file vengono elaborati direttamente nel tuo browser web. Non vengono mai caricati sui nostri server, garantendo privacy e sicurezza totali."
             },
             {
                 "question": "Devo installare software?",
-                "answer": "Non è richiesta alcuna installazione. OrbitPDF funziona direttamente nel tuo browser web (Chrome, Firefox, Safari, Edge, ecc.) su qualsiasi dispositivo, inclusi computer desktop, tablet e smartphone."
+                "answer": "Non è richiesta alcuna installazione. OpalPDF funziona direttamente nel tuo browser web (Chrome, Firefox, Safari, Edge, ecc.) su qualsiasi dispositivo, inclusi computer desktop, tablet e smartphone."
             },
             {
                 "question": "Come unisco più file PDF?",
                 "answer": "Basta andare allo strumento 'Fusione PDF', selezionare i tuoi file, organizzarli nell'ordine desiderato e cliccare su 'Unisci PDF'. Il tuo nuovo documento sarà pronto per il download all'istante."
             },
             {
-                "question": "Posso usare OrbitPDF offline?",
-                "answer": "Sì, OrbitPDF è una Progressive Web App (PWA). Una volta caricata, molti strumenti possono funzionare offline e puoi installarla sul tuo dispositivo per un accesso rapido."
+                "question": "Posso usare OpalPDF offline?",
+                "answer": "Sì, OpalPDF è una Progressive Web App (PWA). Una volta caricata, molti strumenti possono funzionare offline e puoi installarla sul tuo dispositivo per un accesso rapido."
             },
             {
                 "question": "Come posso contattare il supporto?",

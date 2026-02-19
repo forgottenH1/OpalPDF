@@ -28,7 +28,7 @@ const sanitizeText = (text: string): string => {
         .replace(/[^\x00-\xFF]/g, '?');  // Strip all other non-Latin-1 chars to prevent crash
 };
 
-export const OrbitPDFEngine = {
+export const OpalPDFEngine = {
     // 1. Merge PDFs
     async mergePDFs(files: File[]): Promise<Uint8Array> {
         const mergedPdf = await PDFDocument.create();
@@ -135,7 +135,7 @@ export const OrbitPDFEngine = {
             const pdfDoc = await PDFDocument.load(arrayBuffer, { ignoreEncryption: true });
             await pdfDoc.save();
         } catch (error) {
-            console.warn("OrbitPDF: Standard Repair failed to load/save. Using sanitized raw buffer.", error);
+            console.warn("OpalPDF: Standard Repair failed to load/save. Using sanitized raw buffer.", error);
             // If standard repair fails completely (can't load), we use the raw sanitized buffer
             // but effectively this means structure is still potentially broken for pdf.js
             // repairedBuffer = new Uint8Array(arrayBuffer);
@@ -154,7 +154,7 @@ export const OrbitPDFEngine = {
             copiedPages.forEach(page => newDoc.addPage(page));
             step1Buffer = await newDoc.save();
         } catch (error) {
-            console.warn("OrbitPDF: Step 1 (Strong Repair) failed. Using raw sanitized buffer.", error);
+            console.warn("OpalPDF: Step 1 (Strong Repair) failed. Using raw sanitized buffer.", error);
             step1Buffer = new Uint8Array(arrayBuffer);
         }
 
@@ -164,7 +164,7 @@ export const OrbitPDFEngine = {
             try {
                 return await this._rasterizeAndRebuild(step1Buffer);
             } catch (err) {
-                console.error("OrbitPDF: Deep Repair failed even on normalized buffer.", err);
+                console.error("OpalPDF: Deep Repair failed even on normalized buffer.", err);
                 // If deep repair fails, we fall back to returning the Step 1 result (better than nothing)
                 // alerting the user would be ideal, but we'll return the structural fix at least.
                 return step1Buffer;
@@ -190,7 +190,7 @@ export const OrbitPDFEngine = {
         }
         if (found) return buffer;
 
-        console.warn("OrbitPDF: Header missing or garbage at start. Searching...");
+        console.warn("OpalPDF: Header missing or garbage at start. Searching...");
 
         // Search in first 2KB
         const limit = Math.min(uint8.length, 2048);
@@ -201,7 +201,7 @@ export const OrbitPDFEngine = {
             }
         }
 
-        console.warn("OrbitPDF: No header found. Prepending default header.");
+        console.warn("OpalPDF: No header found. Prepending default header.");
         // If not found, PREPEND %PDF-1.4
         const newHeader = new TextEncoder().encode("%PDF-1.4\n");
         const newBuffer = new Uint8Array(newHeader.length + uint8.length);
@@ -556,7 +556,7 @@ export const OrbitPDFEngine = {
             try {
                 await page.render({ canvasContext: context, viewport: viewport }).promise;
             } catch (err) {
-                console.warn(`OrbitPDF: Failed to render page ${i}`, err);
+                console.warn(`OpalPDF: Failed to render page ${i}`, err);
                 // Continue to next page rather than failing entire doc
                 continue;
             }
@@ -1031,7 +1031,7 @@ export const OrbitPDFEngine = {
             new docx.Paragraph({
                 children: [
                     new docx.TextRun({
-                        text: strings?.convertedBy || "Converted by OrbitPDF",
+                        text: strings?.convertedBy || "Converted by OpalPDF",
                         bold: true,
                         size: 24,
                         color: "888888"
@@ -1959,7 +1959,7 @@ export const OrbitPDFEngine = {
                             img.setAttribute('crossOrigin', 'anonymous');
                         }
                     } catch (e) {
-                        console.warn("OrbitPDF: Neural-proxy skipped image.", e);
+                        console.warn("OpalPDF: Neural-proxy skipped image.", e);
                     }
                 }
             };

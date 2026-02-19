@@ -13,7 +13,7 @@
     "tier": "unassigned",
     "imageUrl": "/ads/desktop/header/desktop header svg.svg",
     "footerImageUrl": "/ads/desktop/footer/desktop footer banner svg.svg",
-    "link": "https://orbitpdf.pages.dev/advertise"
+    "link": "https://opalpdf.com/advertise"
   },
   {
     "status": "active",
@@ -22,7 +22,7 @@
     "clicks": 0,
     "endDate": "2026-02-27",
     "imageUrl": "/ads/desktop/sidebar/sidebar-right/silver_right.png",
-    "link": "https://orbitpdf.pages.dev/",
+    "link": "https://opalpdf.com/",
     "id": "1770998030672",
     "advertiserId": "1770998030663",
     "tier": "silver-right"
@@ -34,7 +34,7 @@
     "clicks": 0,
     "endDate": "2026-02-27",
     "imageUrl": "/ads/desktop/sidebar/sidebar-left/silver_left.svg",
-    "link": "https://orbitpdf.pages.dev/",
+    "link": "https://opalpdf.com/",
     "id": "1771020079777",
     "advertiserId": "1770983144720",
     "tier": "silver-left"
@@ -46,7 +46,7 @@
     "clicks": 0,
     "endDate": "2026-02-28",
     "imageUrl": "/ads/desktop/sidebar/sidebar-right/silver_right cookies mp4.mp4",
-    "link": "https://orbitpdf.pages.dev/",
+    "link": "https://opalpdf.com/",
     "id": "1771081650454",
     "advertiserId": "1771081650401",
     "tier": "silver-right"
@@ -58,7 +58,7 @@
     "clicks": 0,
     "endDate": "2026-02-28",
     "imageUrl": "/ads/desktop/sidebar/sidebar-left/mp4 healthy food.mp4",
-    "link": "https://orbitpdf.pages.dev/advertise",
+    "link": "https://opalpdf.com/advertise",
     "id": "1771083189858",
     "advertiserId": "1771083189846",
     "tier": "silver-left",
@@ -71,7 +71,7 @@
     "clicks": 0,
     "endDate": "2026-02-28",
     "imageUrl": "/ads/desktop/sidebar/sidebar-left/your ad.mp4",
-    "link": "https://orbitpdf.pages.dev/advertise",
+    "link": "https://opalpdf.com/advertise",
     "id": "1771084060559",
     "advertiserId": "1770998030663",
     "tier": "silver-left"
@@ -83,7 +83,7 @@
     "clicks": 0,
     "endDate": "2026-02-28",
     "imageUrl": "/ads/desktop/sidebar/sidebar-right/silver_right.png",
-    "link": "https://orbitpdf.pages.dev/advertise.html",
+    "link": "https://opalpdf.com/advertise.html",
     "id": "1771108821214",
     "advertiserId": "1771081650401",
     "tier": "silver-right"

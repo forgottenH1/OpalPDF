@@ -82,7 +82,7 @@ export default function AdvertiserList({ advertisers, setAdvertisers, campaigns,
     };
 
     const sendEmail = (email: string) => {
-        window.location.href = `mailto:${email}?subject=OrbitPDF Ad Inquiry`;
+        window.location.href = `mailto:${email}?subject=OpalPDF Ad Inquiry`;
     };
 
     return (

@@ -1,7 +1,7 @@
 {
-    "name": "OrbitPDF - Free Online PDF Tools",
-    "short_name": "OrbitPDF",
-    "description": "Merge, split, compress, and convert PDFs for free with OrbitPDF. No uploads, total privacy.",
+    "name": "OpalPDF - Free Online PDF Tools",
+    "short_name": "OpalPDF",
+    "description": "Merge, split, compress, and convert PDFs for free with OpalPDF. No uploads, total privacy.",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#020617",

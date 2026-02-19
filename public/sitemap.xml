@@ -1,4022 +1,4022 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://orbitpdf.pages.dev/?lng=en</loc>
+    <loc>https://opalpdf.com/?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/contact?lng=en</loc>
+    <loc>https://opalpdf.com/contact?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/advertise?lng=en</loc>
+    <loc>https://opalpdf.com/advertise?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides?lng=en</loc>
+    <loc>https://opalpdf.com/guides?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/thanks?lng=en</loc>
+    <loc>https://opalpdf.com/thanks?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/merge?lng=en</loc>
+    <loc>https://opalpdf.com/merge?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/split?lng=en</loc>
+    <loc>https://opalpdf.com/split?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compress?lng=en</loc>
+    <loc>https://opalpdf.com/compress?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/word-to-pdf?lng=en</loc>
+    <loc>https://opalpdf.com/word-to-pdf?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-word?lng=en</loc>
+    <loc>https://opalpdf.com/pdf-to-word?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-excel?lng=en</loc>
+    <loc>https://opalpdf.com/pdf-to-excel?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-img?lng=en</loc>
+    <loc>https://opalpdf.com/pdf-to-img?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-png?lng=en</loc>
+    <loc>https://opalpdf.com/pdf-to-png?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/img-to-pdf?lng=en</loc>
+    <loc>https://opalpdf.com/img-to-pdf?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ocr?lng=en</loc>
+    <loc>https://opalpdf.com/ocr?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/rotate?lng=en</loc>
+    <loc>https://opalpdf.com/rotate?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/page-number?lng=en</loc>
+    <loc>https://opalpdf.com/page-number?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/sign?lng=en</loc>
+    <loc>https://opalpdf.com/sign?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/organize?lng=en</loc>
+    <loc>https://opalpdf.com/organize?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/watermark?lng=en</loc>
+    <loc>https://opalpdf.com/watermark?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/edit-metadata?lng=en</loc>
+    <loc>https://opalpdf.com/edit-metadata?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/flatten?lng=en</loc>
+    <loc>https://opalpdf.com/flatten?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/trim?lng=en</loc>
+    <loc>https://opalpdf.com/trim?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compare?lng=en</loc>
+    <loc>https://opalpdf.com/compare?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/protect?lng=en</loc>
+    <loc>https://opalpdf.com/protect?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/unlock?lng=en</loc>
+    <loc>https://opalpdf.com/unlock?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/repair?lng=en</loc>
+    <loc>https://opalpdf.com/repair?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/grayscale?lng=en</loc>
+    <loc>https://opalpdf.com/grayscale?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/invert-colors?lng=en</loc>
+    <loc>https://opalpdf.com/invert-colors?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/extract-text?lng=en</loc>
+    <loc>https://opalpdf.com/extract-text?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/remove-annotations?lng=en</loc>
+    <loc>https://opalpdf.com/remove-annotations?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/redact?lng=en</loc>
+    <loc>https://opalpdf.com/redact?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-ppt?lng=en</loc>
+    <loc>https://opalpdf.com/pdf-to-ppt?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/excel-to-pdf?lng=en</loc>
+    <loc>https://opalpdf.com/excel-to-pdf?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ppt-to-pdf?lng=en</loc>
+    <loc>https://opalpdf.com/ppt-to-pdf?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/html-to-pdf?lng=en</loc>
+    <loc>https://opalpdf.com/html-to-pdf?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/merge?lng=en</loc>
+    <loc>https://opalpdf.com/guides/merge?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=en</loc>
+    <loc>https://opalpdf.com/guides/split-pdf?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compress?lng=en</loc>
+    <loc>https://opalpdf.com/guides/compress?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/word-to-pdf?lng=en</loc>
+    <loc>https://opalpdf.com/guides/word-to-pdf?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-word?lng=en</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-word?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-excel?lng=en</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-excel?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-img?lng=en</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-img?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-png?lng=en</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-png?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/img-to-pdf?lng=en</loc>
+    <loc>https://opalpdf.com/guides/img-to-pdf?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ocr?lng=en</loc>
+    <loc>https://opalpdf.com/guides/ocr?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/rotate?lng=en</loc>
+    <loc>https://opalpdf.com/guides/rotate?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/page-number?lng=en</loc>
+    <loc>https://opalpdf.com/guides/page-number?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/sign?lng=en</loc>
+    <loc>https://opalpdf.com/guides/sign?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/organize?lng=en</loc>
+    <loc>https://opalpdf.com/guides/organize?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/watermark?lng=en</loc>
+    <loc>https://opalpdf.com/guides/watermark?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/edit-metadata?lng=en</loc>
+    <loc>https://opalpdf.com/guides/edit-metadata?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/flatten?lng=en</loc>
+    <loc>https://opalpdf.com/guides/flatten?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/trim?lng=en</loc>
+    <loc>https://opalpdf.com/guides/trim?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compare?lng=en</loc>
+    <loc>https://opalpdf.com/guides/compare?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/protect?lng=en</loc>
+    <loc>https://opalpdf.com/guides/protect?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/unlock?lng=en</loc>
+    <loc>https://opalpdf.com/guides/unlock?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/repair?lng=en</loc>
+    <loc>https://opalpdf.com/guides/repair?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/grayscale?lng=en</loc>
+    <loc>https://opalpdf.com/guides/grayscale?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/invert-colors?lng=en</loc>
+    <loc>https://opalpdf.com/guides/invert-colors?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/extract-text?lng=en</loc>
+    <loc>https://opalpdf.com/guides/extract-text?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/remove-annotations?lng=en</loc>
+    <loc>https://opalpdf.com/guides/remove-annotations?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/redact?lng=en</loc>
+    <loc>https://opalpdf.com/guides/redact?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-ppt?lng=en</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-ppt?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/excel-to-pdf?lng=en</loc>
+    <loc>https://opalpdf.com/guides/excel-to-pdf?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ppt-to-pdf?lng=en</loc>
+    <loc>https://opalpdf.com/guides/ppt-to-pdf?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/html-to-pdf?lng=en</loc>
+    <loc>https://opalpdf.com/guides/html-to-pdf?lng=en</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/?lng=es</loc>
+    <loc>https://opalpdf.com/?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/contact?lng=es</loc>
+    <loc>https://opalpdf.com/contact?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/advertise?lng=es</loc>
+    <loc>https://opalpdf.com/advertise?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides?lng=es</loc>
+    <loc>https://opalpdf.com/guides?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/thanks?lng=es</loc>
+    <loc>https://opalpdf.com/thanks?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/merge?lng=es</loc>
+    <loc>https://opalpdf.com/merge?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/split?lng=es</loc>
+    <loc>https://opalpdf.com/split?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compress?lng=es</loc>
+    <loc>https://opalpdf.com/compress?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/word-to-pdf?lng=es</loc>
+    <loc>https://opalpdf.com/word-to-pdf?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-word?lng=es</loc>
+    <loc>https://opalpdf.com/pdf-to-word?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-excel?lng=es</loc>
+    <loc>https://opalpdf.com/pdf-to-excel?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-img?lng=es</loc>
+    <loc>https://opalpdf.com/pdf-to-img?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-png?lng=es</loc>
+    <loc>https://opalpdf.com/pdf-to-png?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/img-to-pdf?lng=es</loc>
+    <loc>https://opalpdf.com/img-to-pdf?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ocr?lng=es</loc>
+    <loc>https://opalpdf.com/ocr?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/rotate?lng=es</loc>
+    <loc>https://opalpdf.com/rotate?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/page-number?lng=es</loc>
+    <loc>https://opalpdf.com/page-number?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/sign?lng=es</loc>
+    <loc>https://opalpdf.com/sign?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/organize?lng=es</loc>
+    <loc>https://opalpdf.com/organize?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/watermark?lng=es</loc>
+    <loc>https://opalpdf.com/watermark?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/edit-metadata?lng=es</loc>
+    <loc>https://opalpdf.com/edit-metadata?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/flatten?lng=es</loc>
+    <loc>https://opalpdf.com/flatten?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/trim?lng=es</loc>
+    <loc>https://opalpdf.com/trim?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compare?lng=es</loc>
+    <loc>https://opalpdf.com/compare?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/protect?lng=es</loc>
+    <loc>https://opalpdf.com/protect?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/unlock?lng=es</loc>
+    <loc>https://opalpdf.com/unlock?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/repair?lng=es</loc>
+    <loc>https://opalpdf.com/repair?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/grayscale?lng=es</loc>
+    <loc>https://opalpdf.com/grayscale?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/invert-colors?lng=es</loc>
+    <loc>https://opalpdf.com/invert-colors?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/extract-text?lng=es</loc>
+    <loc>https://opalpdf.com/extract-text?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/remove-annotations?lng=es</loc>
+    <loc>https://opalpdf.com/remove-annotations?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/redact?lng=es</loc>
+    <loc>https://opalpdf.com/redact?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-ppt?lng=es</loc>
+    <loc>https://opalpdf.com/pdf-to-ppt?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/excel-to-pdf?lng=es</loc>
+    <loc>https://opalpdf.com/excel-to-pdf?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ppt-to-pdf?lng=es</loc>
+    <loc>https://opalpdf.com/ppt-to-pdf?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/html-to-pdf?lng=es</loc>
+    <loc>https://opalpdf.com/html-to-pdf?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/merge?lng=es</loc>
+    <loc>https://opalpdf.com/guides/merge?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=es</loc>
+    <loc>https://opalpdf.com/guides/split-pdf?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compress?lng=es</loc>
+    <loc>https://opalpdf.com/guides/compress?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/word-to-pdf?lng=es</loc>
+    <loc>https://opalpdf.com/guides/word-to-pdf?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-word?lng=es</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-word?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-excel?lng=es</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-excel?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-img?lng=es</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-img?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-png?lng=es</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-png?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/img-to-pdf?lng=es</loc>
+    <loc>https://opalpdf.com/guides/img-to-pdf?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ocr?lng=es</loc>
+    <loc>https://opalpdf.com/guides/ocr?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/rotate?lng=es</loc>
+    <loc>https://opalpdf.com/guides/rotate?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/page-number?lng=es</loc>
+    <loc>https://opalpdf.com/guides/page-number?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/sign?lng=es</loc>
+    <loc>https://opalpdf.com/guides/sign?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/organize?lng=es</loc>
+    <loc>https://opalpdf.com/guides/organize?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/watermark?lng=es</loc>
+    <loc>https://opalpdf.com/guides/watermark?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/edit-metadata?lng=es</loc>
+    <loc>https://opalpdf.com/guides/edit-metadata?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/flatten?lng=es</loc>
+    <loc>https://opalpdf.com/guides/flatten?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/trim?lng=es</loc>
+    <loc>https://opalpdf.com/guides/trim?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compare?lng=es</loc>
+    <loc>https://opalpdf.com/guides/compare?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/protect?lng=es</loc>
+    <loc>https://opalpdf.com/guides/protect?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/unlock?lng=es</loc>
+    <loc>https://opalpdf.com/guides/unlock?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/repair?lng=es</loc>
+    <loc>https://opalpdf.com/guides/repair?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/grayscale?lng=es</loc>
+    <loc>https://opalpdf.com/guides/grayscale?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/invert-colors?lng=es</loc>
+    <loc>https://opalpdf.com/guides/invert-colors?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/extract-text?lng=es</loc>
+    <loc>https://opalpdf.com/guides/extract-text?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/remove-annotations?lng=es</loc>
+    <loc>https://opalpdf.com/guides/remove-annotations?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/redact?lng=es</loc>
+    <loc>https://opalpdf.com/guides/redact?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-ppt?lng=es</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-ppt?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/excel-to-pdf?lng=es</loc>
+    <loc>https://opalpdf.com/guides/excel-to-pdf?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ppt-to-pdf?lng=es</loc>
+    <loc>https://opalpdf.com/guides/ppt-to-pdf?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/html-to-pdf?lng=es</loc>
+    <loc>https://opalpdf.com/guides/html-to-pdf?lng=es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/?lng=fr</loc>
+    <loc>https://opalpdf.com/?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/contact?lng=fr</loc>
+    <loc>https://opalpdf.com/contact?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/advertise?lng=fr</loc>
+    <loc>https://opalpdf.com/advertise?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides?lng=fr</loc>
+    <loc>https://opalpdf.com/guides?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/thanks?lng=fr</loc>
+    <loc>https://opalpdf.com/thanks?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/merge?lng=fr</loc>
+    <loc>https://opalpdf.com/merge?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/split?lng=fr</loc>
+    <loc>https://opalpdf.com/split?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compress?lng=fr</loc>
+    <loc>https://opalpdf.com/compress?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/word-to-pdf?lng=fr</loc>
+    <loc>https://opalpdf.com/word-to-pdf?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-word?lng=fr</loc>
+    <loc>https://opalpdf.com/pdf-to-word?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-excel?lng=fr</loc>
+    <loc>https://opalpdf.com/pdf-to-excel?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-img?lng=fr</loc>
+    <loc>https://opalpdf.com/pdf-to-img?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-png?lng=fr</loc>
+    <loc>https://opalpdf.com/pdf-to-png?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/img-to-pdf?lng=fr</loc>
+    <loc>https://opalpdf.com/img-to-pdf?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ocr?lng=fr</loc>
+    <loc>https://opalpdf.com/ocr?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/rotate?lng=fr</loc>
+    <loc>https://opalpdf.com/rotate?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/page-number?lng=fr</loc>
+    <loc>https://opalpdf.com/page-number?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/sign?lng=fr</loc>
+    <loc>https://opalpdf.com/sign?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/organize?lng=fr</loc>
+    <loc>https://opalpdf.com/organize?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/watermark?lng=fr</loc>
+    <loc>https://opalpdf.com/watermark?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/edit-metadata?lng=fr</loc>
+    <loc>https://opalpdf.com/edit-metadata?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/flatten?lng=fr</loc>
+    <loc>https://opalpdf.com/flatten?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/trim?lng=fr</loc>
+    <loc>https://opalpdf.com/trim?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compare?lng=fr</loc>
+    <loc>https://opalpdf.com/compare?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/protect?lng=fr</loc>
+    <loc>https://opalpdf.com/protect?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/unlock?lng=fr</loc>
+    <loc>https://opalpdf.com/unlock?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/repair?lng=fr</loc>
+    <loc>https://opalpdf.com/repair?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/grayscale?lng=fr</loc>
+    <loc>https://opalpdf.com/grayscale?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/invert-colors?lng=fr</loc>
+    <loc>https://opalpdf.com/invert-colors?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/extract-text?lng=fr</loc>
+    <loc>https://opalpdf.com/extract-text?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/remove-annotations?lng=fr</loc>
+    <loc>https://opalpdf.com/remove-annotations?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/redact?lng=fr</loc>
+    <loc>https://opalpdf.com/redact?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-ppt?lng=fr</loc>
+    <loc>https://opalpdf.com/pdf-to-ppt?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/excel-to-pdf?lng=fr</loc>
+    <loc>https://opalpdf.com/excel-to-pdf?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ppt-to-pdf?lng=fr</loc>
+    <loc>https://opalpdf.com/ppt-to-pdf?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/html-to-pdf?lng=fr</loc>
+    <loc>https://opalpdf.com/html-to-pdf?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/merge?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/merge?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/split-pdf?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compress?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/compress?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/word-to-pdf?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/word-to-pdf?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-word?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-word?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-excel?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-excel?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-img?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-img?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-png?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-png?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/img-to-pdf?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/img-to-pdf?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ocr?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/ocr?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/rotate?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/rotate?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/page-number?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/page-number?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/sign?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/sign?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/organize?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/organize?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/watermark?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/watermark?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/edit-metadata?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/edit-metadata?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/flatten?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/flatten?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/trim?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/trim?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compare?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/compare?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/protect?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/protect?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/unlock?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/unlock?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/repair?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/repair?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/grayscale?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/grayscale?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/invert-colors?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/invert-colors?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/extract-text?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/extract-text?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/remove-annotations?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/remove-annotations?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/redact?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/redact?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-ppt?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-ppt?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/excel-to-pdf?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/excel-to-pdf?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ppt-to-pdf?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/ppt-to-pdf?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/html-to-pdf?lng=fr</loc>
+    <loc>https://opalpdf.com/guides/html-to-pdf?lng=fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/?lng=ar</loc>
+    <loc>https://opalpdf.com/?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/contact?lng=ar</loc>
+    <loc>https://opalpdf.com/contact?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/advertise?lng=ar</loc>
+    <loc>https://opalpdf.com/advertise?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides?lng=ar</loc>
+    <loc>https://opalpdf.com/guides?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/thanks?lng=ar</loc>
+    <loc>https://opalpdf.com/thanks?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/merge?lng=ar</loc>
+    <loc>https://opalpdf.com/merge?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/split?lng=ar</loc>
+    <loc>https://opalpdf.com/split?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compress?lng=ar</loc>
+    <loc>https://opalpdf.com/compress?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/word-to-pdf?lng=ar</loc>
+    <loc>https://opalpdf.com/word-to-pdf?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-word?lng=ar</loc>
+    <loc>https://opalpdf.com/pdf-to-word?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-excel?lng=ar</loc>
+    <loc>https://opalpdf.com/pdf-to-excel?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-img?lng=ar</loc>
+    <loc>https://opalpdf.com/pdf-to-img?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-png?lng=ar</loc>
+    <loc>https://opalpdf.com/pdf-to-png?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/img-to-pdf?lng=ar</loc>
+    <loc>https://opalpdf.com/img-to-pdf?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ocr?lng=ar</loc>
+    <loc>https://opalpdf.com/ocr?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/rotate?lng=ar</loc>
+    <loc>https://opalpdf.com/rotate?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/page-number?lng=ar</loc>
+    <loc>https://opalpdf.com/page-number?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/sign?lng=ar</loc>
+    <loc>https://opalpdf.com/sign?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/organize?lng=ar</loc>
+    <loc>https://opalpdf.com/organize?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/watermark?lng=ar</loc>
+    <loc>https://opalpdf.com/watermark?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/edit-metadata?lng=ar</loc>
+    <loc>https://opalpdf.com/edit-metadata?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/flatten?lng=ar</loc>
+    <loc>https://opalpdf.com/flatten?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/trim?lng=ar</loc>
+    <loc>https://opalpdf.com/trim?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compare?lng=ar</loc>
+    <loc>https://opalpdf.com/compare?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/protect?lng=ar</loc>
+    <loc>https://opalpdf.com/protect?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/unlock?lng=ar</loc>
+    <loc>https://opalpdf.com/unlock?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/repair?lng=ar</loc>
+    <loc>https://opalpdf.com/repair?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/grayscale?lng=ar</loc>
+    <loc>https://opalpdf.com/grayscale?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/invert-colors?lng=ar</loc>
+    <loc>https://opalpdf.com/invert-colors?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/extract-text?lng=ar</loc>
+    <loc>https://opalpdf.com/extract-text?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/remove-annotations?lng=ar</loc>
+    <loc>https://opalpdf.com/remove-annotations?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/redact?lng=ar</loc>
+    <loc>https://opalpdf.com/redact?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-ppt?lng=ar</loc>
+    <loc>https://opalpdf.com/pdf-to-ppt?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/excel-to-pdf?lng=ar</loc>
+    <loc>https://opalpdf.com/excel-to-pdf?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ppt-to-pdf?lng=ar</loc>
+    <loc>https://opalpdf.com/ppt-to-pdf?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/html-to-pdf?lng=ar</loc>
+    <loc>https://opalpdf.com/html-to-pdf?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/merge?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/merge?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/split-pdf?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compress?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/compress?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/word-to-pdf?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/word-to-pdf?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-word?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-word?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-excel?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-excel?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-img?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-img?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-png?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-png?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/img-to-pdf?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/img-to-pdf?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ocr?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/ocr?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/rotate?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/rotate?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/page-number?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/page-number?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/sign?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/sign?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/organize?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/organize?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/watermark?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/watermark?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/edit-metadata?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/edit-metadata?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/flatten?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/flatten?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/trim?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/trim?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compare?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/compare?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/protect?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/protect?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/unlock?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/unlock?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/repair?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/repair?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/grayscale?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/grayscale?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/invert-colors?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/invert-colors?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/extract-text?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/extract-text?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/remove-annotations?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/remove-annotations?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/redact?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/redact?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-ppt?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-ppt?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/excel-to-pdf?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/excel-to-pdf?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ppt-to-pdf?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/ppt-to-pdf?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/html-to-pdf?lng=ar</loc>
+    <loc>https://opalpdf.com/guides/html-to-pdf?lng=ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/?lng=ja</loc>
+    <loc>https://opalpdf.com/?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/contact?lng=ja</loc>
+    <loc>https://opalpdf.com/contact?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/advertise?lng=ja</loc>
+    <loc>https://opalpdf.com/advertise?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides?lng=ja</loc>
+    <loc>https://opalpdf.com/guides?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/thanks?lng=ja</loc>
+    <loc>https://opalpdf.com/thanks?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/merge?lng=ja</loc>
+    <loc>https://opalpdf.com/merge?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/split?lng=ja</loc>
+    <loc>https://opalpdf.com/split?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compress?lng=ja</loc>
+    <loc>https://opalpdf.com/compress?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/word-to-pdf?lng=ja</loc>
+    <loc>https://opalpdf.com/word-to-pdf?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-word?lng=ja</loc>
+    <loc>https://opalpdf.com/pdf-to-word?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-excel?lng=ja</loc>
+    <loc>https://opalpdf.com/pdf-to-excel?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-img?lng=ja</loc>
+    <loc>https://opalpdf.com/pdf-to-img?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-png?lng=ja</loc>
+    <loc>https://opalpdf.com/pdf-to-png?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/img-to-pdf?lng=ja</loc>
+    <loc>https://opalpdf.com/img-to-pdf?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ocr?lng=ja</loc>
+    <loc>https://opalpdf.com/ocr?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/rotate?lng=ja</loc>
+    <loc>https://opalpdf.com/rotate?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/page-number?lng=ja</loc>
+    <loc>https://opalpdf.com/page-number?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/sign?lng=ja</loc>
+    <loc>https://opalpdf.com/sign?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/organize?lng=ja</loc>
+    <loc>https://opalpdf.com/organize?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/watermark?lng=ja</loc>
+    <loc>https://opalpdf.com/watermark?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/edit-metadata?lng=ja</loc>
+    <loc>https://opalpdf.com/edit-metadata?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/flatten?lng=ja</loc>
+    <loc>https://opalpdf.com/flatten?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/trim?lng=ja</loc>
+    <loc>https://opalpdf.com/trim?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compare?lng=ja</loc>
+    <loc>https://opalpdf.com/compare?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/protect?lng=ja</loc>
+    <loc>https://opalpdf.com/protect?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/unlock?lng=ja</loc>
+    <loc>https://opalpdf.com/unlock?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/repair?lng=ja</loc>
+    <loc>https://opalpdf.com/repair?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/grayscale?lng=ja</loc>
+    <loc>https://opalpdf.com/grayscale?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/invert-colors?lng=ja</loc>
+    <loc>https://opalpdf.com/invert-colors?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/extract-text?lng=ja</loc>
+    <loc>https://opalpdf.com/extract-text?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/remove-annotations?lng=ja</loc>
+    <loc>https://opalpdf.com/remove-annotations?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/redact?lng=ja</loc>
+    <loc>https://opalpdf.com/redact?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-ppt?lng=ja</loc>
+    <loc>https://opalpdf.com/pdf-to-ppt?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/excel-to-pdf?lng=ja</loc>
+    <loc>https://opalpdf.com/excel-to-pdf?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ppt-to-pdf?lng=ja</loc>
+    <loc>https://opalpdf.com/ppt-to-pdf?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/html-to-pdf?lng=ja</loc>
+    <loc>https://opalpdf.com/html-to-pdf?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/merge?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/merge?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/split-pdf?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compress?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/compress?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/word-to-pdf?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/word-to-pdf?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-word?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-word?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-excel?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-excel?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-img?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-img?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-png?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-png?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/img-to-pdf?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/img-to-pdf?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ocr?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/ocr?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/rotate?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/rotate?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/page-number?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/page-number?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/sign?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/sign?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/organize?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/organize?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/watermark?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/watermark?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/edit-metadata?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/edit-metadata?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/flatten?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/flatten?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/trim?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/trim?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compare?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/compare?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/protect?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/protect?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/unlock?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/unlock?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/repair?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/repair?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/grayscale?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/grayscale?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/invert-colors?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/invert-colors?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/extract-text?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/extract-text?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/remove-annotations?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/remove-annotations?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/redact?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/redact?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-ppt?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-ppt?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/excel-to-pdf?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/excel-to-pdf?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ppt-to-pdf?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/ppt-to-pdf?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/html-to-pdf?lng=ja</loc>
+    <loc>https://opalpdf.com/guides/html-to-pdf?lng=ja</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/?lng=zh</loc>
+    <loc>https://opalpdf.com/?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/contact?lng=zh</loc>
+    <loc>https://opalpdf.com/contact?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/advertise?lng=zh</loc>
+    <loc>https://opalpdf.com/advertise?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides?lng=zh</loc>
+    <loc>https://opalpdf.com/guides?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/thanks?lng=zh</loc>
+    <loc>https://opalpdf.com/thanks?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/merge?lng=zh</loc>
+    <loc>https://opalpdf.com/merge?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/split?lng=zh</loc>
+    <loc>https://opalpdf.com/split?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compress?lng=zh</loc>
+    <loc>https://opalpdf.com/compress?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/word-to-pdf?lng=zh</loc>
+    <loc>https://opalpdf.com/word-to-pdf?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-word?lng=zh</loc>
+    <loc>https://opalpdf.com/pdf-to-word?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-excel?lng=zh</loc>
+    <loc>https://opalpdf.com/pdf-to-excel?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-img?lng=zh</loc>
+    <loc>https://opalpdf.com/pdf-to-img?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-png?lng=zh</loc>
+    <loc>https://opalpdf.com/pdf-to-png?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/img-to-pdf?lng=zh</loc>
+    <loc>https://opalpdf.com/img-to-pdf?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ocr?lng=zh</loc>
+    <loc>https://opalpdf.com/ocr?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/rotate?lng=zh</loc>
+    <loc>https://opalpdf.com/rotate?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/page-number?lng=zh</loc>
+    <loc>https://opalpdf.com/page-number?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/sign?lng=zh</loc>
+    <loc>https://opalpdf.com/sign?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/organize?lng=zh</loc>
+    <loc>https://opalpdf.com/organize?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/watermark?lng=zh</loc>
+    <loc>https://opalpdf.com/watermark?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/edit-metadata?lng=zh</loc>
+    <loc>https://opalpdf.com/edit-metadata?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/flatten?lng=zh</loc>
+    <loc>https://opalpdf.com/flatten?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/trim?lng=zh</loc>
+    <loc>https://opalpdf.com/trim?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compare?lng=zh</loc>
+    <loc>https://opalpdf.com/compare?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/protect?lng=zh</loc>
+    <loc>https://opalpdf.com/protect?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/unlock?lng=zh</loc>
+    <loc>https://opalpdf.com/unlock?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/repair?lng=zh</loc>
+    <loc>https://opalpdf.com/repair?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/grayscale?lng=zh</loc>
+    <loc>https://opalpdf.com/grayscale?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/invert-colors?lng=zh</loc>
+    <loc>https://opalpdf.com/invert-colors?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/extract-text?lng=zh</loc>
+    <loc>https://opalpdf.com/extract-text?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/remove-annotations?lng=zh</loc>
+    <loc>https://opalpdf.com/remove-annotations?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/redact?lng=zh</loc>
+    <loc>https://opalpdf.com/redact?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-ppt?lng=zh</loc>
+    <loc>https://opalpdf.com/pdf-to-ppt?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/excel-to-pdf?lng=zh</loc>
+    <loc>https://opalpdf.com/excel-to-pdf?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ppt-to-pdf?lng=zh</loc>
+    <loc>https://opalpdf.com/ppt-to-pdf?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/html-to-pdf?lng=zh</loc>
+    <loc>https://opalpdf.com/html-to-pdf?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/merge?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/merge?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/split-pdf?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compress?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/compress?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/word-to-pdf?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/word-to-pdf?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-word?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-word?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-excel?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-excel?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-img?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-img?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-png?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-png?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/img-to-pdf?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/img-to-pdf?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ocr?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/ocr?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/rotate?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/rotate?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/page-number?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/page-number?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/sign?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/sign?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/organize?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/organize?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/watermark?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/watermark?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/edit-metadata?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/edit-metadata?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/flatten?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/flatten?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/trim?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/trim?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compare?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/compare?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/protect?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/protect?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/unlock?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/unlock?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/repair?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/repair?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/grayscale?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/grayscale?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/invert-colors?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/invert-colors?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/extract-text?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/extract-text?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/remove-annotations?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/remove-annotations?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/redact?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/redact?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-ppt?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-ppt?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/excel-to-pdf?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/excel-to-pdf?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ppt-to-pdf?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/ppt-to-pdf?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/html-to-pdf?lng=zh</loc>
+    <loc>https://opalpdf.com/guides/html-to-pdf?lng=zh</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/?lng=de</loc>
+    <loc>https://opalpdf.com/?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/contact?lng=de</loc>
+    <loc>https://opalpdf.com/contact?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/advertise?lng=de</loc>
+    <loc>https://opalpdf.com/advertise?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides?lng=de</loc>
+    <loc>https://opalpdf.com/guides?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/thanks?lng=de</loc>
+    <loc>https://opalpdf.com/thanks?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/merge?lng=de</loc>
+    <loc>https://opalpdf.com/merge?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/split?lng=de</loc>
+    <loc>https://opalpdf.com/split?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compress?lng=de</loc>
+    <loc>https://opalpdf.com/compress?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/word-to-pdf?lng=de</loc>
+    <loc>https://opalpdf.com/word-to-pdf?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-word?lng=de</loc>
+    <loc>https://opalpdf.com/pdf-to-word?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-excel?lng=de</loc>
+    <loc>https://opalpdf.com/pdf-to-excel?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-img?lng=de</loc>
+    <loc>https://opalpdf.com/pdf-to-img?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-png?lng=de</loc>
+    <loc>https://opalpdf.com/pdf-to-png?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/img-to-pdf?lng=de</loc>
+    <loc>https://opalpdf.com/img-to-pdf?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ocr?lng=de</loc>
+    <loc>https://opalpdf.com/ocr?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/rotate?lng=de</loc>
+    <loc>https://opalpdf.com/rotate?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/page-number?lng=de</loc>
+    <loc>https://opalpdf.com/page-number?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/sign?lng=de</loc>
+    <loc>https://opalpdf.com/sign?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/organize?lng=de</loc>
+    <loc>https://opalpdf.com/organize?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/watermark?lng=de</loc>
+    <loc>https://opalpdf.com/watermark?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/edit-metadata?lng=de</loc>
+    <loc>https://opalpdf.com/edit-metadata?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/flatten?lng=de</loc>
+    <loc>https://opalpdf.com/flatten?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/trim?lng=de</loc>
+    <loc>https://opalpdf.com/trim?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compare?lng=de</loc>
+    <loc>https://opalpdf.com/compare?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/protect?lng=de</loc>
+    <loc>https://opalpdf.com/protect?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/unlock?lng=de</loc>
+    <loc>https://opalpdf.com/unlock?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/repair?lng=de</loc>
+    <loc>https://opalpdf.com/repair?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/grayscale?lng=de</loc>
+    <loc>https://opalpdf.com/grayscale?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/invert-colors?lng=de</loc>
+    <loc>https://opalpdf.com/invert-colors?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/extract-text?lng=de</loc>
+    <loc>https://opalpdf.com/extract-text?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/remove-annotations?lng=de</loc>
+    <loc>https://opalpdf.com/remove-annotations?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/redact?lng=de</loc>
+    <loc>https://opalpdf.com/redact?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-ppt?lng=de</loc>
+    <loc>https://opalpdf.com/pdf-to-ppt?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/excel-to-pdf?lng=de</loc>
+    <loc>https://opalpdf.com/excel-to-pdf?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ppt-to-pdf?lng=de</loc>
+    <loc>https://opalpdf.com/ppt-to-pdf?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/html-to-pdf?lng=de</loc>
+    <loc>https://opalpdf.com/html-to-pdf?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/merge?lng=de</loc>
+    <loc>https://opalpdf.com/guides/merge?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=de</loc>
+    <loc>https://opalpdf.com/guides/split-pdf?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compress?lng=de</loc>
+    <loc>https://opalpdf.com/guides/compress?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/word-to-pdf?lng=de</loc>
+    <loc>https://opalpdf.com/guides/word-to-pdf?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-word?lng=de</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-word?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-excel?lng=de</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-excel?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-img?lng=de</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-img?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-png?lng=de</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-png?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/img-to-pdf?lng=de</loc>
+    <loc>https://opalpdf.com/guides/img-to-pdf?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ocr?lng=de</loc>
+    <loc>https://opalpdf.com/guides/ocr?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/rotate?lng=de</loc>
+    <loc>https://opalpdf.com/guides/rotate?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/page-number?lng=de</loc>
+    <loc>https://opalpdf.com/guides/page-number?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/sign?lng=de</loc>
+    <loc>https://opalpdf.com/guides/sign?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/organize?lng=de</loc>
+    <loc>https://opalpdf.com/guides/organize?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/watermark?lng=de</loc>
+    <loc>https://opalpdf.com/guides/watermark?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/edit-metadata?lng=de</loc>
+    <loc>https://opalpdf.com/guides/edit-metadata?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/flatten?lng=de</loc>
+    <loc>https://opalpdf.com/guides/flatten?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/trim?lng=de</loc>
+    <loc>https://opalpdf.com/guides/trim?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compare?lng=de</loc>
+    <loc>https://opalpdf.com/guides/compare?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/protect?lng=de</loc>
+    <loc>https://opalpdf.com/guides/protect?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/unlock?lng=de</loc>
+    <loc>https://opalpdf.com/guides/unlock?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/repair?lng=de</loc>
+    <loc>https://opalpdf.com/guides/repair?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/grayscale?lng=de</loc>
+    <loc>https://opalpdf.com/guides/grayscale?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/invert-colors?lng=de</loc>
+    <loc>https://opalpdf.com/guides/invert-colors?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/extract-text?lng=de</loc>
+    <loc>https://opalpdf.com/guides/extract-text?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/remove-annotations?lng=de</loc>
+    <loc>https://opalpdf.com/guides/remove-annotations?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/redact?lng=de</loc>
+    <loc>https://opalpdf.com/guides/redact?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-ppt?lng=de</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-ppt?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/excel-to-pdf?lng=de</loc>
+    <loc>https://opalpdf.com/guides/excel-to-pdf?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ppt-to-pdf?lng=de</loc>
+    <loc>https://opalpdf.com/guides/ppt-to-pdf?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/html-to-pdf?lng=de</loc>
+    <loc>https://opalpdf.com/guides/html-to-pdf?lng=de</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/?lng=ru</loc>
+    <loc>https://opalpdf.com/?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/contact?lng=ru</loc>
+    <loc>https://opalpdf.com/contact?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/advertise?lng=ru</loc>
+    <loc>https://opalpdf.com/advertise?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides?lng=ru</loc>
+    <loc>https://opalpdf.com/guides?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/thanks?lng=ru</loc>
+    <loc>https://opalpdf.com/thanks?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/merge?lng=ru</loc>
+    <loc>https://opalpdf.com/merge?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/split?lng=ru</loc>
+    <loc>https://opalpdf.com/split?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compress?lng=ru</loc>
+    <loc>https://opalpdf.com/compress?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/word-to-pdf?lng=ru</loc>
+    <loc>https://opalpdf.com/word-to-pdf?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-word?lng=ru</loc>
+    <loc>https://opalpdf.com/pdf-to-word?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-excel?lng=ru</loc>
+    <loc>https://opalpdf.com/pdf-to-excel?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-img?lng=ru</loc>
+    <loc>https://opalpdf.com/pdf-to-img?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-png?lng=ru</loc>
+    <loc>https://opalpdf.com/pdf-to-png?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/img-to-pdf?lng=ru</loc>
+    <loc>https://opalpdf.com/img-to-pdf?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ocr?lng=ru</loc>
+    <loc>https://opalpdf.com/ocr?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/rotate?lng=ru</loc>
+    <loc>https://opalpdf.com/rotate?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/page-number?lng=ru</loc>
+    <loc>https://opalpdf.com/page-number?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/sign?lng=ru</loc>
+    <loc>https://opalpdf.com/sign?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/organize?lng=ru</loc>
+    <loc>https://opalpdf.com/organize?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/watermark?lng=ru</loc>
+    <loc>https://opalpdf.com/watermark?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/edit-metadata?lng=ru</loc>
+    <loc>https://opalpdf.com/edit-metadata?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/flatten?lng=ru</loc>
+    <loc>https://opalpdf.com/flatten?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/trim?lng=ru</loc>
+    <loc>https://opalpdf.com/trim?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compare?lng=ru</loc>
+    <loc>https://opalpdf.com/compare?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/protect?lng=ru</loc>
+    <loc>https://opalpdf.com/protect?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/unlock?lng=ru</loc>
+    <loc>https://opalpdf.com/unlock?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/repair?lng=ru</loc>
+    <loc>https://opalpdf.com/repair?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/grayscale?lng=ru</loc>
+    <loc>https://opalpdf.com/grayscale?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/invert-colors?lng=ru</loc>
+    <loc>https://opalpdf.com/invert-colors?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/extract-text?lng=ru</loc>
+    <loc>https://opalpdf.com/extract-text?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/remove-annotations?lng=ru</loc>
+    <loc>https://opalpdf.com/remove-annotations?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/redact?lng=ru</loc>
+    <loc>https://opalpdf.com/redact?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-ppt?lng=ru</loc>
+    <loc>https://opalpdf.com/pdf-to-ppt?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/excel-to-pdf?lng=ru</loc>
+    <loc>https://opalpdf.com/excel-to-pdf?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ppt-to-pdf?lng=ru</loc>
+    <loc>https://opalpdf.com/ppt-to-pdf?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/html-to-pdf?lng=ru</loc>
+    <loc>https://opalpdf.com/html-to-pdf?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/merge?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/merge?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/split-pdf?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compress?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/compress?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/word-to-pdf?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/word-to-pdf?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-word?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-word?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-excel?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-excel?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-img?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-img?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-png?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-png?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/img-to-pdf?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/img-to-pdf?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ocr?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/ocr?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/rotate?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/rotate?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/page-number?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/page-number?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/sign?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/sign?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/organize?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/organize?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/watermark?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/watermark?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/edit-metadata?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/edit-metadata?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/flatten?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/flatten?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/trim?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/trim?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compare?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/compare?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/protect?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/protect?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/unlock?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/unlock?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/repair?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/repair?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/grayscale?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/grayscale?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/invert-colors?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/invert-colors?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/extract-text?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/extract-text?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/remove-annotations?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/remove-annotations?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/redact?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/redact?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-ppt?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-ppt?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/excel-to-pdf?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/excel-to-pdf?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ppt-to-pdf?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/ppt-to-pdf?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/html-to-pdf?lng=ru</loc>
+    <loc>https://opalpdf.com/guides/html-to-pdf?lng=ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/?lng=pt</loc>
+    <loc>https://opalpdf.com/?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/contact?lng=pt</loc>
+    <loc>https://opalpdf.com/contact?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/advertise?lng=pt</loc>
+    <loc>https://opalpdf.com/advertise?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides?lng=pt</loc>
+    <loc>https://opalpdf.com/guides?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/thanks?lng=pt</loc>
+    <loc>https://opalpdf.com/thanks?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/merge?lng=pt</loc>
+    <loc>https://opalpdf.com/merge?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/split?lng=pt</loc>
+    <loc>https://opalpdf.com/split?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compress?lng=pt</loc>
+    <loc>https://opalpdf.com/compress?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/word-to-pdf?lng=pt</loc>
+    <loc>https://opalpdf.com/word-to-pdf?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-word?lng=pt</loc>
+    <loc>https://opalpdf.com/pdf-to-word?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-excel?lng=pt</loc>
+    <loc>https://opalpdf.com/pdf-to-excel?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-img?lng=pt</loc>
+    <loc>https://opalpdf.com/pdf-to-img?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-png?lng=pt</loc>
+    <loc>https://opalpdf.com/pdf-to-png?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/img-to-pdf?lng=pt</loc>
+    <loc>https://opalpdf.com/img-to-pdf?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ocr?lng=pt</loc>
+    <loc>https://opalpdf.com/ocr?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/rotate?lng=pt</loc>
+    <loc>https://opalpdf.com/rotate?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/page-number?lng=pt</loc>
+    <loc>https://opalpdf.com/page-number?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/sign?lng=pt</loc>
+    <loc>https://opalpdf.com/sign?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/organize?lng=pt</loc>
+    <loc>https://opalpdf.com/organize?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/watermark?lng=pt</loc>
+    <loc>https://opalpdf.com/watermark?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/edit-metadata?lng=pt</loc>
+    <loc>https://opalpdf.com/edit-metadata?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/flatten?lng=pt</loc>
+    <loc>https://opalpdf.com/flatten?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/trim?lng=pt</loc>
+    <loc>https://opalpdf.com/trim?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compare?lng=pt</loc>
+    <loc>https://opalpdf.com/compare?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/protect?lng=pt</loc>
+    <loc>https://opalpdf.com/protect?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/unlock?lng=pt</loc>
+    <loc>https://opalpdf.com/unlock?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/repair?lng=pt</loc>
+    <loc>https://opalpdf.com/repair?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/grayscale?lng=pt</loc>
+    <loc>https://opalpdf.com/grayscale?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/invert-colors?lng=pt</loc>
+    <loc>https://opalpdf.com/invert-colors?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/extract-text?lng=pt</loc>
+    <loc>https://opalpdf.com/extract-text?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/remove-annotations?lng=pt</loc>
+    <loc>https://opalpdf.com/remove-annotations?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/redact?lng=pt</loc>
+    <loc>https://opalpdf.com/redact?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-ppt?lng=pt</loc>
+    <loc>https://opalpdf.com/pdf-to-ppt?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/excel-to-pdf?lng=pt</loc>
+    <loc>https://opalpdf.com/excel-to-pdf?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ppt-to-pdf?lng=pt</loc>
+    <loc>https://opalpdf.com/ppt-to-pdf?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/html-to-pdf?lng=pt</loc>
+    <loc>https://opalpdf.com/html-to-pdf?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/merge?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/merge?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/split-pdf?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compress?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/compress?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/word-to-pdf?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/word-to-pdf?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-word?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-word?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-excel?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-excel?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-img?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-img?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-png?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-png?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/img-to-pdf?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/img-to-pdf?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ocr?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/ocr?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/rotate?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/rotate?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/page-number?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/page-number?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/sign?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/sign?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/organize?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/organize?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/watermark?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/watermark?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/edit-metadata?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/edit-metadata?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/flatten?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/flatten?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/trim?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/trim?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compare?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/compare?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/protect?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/protect?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/unlock?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/unlock?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/repair?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/repair?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/grayscale?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/grayscale?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/invert-colors?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/invert-colors?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/extract-text?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/extract-text?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/remove-annotations?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/remove-annotations?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/redact?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/redact?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-ppt?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-ppt?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/excel-to-pdf?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/excel-to-pdf?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ppt-to-pdf?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/ppt-to-pdf?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/html-to-pdf?lng=pt</loc>
+    <loc>https://opalpdf.com/guides/html-to-pdf?lng=pt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/?lng=uk</loc>
+    <loc>https://opalpdf.com/?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/contact?lng=uk</loc>
+    <loc>https://opalpdf.com/contact?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/advertise?lng=uk</loc>
+    <loc>https://opalpdf.com/advertise?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides?lng=uk</loc>
+    <loc>https://opalpdf.com/guides?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/thanks?lng=uk</loc>
+    <loc>https://opalpdf.com/thanks?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/merge?lng=uk</loc>
+    <loc>https://opalpdf.com/merge?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/split?lng=uk</loc>
+    <loc>https://opalpdf.com/split?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compress?lng=uk</loc>
+    <loc>https://opalpdf.com/compress?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/word-to-pdf?lng=uk</loc>
+    <loc>https://opalpdf.com/word-to-pdf?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-word?lng=uk</loc>
+    <loc>https://opalpdf.com/pdf-to-word?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-excel?lng=uk</loc>
+    <loc>https://opalpdf.com/pdf-to-excel?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-img?lng=uk</loc>
+    <loc>https://opalpdf.com/pdf-to-img?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-png?lng=uk</loc>
+    <loc>https://opalpdf.com/pdf-to-png?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/img-to-pdf?lng=uk</loc>
+    <loc>https://opalpdf.com/img-to-pdf?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ocr?lng=uk</loc>
+    <loc>https://opalpdf.com/ocr?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/rotate?lng=uk</loc>
+    <loc>https://opalpdf.com/rotate?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/page-number?lng=uk</loc>
+    <loc>https://opalpdf.com/page-number?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/sign?lng=uk</loc>
+    <loc>https://opalpdf.com/sign?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/organize?lng=uk</loc>
+    <loc>https://opalpdf.com/organize?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/watermark?lng=uk</loc>
+    <loc>https://opalpdf.com/watermark?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/edit-metadata?lng=uk</loc>
+    <loc>https://opalpdf.com/edit-metadata?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/flatten?lng=uk</loc>
+    <loc>https://opalpdf.com/flatten?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/trim?lng=uk</loc>
+    <loc>https://opalpdf.com/trim?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compare?lng=uk</loc>
+    <loc>https://opalpdf.com/compare?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/protect?lng=uk</loc>
+    <loc>https://opalpdf.com/protect?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/unlock?lng=uk</loc>
+    <loc>https://opalpdf.com/unlock?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/repair?lng=uk</loc>
+    <loc>https://opalpdf.com/repair?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/grayscale?lng=uk</loc>
+    <loc>https://opalpdf.com/grayscale?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/invert-colors?lng=uk</loc>
+    <loc>https://opalpdf.com/invert-colors?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/extract-text?lng=uk</loc>
+    <loc>https://opalpdf.com/extract-text?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/remove-annotations?lng=uk</loc>
+    <loc>https://opalpdf.com/remove-annotations?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/redact?lng=uk</loc>
+    <loc>https://opalpdf.com/redact?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-ppt?lng=uk</loc>
+    <loc>https://opalpdf.com/pdf-to-ppt?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/excel-to-pdf?lng=uk</loc>
+    <loc>https://opalpdf.com/excel-to-pdf?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ppt-to-pdf?lng=uk</loc>
+    <loc>https://opalpdf.com/ppt-to-pdf?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/html-to-pdf?lng=uk</loc>
+    <loc>https://opalpdf.com/html-to-pdf?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/merge?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/merge?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/split-pdf?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compress?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/compress?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/word-to-pdf?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/word-to-pdf?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-word?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-word?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-excel?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-excel?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-img?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-img?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-png?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-png?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/img-to-pdf?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/img-to-pdf?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ocr?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/ocr?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/rotate?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/rotate?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/page-number?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/page-number?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/sign?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/sign?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/organize?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/organize?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/watermark?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/watermark?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/edit-metadata?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/edit-metadata?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/flatten?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/flatten?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/trim?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/trim?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compare?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/compare?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/protect?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/protect?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/unlock?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/unlock?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/repair?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/repair?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/grayscale?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/grayscale?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/invert-colors?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/invert-colors?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/extract-text?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/extract-text?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/remove-annotations?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/remove-annotations?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/redact?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/redact?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-ppt?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-ppt?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/excel-to-pdf?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/excel-to-pdf?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ppt-to-pdf?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/ppt-to-pdf?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/html-to-pdf?lng=uk</loc>
+    <loc>https://opalpdf.com/guides/html-to-pdf?lng=uk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/?lng=tr</loc>
+    <loc>https://opalpdf.com/?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/contact?lng=tr</loc>
+    <loc>https://opalpdf.com/contact?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/advertise?lng=tr</loc>
+    <loc>https://opalpdf.com/advertise?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides?lng=tr</loc>
+    <loc>https://opalpdf.com/guides?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/thanks?lng=tr</loc>
+    <loc>https://opalpdf.com/thanks?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/merge?lng=tr</loc>
+    <loc>https://opalpdf.com/merge?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/split?lng=tr</loc>
+    <loc>https://opalpdf.com/split?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compress?lng=tr</loc>
+    <loc>https://opalpdf.com/compress?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/word-to-pdf?lng=tr</loc>
+    <loc>https://opalpdf.com/word-to-pdf?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-word?lng=tr</loc>
+    <loc>https://opalpdf.com/pdf-to-word?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-excel?lng=tr</loc>
+    <loc>https://opalpdf.com/pdf-to-excel?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-img?lng=tr</loc>
+    <loc>https://opalpdf.com/pdf-to-img?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-png?lng=tr</loc>
+    <loc>https://opalpdf.com/pdf-to-png?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/img-to-pdf?lng=tr</loc>
+    <loc>https://opalpdf.com/img-to-pdf?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ocr?lng=tr</loc>
+    <loc>https://opalpdf.com/ocr?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/rotate?lng=tr</loc>
+    <loc>https://opalpdf.com/rotate?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/page-number?lng=tr</loc>
+    <loc>https://opalpdf.com/page-number?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/sign?lng=tr</loc>
+    <loc>https://opalpdf.com/sign?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/organize?lng=tr</loc>
+    <loc>https://opalpdf.com/organize?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/watermark?lng=tr</loc>
+    <loc>https://opalpdf.com/watermark?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/edit-metadata?lng=tr</loc>
+    <loc>https://opalpdf.com/edit-metadata?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/flatten?lng=tr</loc>
+    <loc>https://opalpdf.com/flatten?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/trim?lng=tr</loc>
+    <loc>https://opalpdf.com/trim?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compare?lng=tr</loc>
+    <loc>https://opalpdf.com/compare?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/protect?lng=tr</loc>
+    <loc>https://opalpdf.com/protect?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/unlock?lng=tr</loc>
+    <loc>https://opalpdf.com/unlock?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/repair?lng=tr</loc>
+    <loc>https://opalpdf.com/repair?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/grayscale?lng=tr</loc>
+    <loc>https://opalpdf.com/grayscale?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/invert-colors?lng=tr</loc>
+    <loc>https://opalpdf.com/invert-colors?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/extract-text?lng=tr</loc>
+    <loc>https://opalpdf.com/extract-text?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/remove-annotations?lng=tr</loc>
+    <loc>https://opalpdf.com/remove-annotations?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/redact?lng=tr</loc>
+    <loc>https://opalpdf.com/redact?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-ppt?lng=tr</loc>
+    <loc>https://opalpdf.com/pdf-to-ppt?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/excel-to-pdf?lng=tr</loc>
+    <loc>https://opalpdf.com/excel-to-pdf?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ppt-to-pdf?lng=tr</loc>
+    <loc>https://opalpdf.com/ppt-to-pdf?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/html-to-pdf?lng=tr</loc>
+    <loc>https://opalpdf.com/html-to-pdf?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/merge?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/merge?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/split-pdf?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compress?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/compress?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/word-to-pdf?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/word-to-pdf?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-word?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-word?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-excel?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-excel?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-img?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-img?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-png?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-png?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/img-to-pdf?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/img-to-pdf?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ocr?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/ocr?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/rotate?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/rotate?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/page-number?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/page-number?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/sign?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/sign?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/organize?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/organize?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/watermark?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/watermark?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/edit-metadata?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/edit-metadata?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/flatten?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/flatten?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/trim?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/trim?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compare?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/compare?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/protect?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/protect?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/unlock?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/unlock?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/repair?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/repair?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/grayscale?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/grayscale?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/invert-colors?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/invert-colors?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/extract-text?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/extract-text?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/remove-annotations?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/remove-annotations?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/redact?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/redact?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-ppt?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-ppt?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/excel-to-pdf?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/excel-to-pdf?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ppt-to-pdf?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/ppt-to-pdf?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/html-to-pdf?lng=tr</loc>
+    <loc>https://opalpdf.com/guides/html-to-pdf?lng=tr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/?lng=it</loc>
+    <loc>https://opalpdf.com/?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/contact?lng=it</loc>
+    <loc>https://opalpdf.com/contact?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/advertise?lng=it</loc>
+    <loc>https://opalpdf.com/advertise?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides?lng=it</loc>
+    <loc>https://opalpdf.com/guides?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/thanks?lng=it</loc>
+    <loc>https://opalpdf.com/thanks?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/merge?lng=it</loc>
+    <loc>https://opalpdf.com/merge?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/split?lng=it</loc>
+    <loc>https://opalpdf.com/split?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compress?lng=it</loc>
+    <loc>https://opalpdf.com/compress?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/word-to-pdf?lng=it</loc>
+    <loc>https://opalpdf.com/word-to-pdf?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-word?lng=it</loc>
+    <loc>https://opalpdf.com/pdf-to-word?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-excel?lng=it</loc>
+    <loc>https://opalpdf.com/pdf-to-excel?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-img?lng=it</loc>
+    <loc>https://opalpdf.com/pdf-to-img?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-png?lng=it</loc>
+    <loc>https://opalpdf.com/pdf-to-png?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/img-to-pdf?lng=it</loc>
+    <loc>https://opalpdf.com/img-to-pdf?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ocr?lng=it</loc>
+    <loc>https://opalpdf.com/ocr?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/rotate?lng=it</loc>
+    <loc>https://opalpdf.com/rotate?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/page-number?lng=it</loc>
+    <loc>https://opalpdf.com/page-number?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/sign?lng=it</loc>
+    <loc>https://opalpdf.com/sign?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/organize?lng=it</loc>
+    <loc>https://opalpdf.com/organize?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/watermark?lng=it</loc>
+    <loc>https://opalpdf.com/watermark?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/edit-metadata?lng=it</loc>
+    <loc>https://opalpdf.com/edit-metadata?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/flatten?lng=it</loc>
+    <loc>https://opalpdf.com/flatten?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/trim?lng=it</loc>
+    <loc>https://opalpdf.com/trim?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/compare?lng=it</loc>
+    <loc>https://opalpdf.com/compare?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/protect?lng=it</loc>
+    <loc>https://opalpdf.com/protect?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/unlock?lng=it</loc>
+    <loc>https://opalpdf.com/unlock?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/repair?lng=it</loc>
+    <loc>https://opalpdf.com/repair?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/grayscale?lng=it</loc>
+    <loc>https://opalpdf.com/grayscale?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/invert-colors?lng=it</loc>
+    <loc>https://opalpdf.com/invert-colors?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/extract-text?lng=it</loc>
+    <loc>https://opalpdf.com/extract-text?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/remove-annotations?lng=it</loc>
+    <loc>https://opalpdf.com/remove-annotations?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/redact?lng=it</loc>
+    <loc>https://opalpdf.com/redact?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/pdf-to-ppt?lng=it</loc>
+    <loc>https://opalpdf.com/pdf-to-ppt?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/excel-to-pdf?lng=it</loc>
+    <loc>https://opalpdf.com/excel-to-pdf?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/ppt-to-pdf?lng=it</loc>
+    <loc>https://opalpdf.com/ppt-to-pdf?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/html-to-pdf?lng=it</loc>
+    <loc>https://opalpdf.com/html-to-pdf?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/merge?lng=it</loc>
+    <loc>https://opalpdf.com/guides/merge?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/split-pdf?lng=it</loc>
+    <loc>https://opalpdf.com/guides/split-pdf?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compress?lng=it</loc>
+    <loc>https://opalpdf.com/guides/compress?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/word-to-pdf?lng=it</loc>
+    <loc>https://opalpdf.com/guides/word-to-pdf?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-word?lng=it</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-word?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-excel?lng=it</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-excel?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-img?lng=it</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-img?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-png?lng=it</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-png?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/img-to-pdf?lng=it</loc>
+    <loc>https://opalpdf.com/guides/img-to-pdf?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ocr?lng=it</loc>
+    <loc>https://opalpdf.com/guides/ocr?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/rotate?lng=it</loc>
+    <loc>https://opalpdf.com/guides/rotate?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/page-number?lng=it</loc>
+    <loc>https://opalpdf.com/guides/page-number?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/sign?lng=it</loc>
+    <loc>https://opalpdf.com/guides/sign?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/organize?lng=it</loc>
+    <loc>https://opalpdf.com/guides/organize?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/watermark?lng=it</loc>
+    <loc>https://opalpdf.com/guides/watermark?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/edit-metadata?lng=it</loc>
+    <loc>https://opalpdf.com/guides/edit-metadata?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/flatten?lng=it</loc>
+    <loc>https://opalpdf.com/guides/flatten?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/trim?lng=it</loc>
+    <loc>https://opalpdf.com/guides/trim?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/compare?lng=it</loc>
+    <loc>https://opalpdf.com/guides/compare?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/protect?lng=it</loc>
+    <loc>https://opalpdf.com/guides/protect?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/unlock?lng=it</loc>
+    <loc>https://opalpdf.com/guides/unlock?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/repair?lng=it</loc>
+    <loc>https://opalpdf.com/guides/repair?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/grayscale?lng=it</loc>
+    <loc>https://opalpdf.com/guides/grayscale?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/invert-colors?lng=it</loc>
+    <loc>https://opalpdf.com/guides/invert-colors?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/extract-text?lng=it</loc>
+    <loc>https://opalpdf.com/guides/extract-text?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/remove-annotations?lng=it</loc>
+    <loc>https://opalpdf.com/guides/remove-annotations?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/redact?lng=it</loc>
+    <loc>https://opalpdf.com/guides/redact?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/pdf-to-ppt?lng=it</loc>
+    <loc>https://opalpdf.com/guides/pdf-to-ppt?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/excel-to-pdf?lng=it</loc>
+    <loc>https://opalpdf.com/guides/excel-to-pdf?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/ppt-to-pdf?lng=it</loc>
+    <loc>https://opalpdf.com/guides/ppt-to-pdf?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://orbitpdf.pages.dev/guides/html-to-pdf?lng=it</loc>
+    <loc>https://opalpdf.com/guides/html-to-pdf?lng=it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

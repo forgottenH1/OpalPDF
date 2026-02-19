@@ -14,13 +14,13 @@ export default function Contact() {
     return (
         <>
             <Helmet>
-                <title>Contact Us | OrbitPDF</title>
-                <meta name="description" content="Get in touch with the OrbitPDF team. We'd love to hear from you." />
-                <link rel="canonical" href="https://orbitpdf.pages.dev/contact" />
-                <meta property="og:title" content="Contact Us | OrbitPDF" />
-                <meta property="og:description" content="Get in touch with the OrbitPDF team. We'd love to hear from you." />
-                <meta name="twitter:title" content="Contact Us | OrbitPDF" />
-                <meta name="twitter:description" content="Get in touch with the OrbitPDF team. We'd love to hear from you." />
+                <title>Contact Us | OpalPDF</title>
+                <meta name="description" content="Get in touch with the OpalPDF team. We'd love to hear from you." />
+                <link rel="canonical" href="https://opalpdf.com/contact" />
+                <meta property="og:title" content="Contact Us | TG Image" />
+                <meta property="og:description" content="Get in touch with the OpalPDF team. We'd love to hear from you." />
+                <meta name="twitter:title" content="Contact Us | TG Image" />
+                <meta name="twitter:description" content="Get in touch with the OpalPDF team. We'd love to hear from you." />
             </Helmet>
 
             <div className="w-full mb-4">

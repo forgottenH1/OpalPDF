@@ -100,17 +100,18 @@ export default function App() {
 
         if (!activeToolData) return null;
 
-        const pageTitle = `${t(`tools.${activeToolData.id}.title`)} - OrbitPDF`;
+        const pageTitle = `${t(`tools.${activeToolData.id}.title`)} - OpalPDF`;
+        const socialTitle = `${t(`tools.${activeToolData.id}.title`)} - TG Image`;
         const pageDescription = t(`tools.${activeToolData.id}.desc`);
-        const canonicalUrl = `https://orbitpdf.pages.dev/${activeToolData.id}`; // Clean URL
+        const canonicalUrl = `https://opalpdf.com/${activeToolData.id}`; // Clean URL
 
         return (
             <Helmet>
                 <title>{pageTitle}</title>
                 <meta name="description" content={pageDescription} />
-                <meta property="og:title" content={pageTitle} />
+                <meta property="og:title" content={socialTitle} />
                 <meta property="og:description" content={pageDescription} />
-                <meta name="twitter:title" content={pageTitle} />
+                <meta name="twitter:title" content={socialTitle} />
                 <meta name="twitter:description" content={pageDescription} />
                 <link rel="canonical" href={canonicalUrl} />
             </Helmet>
@@ -123,36 +124,36 @@ export default function App() {
             <Routes>
                 <Route path="/" element={
                     <Helmet>
-                        <title>{t('hero.title')} | OrbitPDF</title>
+                        <title>{t('hero.title')} | OpalPDF</title>
                         <meta name="description" content={t('hero.description')} />
-                        <meta property="og:title" content={`${t('hero.title')} | OrbitPDF`} />
+                        <meta property="og:title" content={`${t('hero.title')} | TG Image`} />
                         <meta property="og:description" content={t('hero.description')} />
-                        <link rel="canonical" href="https://orbitpdf.pages.dev/" />
+                        <link rel="canonical" href="https://opalpdf.com/" />
                     </Helmet>
                 } />
                 <Route path="/thanks" element={
                     <Helmet>
-                        <title>{t('payment.success.title', 'Thank You')} | OrbitPDF</title>
+                        <title>{t('payment.success.title', 'Thank You')} | OpalPDF</title>
                         <meta name="robots" content="noindex" />
                     </Helmet>
                 } />
                 <Route path="/faq" element={
                     <Helmet>
-                        <title>{t('faq.title')} | OrbitPDF</title>
+                        <title>{t('faq.title')} | OpalPDF</title>
                         <meta name="description" content={t('faq.subtitle')} />
-                        <link rel="canonical" href="https://orbitpdf.pages.dev/faq" />
+                        <link rel="canonical" href="https://opalpdf.com/faq" />
                     </Helmet>
                 } />
                 <Route path="/guides" element={
                     <Helmet>
-                        <title>{t('guides.title')} | OrbitPDF</title>
+                        <title>{t('guides.title')} | OpalPDF</title>
                         <meta name="description" content={t('guides.subtitle')} />
                     </Helmet>
                 } />
                 <Route path="/guides/:id" element={
                     <Helmet>
                         {/* Title will be handled inside Guides component for specific IDs */}
-                        <title>{t('guides.title')} | OrbitPDF</title>
+                        <title>{t('guides.title')} | OpalPDF</title>
                     </Helmet>
                 } />
                 <Route path="/:toolId" element={<ToolMetadata />} />

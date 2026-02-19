@@ -35,10 +35,10 @@
         "Security": "Güvenlik"
     },
     "legal": {
-        "privacyContent": "<p><strong>Son Güncelleme: Şubat 2026</strong></p><p>OrbitPDF'te gizliliğiniz önceliğimizdir. Araçlarımız tamamen tarayıcınızda (istemci tarafı) çalıştığı için, dosyalarınız <strong>asla cihazınızdan çıkmaz</strong>. Belgelerinizi sunuculara yüklemiyor, saklamıyor veya işlemiyoruz.</p><h3 class='text-xl font-bold text-white mt-4'>1. Veri Toplama</h3><p>Kişisel verileri veya dosya içeriğini toplamıyoruz. Site performansını iyileştirmek için anonim analizler (örneğin Google Analytics) kullanabiliriz.</p><h3 class='text-xl font-bold text-white mt-4'>2. Çerezler</h3><p>Tercihlerinizi (örneğin Karanlık Mod) kaydetmek için yerel depolama kullanıyoruz. Üçüncü taraflar, ziyaretlere dayalı reklamlar göstermek için çerezleri kullanabilir.</p>",
-        "termsContent": "<p><strong>Son Güncelleme: Şubat 2026</strong></p><p>OrbitPDF'i kullanarak bu şartları kabul etmiş olursunuz. Araçlarımız herhangi bir garanti olmaksızın \"olduğu gibi\" sağlanmaktadır.</p><h3 class='text-xl font-bold text-white mt-4'>1. Kullanım</h3><p>Araçlarımızı kişisel veya ticari amaçlarla kullanabilirsiniz. İşlediğiniz içerikten siz sorumlusunuz.</p><h3 class='text-xl font-bold text-white mt-4'>2. Sorumluluk Sınırlaması</h3><p>Araçlarımızın kullanımından kaynaklanan veri kaybı veya hasarlardan sorumlu değiliz. Orijinal dosyalarınızın yedeklerini daima saklayın.</p>",
+        "privacyContent": "<p><strong>Son Güncelleme: Şubat 2026</strong></p><p>OpalPDF'te gizliliğiniz önceliğimizdir. Araçlarımız tamamen tarayıcınızda (istemci tarafı) çalıştığı için, dosyalarınız <strong>asla cihazınızdan çıkmaz</strong>. Belgelerinizi sunuculara yüklemiyor, saklamıyor veya işlemiyoruz.</p><h3 class='text-xl font-bold text-white mt-4'>1. Veri Toplama</h3><p>Kişisel verileri veya dosya içeriğini toplamıyoruz. Site performansını iyileştirmek için anonim analizler (örneğin Google Analytics) kullanabiliriz.</p><h3 class='text-xl font-bold text-white mt-4'>2. Çerezler</h3><p>Tercihlerinizi (örneğin Karanlık Mod) kaydetmek için yerel depolama kullanıyoruz. Üçüncü taraflar, ziyaretlere dayalı reklamlar göstermek için çerezleri kullanabilir.</p>",
+        "termsContent": "<p><strong>Son Güncelleme: Şubat 2026</strong></p><p>OpalPDF'i kullanarak bu şartları kabul etmiş olursunuz. Araçlarımız herhangi bir garanti olmaksızın \"olduğu gibi\" sağlanmaktadır.</p><h3 class='text-xl font-bold text-white mt-4'>1. Kullanım</h3><p>Araçlarımızı kişisel veya ticari amaçlarla kullanabilirsiniz. İşlediğiniz içerikten siz sorumlusunuz.</p><h3 class='text-xl font-bold text-white mt-4'>2. Sorumluluk Sınırlaması</h3><p>Araçlarımızın kullanımından kaynaklanan veri kaybı veya hasarlardan sorumlu değiliz. Orijinal dosyalarınızın yedeklerini daima saklayın.</p>",
         "adTermsTitle": "Reklam Hizmet Sözleşmesi ve Kullanım Koşulları",
-        "adTermsContent": "<h3>1. Genel Hükümler</h3><p>Bu Reklam Hizmet Sözleşmesi, OrbitPDF platformu («Yayıncı») ile Reklamveren arasındaki ticari ilişkiyi düzenler. Reklamveren, sipariş vererek bu koşulları gayri kabili rücu kabul eder.</p><h3>2. Reklam Standartları ve Onay</h3><p>Yayıncı, yasa dışı bahis, yetişkin içerik veya zararlı yazılım gibi platform politikalarına aykırı veya uygunsuz bulduğu her türlü reklam materyalini sebep göstermeksizin reddetme veya yayından kaldırma hakkını saklı tutar.</p><h3>3. Ödeme ve İade Politikası</h3><p>Tüm reklam hizmetleri %100 peşin ödeme esasına dayanır. İadeler, yalnızca Yayıncı kaynaklı teknik bir aksaklık nedeniyle hizmetin verilememesi durumunda yapılır. Reklamveren tarafından yapılan iptallerde ücret iadesi yapılmaz.</p><h3>4. Beyanlar ve Taahhütler</h3><p>Reklamveren, sunulan reklam materyalleri üzerinde tüm yasal haklara sahip olduğunu beyan eder. Reklamveren, reklamın yayınlanmasından doğabilecek her türlü üçüncü şahıs talebine karşı Yayıncı'yı tazmin etmeyi kabul eder.</p><h3>5. Sorumluluk Sınırlaması</h3><p>Hizmet \"olduğu gibi\" sunulmaktadır. Yayıncı, reklam yayınından elde edilecek ticari sonuçlar (tıklama oranı, satış vb.) konusunda herhangi bir garanti vermez.</p>"
+        "adTermsContent": "<h3>1. Genel Hükümler</h3><p>Bu Reklam Hizmet Sözleşmesi, OpalPDF platformu («Yayıncı») ile Reklamveren arasındaki ticari ilişkiyi düzenler. Reklamveren, sipariş vererek bu koşulları gayri kabili rücu kabul eder.</p><h3>2. Reklam Standartları ve Onay</h3><p>Yayıncı, yasa dışı bahis, yetişkin içerik veya zararlı yazılım gibi platform politikalarına aykırı veya uygunsuz bulduğu her türlü reklam materyalini sebep göstermeksizin reddetme veya yayından kaldırma hakkını saklı tutar.</p><h3>3. Ödeme ve İade Politikası</h3><p>Tüm reklam hizmetleri %100 peşin ödeme esasına dayanır. İadeler, yalnızca Yayıncı kaynaklı teknik bir aksaklık nedeniyle hizmetin verilememesi durumunda yapılır. Reklamveren tarafından yapılan iptallerde ücret iadesi yapılmaz.</p><h3>4. Beyanlar ve Taahhütler</h3><p>Reklamveren, sunulan reklam materyalleri üzerinde tüm yasal haklara sahip olduğunu beyan eder. Reklamveren, reklamın yayınlanmasından doğabilecek her türlü üçüncü şahıs talebine karşı Yayıncı'yı tazmin etmeyi kabul eder.</p><h3>5. Sorumluluk Sınırlaması</h3><p>Hizmet \"olduğu gibi\" sunulmaktadır. Yayıncı, reklam yayınından elde edilecek ticari sonuçlar (tıklama oranı, satış vb.) konusunda herhangi bir garanti vermez.</p>"
     },
     "nav": {
         "guides": "Rehberler",
@@ -95,7 +95,7 @@
         "termsLinkText": "Reklam Sözleşmesi"
     },
     "advertisePage": {
-        "title": "OrbitPDF'te Reklam Verin",
+        "title": "OpalPDF'te Reklam Verin",
         "heroTitle": "Her Gün Binlerce Kullanıcıya Ulaşın.",
         "heroDesc": "Üretkenlik ve belge çözümleri arayan yüksek etkileşimli bir kitleyle bağlantı kurun. Şeffaf fiyatlandırma, premium yerleşim ve doğrudan destek."
     },
@@ -155,7 +155,7 @@
         }
     },
     "guides": {
-        "title": "OrbitPDF Rehberleri",
+        "title": "OpalPDF Rehberleri",
         "subtitle": "Bu hızlı ve profesyonel eğitimlerle araç setimizdeki her aracı ustaca kullanın.",
         "backToTools": "Araçlara Dön",
         "searchPlaceholder": "Rehber ara...",
@@ -512,7 +512,7 @@
     "hero": {
         "title": "İhtiyacınız Olan Tüm PDF Araçları",
         "subtitle": "%100 Ücretsiz. %100 Özel.",
-        "description": "OrbitPDF ücretsiz, sunucusuz bir araç setidir. Dosyalarınız cihazınızdan asla çıkmaz – garantili gizlilik ve ışık hızında işlem için.",
+        "description": "OpalPDF ücretsiz, sunucusuz bir araç setidir. Dosyalarınız cihazınızdan asla çıkmaz – garantili gizlilik ve ışık hızında işlem için.",
         "start": "Başla",
         "cta": "Araçları Gör"
     },
@@ -646,8 +646,8 @@
         "tagline": "Dünyanın en hızlı, %100 özel, istemci taraflı PDF araç seti.",
         "toolsTitle": "Araçlar",
         "legalTitle": "Yasal",
-        "rights": "OrbitPDF. Tüm hakları saklıdır.",
-        "logoAlt": "OrbitPDF Logosu"
+        "rights": "OpalPDF. Tüm hakları saklıdır.",
+        "logoAlt": "OpalPDF Logosu"
     },
     "pwa": {
         "install": "Uygulamayı Yükle"
@@ -776,11 +776,11 @@
         "noPageInFile1": "(Dosya 1'de syf yok)",
         "noPageInFile2": "(Dosya 2'de syf yok)",
         "pageOverview": "Syf {{current}} / {{total}}",
-        "convertedBy": "OrbitPDF ile dönüştürüldü"
+        "convertedBy": "OpalPDF ile dönüştürüldü"
     },
     "adBlock": {
         "title": "Reklam Engelleyici Tespit Edildi",
-        "message": "OrbitPDF'i ücretsiz tutun. Sunucularımızı ve araçlarımızı herkes için erişilebilir kılmak amacıyla reklamları kullanıyoruz. Lütfen bizi beyaz listeye alarak destek olunuz.",
+        "message": "OpalPDF'i ücretsiz tutun. Sunucularımızı ve araçlarımızı herkes için erişilebilir kılmak amacıyla reklamları kullanıyoruz. Lütfen bizi beyaz listeye alarak destek olunuz.",
         "button": "Devre Dışı Bıraktım, Yenile",
         "dismiss": "Devre dışı bırakmadan devam et"
     },
@@ -794,27 +794,27 @@
     },
     "faq": {
         "title": "Sıkça Sorulan Sorular",
-        "subtitle": "OrbitPDF ve nasıl çalıştığı hakkında genel sorular.",
+        "subtitle": "OpalPDF ve nasıl çalıştığı hakkında genel sorular.",
         "items": [
             {
-                "question": "OrbitPDF ücretsiz mi?",
-                "answer": "Evet! OrbitPDF üzerindeki tüm araçlar %100 ücretsizdir. Gizli ücretler, abonelikler veya işleyebileceğiniz dosya sayısında herhangi bir sınır yoktur."
+                "question": "OpalPDF ücretsiz mi?",
+                "answer": "Evet! OpalPDF üzerindeki tüm araçlar %100 ücretsizdir. Gizli ücretler, abonelikler veya işleyebileceğiniz dosya sayısında herhangi bir sınır yoktur."
             },
             {
                 "question": "Dosyalarım güvende mi?",
-                "answer": "Kesinlikle. OrbitPDF tamamen istemci tarafında çalışır, yani dosyalarınız doğrudan web tarayıcınızda işlenir. Asla sunucularımıza yüklenmezler, bu da tam gizlilik ve güvenlik sağlar."
+                "answer": "Kesinlikle. OpalPDF tamamen istemci tarafında çalışır, yani dosyalarınız doğrudan web tarayıcınızda işlenir. Asla sunucularımıza yüklenmezler, bu da tam gizlilik ve güvenlik sağlar."
             },
             {
                 "question": "Yazılım yüklemem gerekiyor mu?",
-                "answer": "Kurulum gerekmez. OrbitPDF, doğrudan web tarayıcınızda (Chrome, Firefox, Safari, Edge, vb.) masaüstü bilgisayarlar, tabletler ve akıllı telefonlar dahil olmak üzere herhangi bir cihazda çalışır."
+                "answer": "Kurulum gerekmez. OpalPDF, doğrudan web tarayıcınızda (Chrome, Firefox, Safari, Edge, vb.) masaüstü bilgisayarlar, tabletler ve akıllı telefonlar dahil olmak üzere herhangi bir cihazda çalışır."
             },
             {
                 "question": "Birden fazla PDF dosyasını nasıl birleştiririm?",
                 "answer": "Sadece 'PDF Birleştir' aracına gidin, dosyalarınızı seçin, istediğiniz sıraya göre düzenleyin ve 'PDF Birleştir'e tıklayın. Yeni belgeniz anında indirilmeye hazır olacaktır."
             },
             {
-                "question": "OrbitPDF'i çevrimdışı kullanabilir miyim?",
-                "answer": "Evet, OrbitPDF bir Aşamalı Web Uygulamasıdır (PWA). Bir kez yüklendiğinde, birçok araç çevrimdışı çalışabilir ve hızlı erişim için cihazınıza yükleyebilirsiniz."
+                "question": "OpalPDF'i çevrimdışı kullanabilir miyim?",
+                "answer": "Evet, OpalPDF bir Aşamalı Web Uygulamasıdır (PWA). Bir kez yüklendiğinde, birçok araç çevrimdışı çalışabilir ve hızlı erişim için cihazınıza yükleyebilirsiniz."
             },
             {
                 "question": "Destek ekibiyle nasıl iletişime geçebilirim?",

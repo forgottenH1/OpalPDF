@@ -20,9 +20,9 @@ export async function onRequest({ request, next, waitUntil }) {
 
         // Construct the payload for Bing IndexNow
         const body = {
-            host: 'orbitpdf.pages.dev',
+            host: 'opalpdf.com',
             key: '8bf50b9f2f8644a9a2c0af27389d21a9',
-            keyLocation: 'https://orbitpdf.pages.dev/8bf50b9f2f8644a9a2c0af27389d21a9.txt',
+            keyLocation: 'https://opalpdf.com/8bf50b9f2f8644a9a2c0af27389d21a9.txt',
             urlList: [url.origin + url.pathname] // Use canonical URL without query params
         };
 

@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useEffect } from 'react';
 // import { useDropzone } from 'react-dropzone'; // Unused
 import { ArrowLeft, Upload, File as FileIcon, Loader2, Download, AlertCircle, Lock, Unlock, Wrench, Droplet, Moon, Eraser, EyeOff } from 'lucide-react';
-import { OrbitPDFEngine } from '../lib/pdf-engine';
+import { OpalPDFEngine } from '../lib/pdf-engine';
 import PageGrid from './PageGrid';
 import AdSpace from './AdSpace';
 import BuyMeCoffee from './BuyMeCoffee';
@@ -53,7 +53,7 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
     // For OCR, it holds the language code (default 'eng')
     const [password, setPassword] = useState(toolId === 'compress' ? '0.6' : (toolId === 'ocr' ? 'eng' : ''));
     const [forceRebuild, setForceRebuild] = useState(false);
-    const [watermark, setWatermark] = useState('OrbitPDF');
+    const [watermark, setWatermark] = useState('OpalPDF');
 
     // Signature Options
     const [signatureOptions, setSignatureOptions] = useState<{
@@ -74,7 +74,7 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
         setErrorMessage('');
         // ... reset specific tool states
         setPassword('');
-        setWatermark('OrbitPDF');
+        setWatermark('OpalPDF');
         setWatermarkType('text');
         setWatermarkImage(null);
         setWatermarkPosition('center');
@@ -145,7 +145,7 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
     // Load thumbnails for Trim or Organize
     useEffect(() => {
         if (toolId === 'trim' && files.length > 0) {
-            OrbitPDFEngine.getThumbnails(files[0])
+            OpalPDFEngine.getThumbnails(files[0])
                 .then(thumbs => setThumbnails(thumbs))
                 .catch(err => console.error("Failed to load thumbnail for trim", err));
         }
@@ -156,7 +156,7 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
         if (files.length === 0) return;
         setStatus('processing');
         try {
-            const thumbs = await OrbitPDFEngine.getThumbnails(files[0]);
+            const thumbs = await OpalPDFEngine.getThumbnails(files[0]);
             setThumbnails(thumbs);
             setStatus('organizing');
         } catch (err: any) {
@@ -248,11 +248,11 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
             switch (toolId) {
                 case 'merge':
                     if (files.length < 2) throw new Error(t('processor.errors.mergeMinFiles'));
-                    resultBytes = await OrbitPDFEngine.mergePDFs(files);
+                    resultBytes = await OpalPDFEngine.mergePDFs(files);
                     break;
                 case 'compare':
                     if (files.length !== 2) throw new Error(t('processor.errors.compareCount'));
-                    resultBytes = await OrbitPDFEngine.comparePDFs(files, {
+                    resultBytes = await OpalPDFEngine.comparePDFs(files, {
                         page: t('pdfEngine.page'),
                         noPageInFile1: t('pdfEngine.noPageInFile1'),
                         noPageInFile2: t('pdfEngine.noPageInFile2')
@@ -261,47 +261,47 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
                 case 'split':
                     if (splitMode === 'extract') {
                         if (!password) throw new Error(t('processor.errors.pageRange'));
-                        resultBytes = await OrbitPDFEngine.splitPDF(firstFile, password);
+                        resultBytes = await OpalPDFEngine.splitPDF(firstFile, password);
                     } else {
                         // Burst mode
-                        resultBytes = await OrbitPDFEngine.splitPDF(firstFile, undefined);
+                        resultBytes = await OpalPDFEngine.splitPDF(firstFile, undefined);
                     }
                     break;
                 case 'compress':
                     const quality = parseFloat(password) || 0.7; // Default to 0.7 if parsing fails
-                    resultBytes = await OrbitPDFEngine.compressPDF(firstFile, quality);
+                    resultBytes = await OpalPDFEngine.compressPDF(firstFile, quality);
                     break;
                 case 'rotate':
                     const degrees = parseInt(password) || 90;
-                    resultBytes = await OrbitPDFEngine.rotatePDF(firstFile, degrees);
+                    resultBytes = await OpalPDFEngine.rotatePDF(firstFile, degrees);
                     break;
                 case 'page-number':
                     const position = password === 'top' ? 'top' : 'bottom';
-                    resultBytes = await OrbitPDFEngine.addPageNumbers(firstFile, position, {
+                    resultBytes = await OpalPDFEngine.addPageNumbers(firstFile, position, {
                         pageOverview: t('pdfEngine.pageOverview')
                     });
                     break;
                 case 'sign':
                     if (!watermark) throw new Error(t('processor.errors.signatureMissing'));
-                    resultBytes = await OrbitPDFEngine.signPDF(firstFile, watermark, signatureOptions);
+                    resultBytes = await OpalPDFEngine.signPDF(firstFile, watermark, signatureOptions);
                     break;
                 case 'watermark':
-                    resultBytes = await OrbitPDFEngine.watermarkPDF(firstFile, watermark, watermarkType, watermarkImage || undefined, {
+                    resultBytes = await OpalPDFEngine.watermarkPDF(firstFile, watermark, watermarkType, watermarkImage || undefined, {
                         position: watermarkPosition,
                         opacity: watermarkOpacity,
                         rotation: watermarkRotation
                     });
                     break;
                 case 'pdf-to-img':
-                    resultBytes = await OrbitPDFEngine.pdfToJpg(firstFile);
+                    resultBytes = await OpalPDFEngine.pdfToJpg(firstFile);
                     break;
                 case 'pdf-to-png':
-                    resultBytes = await OrbitPDFEngine.pdfToPng(firstFile);
+                    resultBytes = await OpalPDFEngine.pdfToPng(firstFile);
                     break;
                 case 'ocr':
                     // Reuse password state for language, default 'eng'
                     const lang = password || 'eng';
-                    resultBytes = await OrbitPDFEngine.ocrPDF(firstFile, lang, () => {
+                    resultBytes = await OpalPDFEngine.ocrPDF(firstFile, lang, () => {
                         // Optional: You could add a specialized state for detailed progress messages 
                         // For now, simpler is fine or we can just log
                         // console.log(progress);
@@ -309,71 +309,71 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
                     break;
                 case 'img-to-pdf':
                     if (files.length < 1) throw new Error(t('processor.errors.imageMissing'));
-                    resultBytes = await OrbitPDFEngine.imagesToPDF(files);
+                    resultBytes = await OpalPDFEngine.imagesToPDF(files);
                     break;
                 case 'word-to-pdf':
-                    resultBytes = await OrbitPDFEngine.convertToPDF(firstFile);
+                    resultBytes = await OpalPDFEngine.convertToPDF(firstFile);
                     break;
                 case 'pdf-to-word':
-                    resultBytes = await OrbitPDFEngine.pdfToDocx(firstFile, {
+                    resultBytes = await OpalPDFEngine.pdfToDocx(firstFile, {
                         convertedBy: t('pdfEngine.convertedBy')
                     });
                     break;
                 case 'pdf-to-excel':
-                    resultBytes = await OrbitPDFEngine.pdfToExcel(firstFile);
+                    resultBytes = await OpalPDFEngine.pdfToExcel(firstFile);
                     break;
                 case 'edit-metadata':
-                    resultBytes = await OrbitPDFEngine.editMetadata(firstFile, {
+                    resultBytes = await OpalPDFEngine.editMetadata(firstFile, {
                         ...metadata,
                         keywords: metadata.keywords ? metadata.keywords.split(',').map(k => k.trim()) : undefined
                     });
                     break;
                 case 'flatten':
-                    resultBytes = await OrbitPDFEngine.flattenPDF(firstFile);
+                    resultBytes = await OpalPDFEngine.flattenPDF(firstFile);
                     break;
                 case 'trim':
                     // Convert points if needed, assuming user enters points directly for now (72 pts = 1 inch)
-                    resultBytes = await OrbitPDFEngine.trimPDF(firstFile, trimMargins);
+                    resultBytes = await OpalPDFEngine.trimPDF(firstFile, trimMargins);
                     break;
                 case 'protect':
                     if (!password) throw new Error(t('processor.errors.passwordMissing'));
-                    resultBytes = await OrbitPDFEngine.protectPDF(firstFile, password);
+                    resultBytes = await OpalPDFEngine.protectPDF(firstFile, password);
                     break;
                 case 'unlock':
                     if (!password) throw new Error(t('processor.errors.passwordUnlockMissing'));
-                    resultBytes = await OrbitPDFEngine.unlockPDF(firstFile, password);
+                    resultBytes = await OpalPDFEngine.unlockPDF(firstFile, password);
                     break;
                 case 'repair':
-                    resultBytes = await OrbitPDFEngine.repairPDF(firstFile, forceRebuild);
+                    resultBytes = await OpalPDFEngine.repairPDF(firstFile, forceRebuild);
                     break;
                 case 'grayscale':
-                    resultBytes = await OrbitPDFEngine.grayscalePDF(firstFile);
+                    resultBytes = await OpalPDFEngine.grayscalePDF(firstFile);
                     break;
                 case 'invert-colors':
-                    resultBytes = await OrbitPDFEngine.invertPDF(firstFile);
+                    resultBytes = await OpalPDFEngine.invertPDF(firstFile);
                     break;
                 case 'extract-text':
-                    resultBytes = await OrbitPDFEngine.extractText(firstFile);
+                    resultBytes = await OpalPDFEngine.extractText(firstFile);
                     break;
                 case 'remove-annotations':
-                    resultBytes = await OrbitPDFEngine.removeAnnotations(firstFile);
+                    resultBytes = await OpalPDFEngine.removeAnnotations(firstFile);
                     break;
                 case 'redact':
                     const terms = password.split(',').map(s => s.trim()).filter(s => s.length > 0);
                     // forceRebuild holds the boolean for numbers
-                    resultBytes = await OrbitPDFEngine.redactPDF(firstFile, terms, forceRebuild);
+                    resultBytes = await OpalPDFEngine.redactPDF(firstFile, terms, forceRebuild);
                     break;
                 case 'pdf-to-ppt':
-                    resultBytes = await OrbitPDFEngine.pdfToPowerPoint(firstFile);
+                    resultBytes = await OpalPDFEngine.pdfToPowerPoint(firstFile);
                     break;
                 case 'excel-to-pdf':
-                    resultBytes = await OrbitPDFEngine.excelToPDF(firstFile);
+                    resultBytes = await OpalPDFEngine.excelToPDF(firstFile);
                     break;
                 case 'ppt-to-pdf':
-                    resultBytes = await OrbitPDFEngine.pptxToPDF(firstFile);
+                    resultBytes = await OpalPDFEngine.pptxToPDF(firstFile);
                     break;
                 case 'html-to-pdf':
-                    resultBytes = await OrbitPDFEngine.htmlToPDF(firstFile);
+                    resultBytes = await OpalPDFEngine.htmlToPDF(firstFile);
                     break;
                 // Organize is handled via handleOrganizeSave, but if we fall here:
                 default:
@@ -398,7 +398,7 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
     const handleOrganizeSave = async (newOrder: number[]) => {
         setStatus('processing');
         try {
-            const resultBytes = await OrbitPDFEngine.organizePDF(files[0], newOrder);
+            const resultBytes = await OpalPDFEngine.organizePDF(files[0], newOrder);
             const blob = new Blob([resultBytes as any], { type: 'application/pdf' });
             const url = URL.createObjectURL(blob);
             setResultUrl(url);
@@ -1342,7 +1342,7 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
                             <div className="flex gap-4 justify-center">
                                 <a
                                     href={resultUrl}
-                                    download={`orbitpdf_${toolId}_result.${downloadExt}`}
+                                    download={`opalpdf_${toolId}_result.${downloadExt}`}
                                     className="px-8 py-3 rounded-xl bg-green-600 hover:bg-green-500 text-white font-bold text-lg shadow-lg hover:shadow-green-500/25 transition-all flex items-center gap-2"
                                 >
                                     <Download size={20} /> {t('common.download', { ext: downloadExt.toUpperCase() })}

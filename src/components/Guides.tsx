@@ -89,9 +89,9 @@ export default function Guides({ externalSearch }: GuidesProps) {
         return (
             <div className="w-full flex justify-center gap-6 px-4">
                 <Helmet>
-                    <title>{activeGuide.title} | OrbitPDF Guides</title>
+                    <title>{activeGuide.title} | OpalPDF Guides</title>
                     <meta name="description" content={activeGuide.intro} />
-                    <link rel="canonical" href={`https://orbitpdf.pages.dev/guides/${activeGuide.id}`} />
+                    <link rel="canonical" href={`https://opalpdf.com/guides/${activeGuide.id}`} />
                 </Helmet>
 
                 {/* Left Sidebar Ad (PC Only) */}
@@ -178,9 +178,9 @@ export default function Guides({ externalSearch }: GuidesProps) {
     return (
         <div className="max-w-7xl mx-auto animate-in fade-in duration-500">
             <Helmet>
-                <title>{t('guides.title')} | OrbitPDF</title>
+                <title>{t('guides.title')} | OpalPDF</title>
                 <meta name="description" content={t('guides.subtitle')} />
-                <link rel="canonical" href="https://orbitpdf.pages.dev/guides" />
+                <link rel="canonical" href="https://opalpdf.com/guides" />
             </Helmet>
 
             {/* Header */}

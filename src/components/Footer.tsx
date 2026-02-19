@@ -26,7 +26,7 @@ const Footer: React.FC<FooterProps> = ({ openModal }) => {
                     <div className="col-span-1 md:col-span-2">
                         <div className="flex items-center gap-2 mb-4">
                             <img src="/logo-transparent.png" alt={t('footer.logoAlt')} className="w-8 h-8 rounded-lg" />
-                            <span className="text-xl font-bold text-white">OrbitPDF</span>
+                            <span className="text-xl font-bold text-white">OpalPDF</span>
                         </div>
                         <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
                             {t('footer.tagline')}

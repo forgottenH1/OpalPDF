@@ -28,7 +28,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch, openModal, isMenuOpen, onTogg
                 <a href="/" className="flex items-center gap-2 cursor-pointer z-[60]">
                     <img src="/logo-transparent.png" alt={t('footer.logoAlt')} className="w-10 h-10 rounded-xl" />
                     <span className="text-2xl font-semibold tracking-tight text-white hidden sm:block">
-                        Orbit<span className="text-blue-400">PDF</span>
+                        Opal<span className="text-blue-400">PDF</span>
                     </span>
                 </a>
 

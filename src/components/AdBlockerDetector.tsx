@@ -116,7 +116,7 @@ const AdBlockerDetector: React.FC = () => {
                     </h3>
 
                     <p className="text-slate-300 mb-6 leading-relaxed">
-                        {t('adBlock.message', 'OrbitPDF is free and supported by ads. Please consider disabling your ad blocker to help us keep this tool free for everyone.')}
+                        {t('adBlock.message', 'OpalPDF is free and supported by ads. Please consider disabling your ad blocker to help us keep this tool free for everyone.')}
                     </p>
 
                     <button

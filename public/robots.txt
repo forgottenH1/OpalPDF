@@ -10,4 +10,4 @@ User-agent: *
 Allow: /
 Disallow: /admin
 
-Sitemap: https://orbitpdf.pages.dev/sitemap.xml
+Sitemap: https://opalpdf.com/sitemap.xml

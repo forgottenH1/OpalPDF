@@ -10,7 +10,7 @@ const CookieConsent: React.FC = () => {
     useEffect(() => {
         // slight delay to not block initial render paint
         const timer = setTimeout(() => {
-            const consent = localStorage.getItem('orbitpdf_consent');
+            const consent = localStorage.getItem('opalpdf_consent');
             if (!consent) {
                 setIsVisible(true);
             }
@@ -19,14 +19,14 @@ const CookieConsent: React.FC = () => {
     }, []);
 
     const handleAccept = () => {
-        localStorage.setItem('orbitpdf_consent', 'true');
-        window.dispatchEvent(new Event('orbitpdf_consent_updated'));
+        localStorage.setItem('opalpdf_consent', 'true');
+        window.dispatchEvent(new Event('opalpdf_consent_updated'));
         setIsVisible(false);
     };
 
     const handleDecline = () => {
-        localStorage.setItem('orbitpdf_consent', 'false');
-        window.dispatchEvent(new Event('orbitpdf_consent_updated'));
+        localStorage.setItem('opalpdf_consent', 'false');
+        window.dispatchEvent(new Event('opalpdf_consent_updated'));
         setIsVisible(false);
     };
 

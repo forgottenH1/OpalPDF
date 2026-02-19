@@ -12,18 +12,18 @@ const AdSpace: React.FC<AdSpaceProps> = ({ placement, className = '' }) => {
     const { t } = useTranslation();
     const [consent, setConsent] = React.useState<string | null>(() => {
         if (typeof window !== 'undefined') {
-            return localStorage.getItem('orbitpdf_consent');
+            return localStorage.getItem('opalpdf_consent');
         }
         return null;
     });
 
     React.useEffect(() => {
         const handleConsentUpdate = () => {
-            setConsent(localStorage.getItem('orbitpdf_consent'));
+            setConsent(localStorage.getItem('opalpdf_consent'));
         };
 
-        window.addEventListener('orbitpdf_consent_updated', handleConsentUpdate);
-        return () => window.removeEventListener('orbitpdf_consent_updated', handleConsentUpdate);
+        window.addEventListener('opalpdf_consent_updated', handleConsentUpdate);
+        return () => window.removeEventListener('opalpdf_consent_updated', handleConsentUpdate);
     }, []);
 
     // If explicitly declined, do not render ads.
@@ -57,17 +57,7 @@ const AdSpace: React.FC<AdSpaceProps> = ({ placement, className = '' }) => {
         return activeAds[0]; // Fallback
     }, [placement]);
 
-    const handleAdClick = (adId: string, linkUrl: string) => {
-        // Prepare GA event
-        if (typeof window !== 'undefined' && (window as any).gtag) {
-            (window as any).gtag('event', 'ad_click', {
-                event_category: 'monetization',
-                event_label: adId,
-                transport_type: 'beacon',
-                destination_url: linkUrl
-            });
-        }
-    };
+
 
     // Lazy Loading State (Must be declared at top level)
     const containerRef = React.useRef<HTMLDivElement>(null);
@@ -128,7 +118,7 @@ const AdSpace: React.FC<AdSpaceProps> = ({ placement, className = '' }) => {
                         href={activeAd.linkUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => handleAdClick(activeAd.id, activeAd.linkUrl)}
+
                         className={`block ${isSidebar ? 'w-full h-full' : 'w-full max-w-full md:max-w-[970px]'}`}
                     >
                         {(desktopVideo || mobileVideo) ? (

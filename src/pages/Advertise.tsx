@@ -14,13 +14,13 @@ export default function Advertise() {
     return (
         <>
             <Helmet>
-                <title>Advertise with Us | OrbitPDF</title>
-                <meta name="description" content="Reach thousands of users daily. Advertise your product on OrbitPDF with our transparent and premium ad spots." />
-                <link rel="canonical" href="https://orbitpdf.pages.dev/advertise" />
-                <meta property="og:title" content="Advertise with Us | OrbitPDF" />
-                <meta property="og:description" content="Reach thousands of users daily. Advertise your product on OrbitPDF with our transparent and premium ad spots." />
-                <meta name="twitter:title" content="Advertise with Us | OrbitPDF" />
-                <meta name="twitter:description" content="Reach thousands of users daily. Advertise your product on OrbitPDF with our transparent and premium ad spots." />
+                <title>Advertise with Us | OpalPDF</title>
+                <meta name="description" content="Reach thousands of users daily. Advertise your product on OpalPDF with our transparent and premium ad spots." />
+                <link rel="canonical" href="https://opalpdf.com/advertise" />
+                <meta property="og:title" content="Advertise with Us | TG Image" />
+                <meta property="og:description" content="Reach thousands of users daily. Advertise your product on OpalPDF with our transparent and premium ad spots." />
+                <meta name="twitter:title" content="Advertise with Us | TG Image" />
+                <meta name="twitter:description" content="Reach thousands of users daily. Advertise your product on OpalPDF with our transparent and premium ad spots." />
             </Helmet>
 
             <div className="w-full mb-4">

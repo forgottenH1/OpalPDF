@@ -10,7 +10,7 @@ export default function FAQ() {
 
     const faqs = t('faq.items', { returnObjects: true }) as Array<{ question: string; answer: string }>;
     const title = t('faq.title', 'Frequently Asked Questions');
-    const subtitle = t('faq.subtitle', 'Common questions about OrbitPDF and how it works.');
+    const subtitle = t('faq.subtitle', 'Common questions about OpalPDF and how it works.');
 
     const toggleFAQ = (index: number) => {
         setOpenIndex(openIndex === index ? null : index);
@@ -19,9 +19,10 @@ export default function FAQ() {
     return (
         <div className="min-h-screen bg-[#020617] text-slate-100">
             <Helmet>
-                <title>{title} | OrbitPDF</title>
+                <title>{title} | OpalPDF</title>
                 <meta name="description" content={subtitle} />
-                <link rel="canonical" href="https://orbitpdf.pages.dev/faq" />
+                <link rel="canonical" href="https://opalpdf.com/faq" />
+                <meta property="og:title" content={`${title} | TG Image`} />
             </Helmet>
 
             <main className="container mx-auto px-4 py-12 max-w-4xl">
