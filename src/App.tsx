@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import Guides from './components/Guides';
 import { Loader2 } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
-import { Routes, Route, useParams, useLocation } from 'react-router-dom';
+import { Routes, Route, useParams } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ToolCard from './components/ToolCard';
@@ -11,16 +11,15 @@ import LegalModal from './components/LegalModal';
 import BackToTop from './components/BackToTop';
 // Lazy load the heavy ToolProcessor
 const ToolProcessor = lazy(() => import('./components/ToolProcessor'));
-const AdminDashboard = lazy(() => import('./pages/AdminDashboard'));
-const Advertise = lazy(() => import('./pages/Advertise'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Thanks = lazy(() => import('./pages/Thanks'));
 const FAQ = lazy(() => import('./pages/FAQ'));
+const BlogList = lazy(() => import('./pages/BlogList'));
+const BlogPost = lazy(() => import('./pages/BlogPost'));
 import MobileMenu from './components/MobileMenu';
 import AdSpace from './components/AdSpace';
 import NotFound from './components/NotFound';
 import LanguageSuggestion from './components/LanguageSuggestion';
-import AdBlockerDetector from './components/AdBlockerDetector';
 import CookieConsent from './components/CookieConsent';
 import { tools } from './data/tools';
 
@@ -65,7 +64,6 @@ export default function App() {
     const { t, i18n } = useTranslation();
     const [activeModal, setActiveModal] = useState<'privacy' | 'terms' | null>(null);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const location = useLocation();
     const [searchQuery, setSearchQuery] = useState('');
 
     // Handle RTL
@@ -73,19 +71,6 @@ export default function App() {
         document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
         document.documentElement.lang = i18n.language;
     }, [i18n.language]);
-
-    // Admin Route - Render completely separate layout
-    if (location.pathname === '/admin') {
-        return (
-            <Suspense fallback={
-                <div className="min-h-screen bg-[#020617] flex items-center justify-center">
-                    <Loader2 className="w-12 h-12 text-blue-500 animate-spin" />
-                </div>
-            }>
-                <AdminDashboard />
-            </Suspense>
-        );
-    }
 
     // Tools filtering
     const filteredTools = tools.filter(tool =>
@@ -142,6 +127,11 @@ export default function App() {
                         <title>{t('faq.title')} | OpalPDF</title>
                         <meta name="description" content={t('faq.subtitle')} />
                         <link rel="canonical" href="https://opalpdf.com/faq" />
+                    </Helmet>
+                } />
+                <Route path="/blog" element={
+                    <Helmet>
+                        <title>Blog - PDF Guides & Tips | OpalPDF</title>
                     </Helmet>
                 } />
                 <Route path="/guides" element={
@@ -260,16 +250,38 @@ export default function App() {
                         </Suspense>
                     } />
 
-                    <Route path="/advertise" element={
-                        <Suspense fallback={<Loader2 className="w-10 h-10 animate-spin mx-auto mt-20 text-blue-500" />}>
-                            <Advertise />
-                        </Suspense>
-                    } />
-
                     <Route path="/contact" element={
                         <Suspense fallback={<Loader2 className="w-10 h-10 animate-spin mx-auto mt-20 text-blue-500" />}>
                             <Contact />
                         </Suspense>
+                    } />
+
+                    <Route path="/blog" element={
+                        <>
+                            <div className="w-full mb-4">
+                                <AdSpace placement="header" className="w-full" />
+                            </div>
+                            <Suspense fallback={<Loader2 className="w-10 h-10 animate-spin mx-auto mt-20 text-blue-500" />}>
+                                <BlogList />
+                            </Suspense>
+                            <div className="mt-12 mb-8">
+                                <AdSpace placement="footer" className="w-full" />
+                            </div>
+                        </>
+                    } />
+
+                    <Route path="/blog/:id" element={
+                        <>
+                            <div className="w-full mb-4">
+                                <AdSpace placement="header" className="w-full" />
+                            </div>
+                            <Suspense fallback={<Loader2 className="w-10 h-10 animate-spin mx-auto mt-20 text-blue-500" />}>
+                                <BlogPost />
+                            </Suspense>
+                            <div className="mt-12 mb-8">
+                                <AdSpace placement="footer" className="w-full" />
+                            </div>
+                        </>
                     } />
 
                     {/* Fallback */}
@@ -296,7 +308,6 @@ export default function App() {
             />
             <BackToTop />
             <LanguageSuggestion />
-            <AdBlockerDetector />
             <CookieConsent />
         </div>
     );

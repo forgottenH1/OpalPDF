@@ -1385,44 +1385,41 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
                         </div>
                     )}
 
-
-
-                    {/* SEO Description - Inside Tool Box */}
-                    <div className="mt-12 pt-8 border-t border-white/10 w-full text-center max-w-2xl mx-auto">
-                        <h2 className="text-lg font-semibold mb-2 text-slate-200">
-                            {toolName}
-                        </h2>
-                        <p className="text-slate-400 text-sm leading-relaxed">
-                            {t(`guidesData.${guideId}.intro`, { defaultValue: t(`tools.${toolId}.desc`) })}
-                        </p>
-
-                        {/* Guide Steps Enhancement for AdSense/SEO */}
-                        {Array.isArray(guideSteps) && guideSteps.length > 0 && (
-                            <div className="mt-8 text-left space-y-4 border-t border-white/10 pt-6">
-                                <h3 className="text-lg font-semibold text-slate-200 mb-4 flex items-center gap-2">
-                                    <span className="bg-blue-500/10 text-blue-400 text-xs px-2 py-1 rounded-md uppercase tracking-wide">Guide</span>
-                                    {t('guides.stepByStep', 'How to Use')}
-                                </h3>
-                                <ol className="list-none space-y-3">
-                                    {guideSteps.map((step, i) => (
-                                        <li key={i} className="flex gap-3 text-slate-400 text-sm leading-relaxed">
-                                            <span className="flex-shrink-0 w-6 h-6 rounded-full bg-slate-800 text-blue-400 text-xs font-bold flex items-center justify-center border border-slate-700">
-                                                {i + 1}
-                                            </span>
-                                            <span>
-                                                {step.split('**').map((part, j) =>
-                                                    j % 2 === 1 ? <strong key={j} className="text-slate-200 font-medium">{part}</strong> : part
-                                                )}
-                                            </span>
-                                        </li>
-                                    ))}
-                                </ol>
-                            </div>
-                        )}
-                    </div>
-
                 </div>
 
+                {/* SEO Description & Guides - Always Visible outside main interaction box */}
+                <div className="mt-8 pt-8 w-full text-center max-w-3xl mx-auto px-4">
+                    <h2 className="text-2xl font-semibold mb-4 text-slate-200">
+                        {toolName}
+                    </h2>
+                    <p className="text-slate-400 text-base leading-relaxed max-w-2xl mx-auto">
+                        {t(`guidesData.${guideId}.intro`, { defaultValue: t(`tools.${toolId}.desc`) })}
+                    </p>
+
+                    {/* Guide Steps Enhancement for AdSense/SEO */}
+                    {Array.isArray(guideSteps) && guideSteps.length > 0 && (
+                        <div className="mt-10 text-left space-y-4 bg-slate-800/20 rounded-2xl p-6 border border-white/5 shadow-inner">
+                            <h3 className="text-xl font-semibold text-slate-200 mb-6 flex items-center gap-3">
+                                <span className="bg-blue-500/10 text-blue-400 text-xs px-2.5 py-1.5 rounded-md uppercase tracking-wide font-bold">Guide</span>
+                                {t('guides.stepByStep', 'How to Use')}
+                            </h3>
+                            <ol className="list-none space-y-5">
+                                {guideSteps.map((step, i) => (
+                                    <li key={i} className="flex gap-4 text-slate-300 text-base leading-relaxed">
+                                        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-slate-800 text-blue-400 text-sm font-bold flex items-center justify-center border border-slate-700 shadow-sm">
+                                            {i + 1}
+                                        </span>
+                                        <span className="pt-1">
+                                            {step.split('**').map((part, j) =>
+                                                j % 2 === 1 ? <strong key={j} className="text-white font-semibold">{part}</strong> : part
+                                            )}
+                                        </span>
+                                    </li>
+                                ))}
+                            </ol>
+                        </div>
+                    )}
+                </div>
 
             </div>
 
@@ -1432,7 +1429,7 @@ const ToolProcessor: React.FC<ToolProcessorProps> = ({ toolId, toolName, onBack 
                     <AdSpace placement="sidebar-right" />
                 </div>
             </div>
-        </div >
+        </div>
     );
 };
 

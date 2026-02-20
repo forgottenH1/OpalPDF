@@ -49,11 +49,34 @@ function getGuideIds() {
     }
 }
 
+// Helper to extract Blog IDs from the 5 data files
+function getBlogIds() {
+    const ids = [];
+    const regex = /id:\s*['"]([^'"]+)['"]/g;
+
+    for (let i = 1; i <= 5; i++) {
+        try {
+            const filePath = path.join(__dirname, `../src/data/blogPosts${i}.ts`);
+            if (fs.existsSync(filePath)) {
+                const content = fs.readFileSync(filePath, 'utf8');
+                let match;
+                while ((match = regex.exec(content)) !== null) {
+                    ids.push(match[1]);
+                }
+            }
+        } catch (e) {
+            console.error(`Error reading blogPosts${i}.ts:`, e);
+        }
+    }
+    return ids;
+}
+
 function generateSitemap() {
     const toolIds = getToolIds();
     const guideIds = getGuideIds();
+    const blogIds = getBlogIds();
 
-    console.log(`Found ${toolIds.length} tools and ${guideIds.length} guides.`);
+    console.log(`Found ${toolIds.length} tools, ${guideIds.length} guides, and ${blogIds.length} blog posts.`);
 
     let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`;
@@ -62,8 +85,9 @@ function generateSitemap() {
     const staticPages = [
         { path: '/', priority: '1.0' },
         { path: '/contact', priority: '0.4' },
-        { path: '/advertise', priority: '0.6' },
+        { path: '/faq', priority: '0.5' },
         { path: '/guides', priority: '0.7' }, // Main guides hub
+        { path: '/blog', priority: '0.8' }, // Main blog hub 
         { path: '/thanks', priority: '0.3' } // Post-download/payment success page
     ];
 
@@ -100,6 +124,12 @@ function generateSitemap() {
         guideIds.forEach(guideId => {
             const url = `${BASE_URL}/guides/${guideId}?${qs}`;
             addUrl(url, '0.7');
+        });
+
+        // D. Blog Posts - Clean URLs under /blog/
+        blogIds.forEach(blogId => {
+            const url = `${BASE_URL}/blog/${blogId}?${qs}`;
+            addUrl(url, '0.8'); // Important for SEO
         });
     });
 

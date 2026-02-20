@@ -54,6 +54,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch, openModal, isMenuOpen, onTogg
                 {/* Desktop Navigation */}
                 <div className="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-300">
                     <a href="/guides" className="hover:text-white transition-colors">{t('nav.guides')}</a>
+                    <a href="/blog" className="hover:text-white transition-colors">{t('nav.blog', 'Blog')}</a>
                     <a href="/contact" className="hover:text-white transition-colors">{t('nav.contact')}</a>
 
                     <button onClick={() => openModal('privacy')} className="hover:text-white transition-colors">{t('nav.privacy')}</button>

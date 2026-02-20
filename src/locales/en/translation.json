@@ -53,7 +53,7 @@
         "quickTools": "Quick Tools",
         "ariaOpen": "Open Menu",
         "ariaClose": "Close Menu",
-        "faq": "FAQ"
+        "blog": "Blog"
     },
     "contact": {
         "getInTouch": "Get in Touch",
@@ -128,20 +128,20 @@
         "subtitle": "Common questions about OpalPDF and how it works.",
         "items": [
             {
-                "question": "Is OpalPDF free to use?",
-                "answer": "Yes! All tools on OpalPDF are 100% free to use. There are no hidden fees, subscriptions, or limits on the number of files you can process."
+                "question": "Is OpalPDF free?",
+                "answer": "Yes! All tools on OpalPDF are 100% free. No hidden fees, subscriptions, or limits on the number of files you can process."
             },
             {
                 "question": "Are my files safe?",
                 "answer": "Absolutely. OpalPDF operates entirely client-side, meaning your files are processed directly in your web browser. They are never uploaded to our servers, ensuring complete privacy and security."
             },
             {
-                "question": "Do I need to install any software?",
-                "answer": "No installation is required. OpalPDF works directly in your web browser (Chrome, Firefox, Safari, Edge, etc.) on any device, including desktops, tablets, and smartphones."
+                "question": "Do I need to install software?",
+                "answer": "No installation is required. OpalPDF works directly in your web browser (Chrome, Firefox, Safari, Edge, etc.) on any device, including desktop computers, tablets, and smartphones."
             },
             {
                 "question": "How do I merge multiple PDF files?",
-                "answer": "Simply navigate to the 'Merge PDF' tool, select your files, arrange them in the desired order, and click 'Merge PDF'. Your new document will differ be ready for download instantly."
+                "answer": "Simply navigate to the 'Merge PDF' tool, select your files, arrange them in the desired order, and click 'Merge PDF'. Your new document will be ready for download instantly."
             },
             {
                 "question": "Can I use OpalPDF offline?",
@@ -824,6 +824,36 @@
             "loadPagesFailed": "Failed to load PDF pages: {{error}}"
         }
     },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Common questions about OpalPDF, privacy, and how our tools work.",
+        "items": [
+            {
+                "question": "Is OpalPDF really free to use?",
+                "answer": "Yes! All OpalPDF tools are 100% free to use. We don't require you to create an account, enter a credit card, or pay for premium tiers. We display unobtrusive ads to help cover the costs of keeping the site running."
+            },
+            {
+                "question": "Are my files secure and private?",
+                "answer": "Absolutely. OpalPDF operates on a strict 'Client-Side Processing' model. This means that when you use our tools to merge, split, or compress a PDF, all the work is done locally inside your web browser. Your files are NEVER uploaded to our servers, keeping your sensitive data completely private."
+            },
+            {
+                "question": "Do I need to install any software?",
+                "answer": "No installation is required. OpalPDF is entirely web-based. As long as you have a modern web browser (like Chrome, Firefox, Safari, or Edge) and an internet connection, you can use all of our tools directly from any device, including smartphones and tablets."
+            },
+            {
+                "question": "Why did my conversion fail?",
+                "answer": "While our local processing engine is powerful, extremely large files (over 500MB) or highly corrupted PDFs might cause your browser to run out of memory. If a conversion fails, try refreshing the page, closing other heavy browser tabs, or processing smaller batches of files."
+            },
+            {
+                "question": "Can I use OpalPDF offline?",
+                "answer": "Currently, OpalPDF requires an internet connection to load the website and its processing scripts. However, once the page is fully loaded, the actual processing of your documents happens offline within your browser environment."
+            },
+            {
+                "question": "Is there a limit to how many files I can process?",
+                "answer": "There are no hard limits on the number of tasks you can perform. You can merge, split, and edit as many PDFs as you need. The only limitation is your device's available processing power and RAM."
+            }
+        ]
+    },
     "notFound": {
         "title": "Page Not Found",
         "desc": "The page you are looking for might have been removed or is temporarily unavailable.",
@@ -842,35 +872,5 @@
         "noPageInFile2": "(No page in File 2)",
         "pageOverview": "Page {{current}} of {{total}}",
         "convertedBy": "Converted by OpalPDF"
-    },
-    "faq": {
-        "title": "Frequently Asked Questions",
-        "subtitle": "Common questions about OpalPDF and how it works.",
-        "items": [
-            {
-                "question": "Is OpalPDF free?",
-                "answer": "Yes! All tools on OpalPDF are 100% free. No hidden fees, subscriptions, or limits on the number of files you can process."
-            },
-            {
-                "question": "Are my files safe?",
-                "answer": "Absolutely. OpalPDF operates entirely client-side, meaning your files are processed directly in your web browser. They are never uploaded to our servers, ensuring complete privacy and security."
-            },
-            {
-                "question": "Do I need to install software?",
-                "answer": "No installation is required. OpalPDF works directly in your web browser (Chrome, Firefox, Safari, Edge, etc.) on any device, including desktop computers, tablets, and smartphones."
-            },
-            {
-                "question": "How do I merge multiple PDF files?",
-                "answer": "Simply navigate to the 'Merge PDF' tool, select your files, arrange them in the desired order, and click 'Merge PDF'. Your new document will be ready for download instantly."
-            },
-            {
-                "question": "Can I use OpalPDF offline?",
-                "answer": "Yes, OpalPDF is a Progressive Web App (PWA). Once loaded, many tools can work offline, and you can install it on your device for quick access."
-            },
-            {
-                "question": "How can I contact support?",
-                "answer": "If you encounter any issues or have questions, please visit our Contact page or send us an email. We're happy to help!"
-            }
-        ]
     }
 }

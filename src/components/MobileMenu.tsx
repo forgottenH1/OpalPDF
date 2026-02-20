@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Home, Book, FileText, Link as LinkIcon, Split, Minimize2, Image, X, PenTool, Lock, Mail } from 'lucide-react';
+import { Home, Book, FileText, Link as LinkIcon, Split, Minimize2, Image, X, PenTool, Lock, Mail, Newspaper } from 'lucide-react';
 import LanguageSwitcher from './LanguageSwitcher';
 
 
@@ -91,9 +91,17 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose, openModal }) =
                                 {t('nav.guides')}
                             </a>
                             <a
-                                href="/contact"
+                                href="/blog"
                                 onClick={onClose}
                                 className={`flex items-center gap-4 text-2xl font-medium text-white transition-all duration-500 ease-out ${getDelayClass(2)}`}
+                            >
+                                <Newspaper className="w-6 h-6 text-orange-400" />
+                                {t('nav.blog', 'Blog')}
+                            </a>
+                            <a
+                                href="/contact"
+                                onClick={onClose}
+                                className={`flex items-center gap-4 text-2xl font-medium text-white transition-all duration-500 ease-out ${getDelayClass(3)}`}
                             >
                                 <Mail className="w-6 h-6 text-indigo-400" />
 
