@@ -13,13 +13,13 @@ const AdSpace: React.FC<AdSpaceProps> = () => {
      * 
      * Instructions for when you are approved:
      * 1. Add your AdSense script to index.html:
-     *    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+     *    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3784576622076491" crossorigin="anonymous"></script>
      * 2. Replace this null return with the AdSense <ins> tag:
      *    return (
      *        <div className={`google-ad-container ${className}`}>
      *            <ins className="adsbygoogle"
      *                 style={{ display: 'block' }}
-     *                 data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+     *                 data-ad-client="ca-pub-3784576622076491"
      *                 data-ad-slot={adSlot}
      *                 data-ad-format={adFormat}
      *                 data-full-width-responsive="true"></ins>
